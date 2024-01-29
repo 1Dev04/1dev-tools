@@ -855,7 +855,9 @@ form .textarea-field .item , .contact form .input-box input{
         margin: 3rem 0;
         
     }
-     
+
+  
+
     .social-media a{
         display: inline-flex;
         justify-content: center;
@@ -926,6 +928,8 @@ form .textarea-field .item , .contact form .input-box input{
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+
+ 
 }
 
 @media (max-width: 450px) {
