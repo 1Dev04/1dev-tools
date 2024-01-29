@@ -794,7 +794,11 @@ form .textarea-field .item , .contact form .input-box input{
     color: var(--second-bg-color);
 }
 
-
+@media (max-width : 1000px) {
+    .contalner1 .radial-bars .radial-bar .text {
+        font-size: 200%;
+    }
+}
 
 @media (max-width : 1200px) {
     html {
