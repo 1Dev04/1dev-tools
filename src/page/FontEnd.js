@@ -1,0 +1,77 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import powerb1 from "../asset/certificate/powerbi1.jpg";
+import '../customCSS/App.css'
+
+import "../customCSS/index.css";
+
+const FontEnd = () => {
+    return (
+        <div>
+ 
+            <navbar className=" footer foot-color  p-2 fixed-top box">
+                <div className="container-fluid">
+                    <Link
+                        to="#"
+                        className="bi bi-box-fill navbar-brand  navbar-brand rounded  fs-1"
+                    >
+                        {" "}
+                        Font-End-Diary
+                    </Link>
+                </div>
+            </navbar>
+
+
+            <section
+                className=" container-fluid  py-4 "
+                id="showtime">
+                <h1 className="text-7xl text-center bg-clip-text   m-5 p-5">Certificate</h1>
+
+                <div className="row flex justify-center m-5 p-2">
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box">
+                        <img
+                            src={powerb1}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                             Power BI
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none" >
+                                I completed the Power Bi basic training of the project to
+                            enhance digital skills for students.
+                                </div>
+                            </div>
+                            <br />
+
+                           
+
+                        </div>
+
+
+                    </div>
+
+
+                   
+
+
+                </div>
+            </section>
+            <footer className="footer foot-color  p-2 fixed-bottom box">
+                <Link
+                    className="bi bi-box-arrow-in-left size-16 navbar-brand rounded  fs-1 "
+                    to="/"
+                >
+                    {" "}
+                    Back
+                </Link>
+            </footer>
+        </div>
+    );
+};
+
+export default FontEnd;

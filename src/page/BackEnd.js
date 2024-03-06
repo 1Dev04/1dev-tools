@@ -1,0 +1,124 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import java from "../asset/certificate/Java.jpg";
+import C from "../asset/certificate/C.jpg";
+
+import "../customCSS/index.css";
+
+const BackEnd = () => {
+    return (
+        <div >
+
+            <navbar className=" footer foot-color p-2 fixed-top box">
+                <div className="container-fluid">
+                    <Link
+                        to="#"
+                        className="bi bi-box-fill navbar-brand  navbar-brand rounded  fs-1"
+                    >
+                        {" "}
+                        Back-End-Diary
+                    </Link>
+                </div>
+            </navbar>
+
+
+            <section
+                className=" container-fluid  py-4"
+                id="showtime">
+                <h1 className="text-7xl text-center bg-clip-text  m-5 p-5">Certificate</h1>
+
+                <div className="row flex justify-center m-5 p-2">
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box">
+                        <img
+                            src={java}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                                Java Programing
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none" >
+                                    I joined the Java Programming course with BorntoDev school.I
+                                    self-learned how to set up PostgreSQL, establish a connection
+                                    from my Java code, and execute SQL queries. I built the
+                                    CheeseCake_Cafe project with JAVA and PostgreSQL.
+                                </div>
+                            </div>
+                            <br />
+
+                            <div className="overflow-y m-3">
+                                <div className="row justify-content-right m-4 ">
+                                    <a href="https://github.com/Devdummyy/Java-Project" className="btn btn-dark box box-hover bg-dark " ><i className="bi bi-github IC "></i></a>
+                                </div>
+                            </div>
+
+                            <div className="overflow-y m-3">
+                                <div className="row justify-content-right m-4">
+                                    <a href="https://www.youtube.com/watch?v=bQ7pbJf0NUs" className="btn btn-dark box box-hover bg-dark " ><i className="bi bi-youtube IC "></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box">
+                        <img
+                            src={C}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                                C Programing
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                    I joined the Zero To One : C Programming course with BorntoDev school.I wrote and run C code using the Replit's C online compiler & interpreter. Also I built the CakeCafe_C project with C     code.
+                                </div>
+                            </div>
+                            <br />
+
+                            
+                            <div className="overflow-y m-3">
+                                <div className="row justify-content-right m-4 ">
+                                    <a href="https://github.com/Devdummyy/C_CakeCafe" className="btn btn-dark box box-hover bg-dark " ><i className="bi bi-github IC "></i></a>
+                                </div>
+                            </div>
+
+                            <div className="overflow-y m-3">
+                                <div className="row justify-content-right m-4">
+                                    <a href="https://www.youtube.com/watch?v=c3gxKG7UsSM" className="btn btn-dark box box-hover bg-dark " ><i className="bi bi-youtube IC "></i></a>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </section>
+            <footer className="footer foot-color  p-2 fixed-bottom box">
+                <Link
+                    className="bi bi-box-arrow-in-left size-16 navbar-brand rounded  fs-1 "
+                    to="/"
+                >
+                    {" "}
+                    Back
+                </Link>
+            </footer>
+        </div>
+    );
+};
+
+export default BackEnd;
