@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import powerb1 from "../asset/certificate/powerbi1.jpg";
+import GoogleC from "../asset/certificate/GoogleC.png";
+import Reacts from "../asset/certificate/React.png";
+
+
 import '../customCSS/App.css'
 
 import "../customCSS/index.css";
@@ -8,7 +12,7 @@ import "../customCSS/index.css";
 const FontEnd = () => {
     return (
         <div>
- 
+
             <navbar className=" footer foot-color  p-2 fixed-top box ">
                 <div className="container-fluid">
                     <Link
@@ -48,26 +52,60 @@ const FontEnd = () => {
                             </div>
                             <br />
 
-                           
 
                         </div>
-
-
                     </div>
 
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={GoogleC}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                              Clound API
+                            </h5>
 
-                   
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none" >
+                                I completed the Clound API training of the project to
+                            enhance digital skills for students.
+                                </div>
+                            </div>
+                            <br />
 
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={Reacts}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                              Basic React 
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none" >
+                                I completed the  Basic React training of the project to
+                            enhance digital skills for students.
+                                </div>
+                            </div>
+                            <br />
+
+                        </div>
+                    </div>
 
                 </div>
             </section>
             <footer className="footer foot-color  p-2 fixed-bottom box">
-                <Link
-                    className="bi bi-box-arrow-in-left size-16 navbar-brand rounded  fs-1 "
-                    to="/"
-                >
-                    {" "}
-                    Back
+                <Link className="bi bi-box-arrow-in-left size-16 navbar-brand rounded  fs-1" to="/"> {" "} Back
                 </Link>
             </footer>
         </div>

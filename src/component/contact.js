@@ -65,12 +65,12 @@ const Contact = () => {
     //  Handle Full name Validations
 
     const handleFullchange = (event) =>{
-        
+        const inputRegexF = /^[A-Za-z]/;
         const inputFull = event.target.value;
         const errorTxtFull = document.querySelector(".error-txt.full");
         const errorFull = document.querySelector(" .input-field.field .item.i1");
         
-        if (/^[A-Za-z]*$/.test(inputFull)) {
+        if (inputRegexF.test(inputFull)) {
             setUserFull(inputFull);
             errorTxtFull.style.display = "none";
             errorFull.style.border = "2px solid #181718";
@@ -78,7 +78,7 @@ const Contact = () => {
             setUserFull(inputFull);
             errorTxtFull.style.display = "block";
             errorFull.style.border = "2px solid red";
-            errorTxtFull.innerText = "Fullname should be entered.";
+            errorTxtFull.innerText = "Full name should be entered.";
         }else{
             setUserFull(inputFull);
             errorTxtFull.style.display = "none";
