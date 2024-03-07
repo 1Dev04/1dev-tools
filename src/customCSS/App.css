@@ -1160,3 +1160,15 @@ form .textarea-field .item,
     0 0 6rem var(--text-color),
     0 0 9.5rem var(--text-color);
   }
+
+  .row .img-thumbnail img{
+    object-fit: cover;
+    width: 100%;
+    transform: transform .5s ease-in-out;
+  }
+
+  .row .img-thumbnail:hover img{
+    transform: scale(1.2);
+  }
+
+  
