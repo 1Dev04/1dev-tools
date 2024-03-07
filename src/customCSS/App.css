@@ -1164,12 +1164,12 @@ form .textarea-field .item,
   .row .img-thumbnail img{
     object-fit: cover;
     width: 100%;
-    transform: transform .5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
   }
 
   .row .img-thumbnail:hover img{
     transform: scale(1.2);
-    
+    box-shadow: 0 0 10px  var(--text-color);
   }
 
   
