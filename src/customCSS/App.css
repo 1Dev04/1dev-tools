@@ -1178,11 +1178,7 @@ form .textarea-field .item,
     box-shadow: 0 0 10px  var(--text-color);
   }
 
-  .row .img-thumbnail .card-body .text-center .overscroll-none{
-    columns: 200px 1;
-    column-gap: 30px;
-    padding: 20px;
-  }
+ 
 
 
 @media (max-width: 393px) {
