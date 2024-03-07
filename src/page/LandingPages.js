@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from '../component/Narbar.js';
 import Footer from '../component/Footer.js';
 import Contact from '../component/contact.js';
-
+import View from '../component/View.js';
 import Typed from 'typed.js'
 import Theme from '../component/Theme.js';
 import Image1 from '../asset/imageR/photo3.png';
@@ -77,7 +77,6 @@ function LandingPage() {
                 <h2 className="heading">Certi<span>ficate</span></h2>
 
                 <div className="services-container">
-
                     <div className="services-box">
                         <i className="bx bx-code-alt"></i>
                         <h3>Font-End Developer</h3>
@@ -90,7 +89,6 @@ function LandingPage() {
                         <p>I can create about Back-End Developers and create exactly what I have in mind.</p>
                         <button onClick={handleClick2} className="btn bi bi-box-arrow-in-up-right"> Readmore</button>
                     </div>
-
                 </div>
             </section>
 
@@ -116,12 +114,21 @@ function LandingPage() {
                             <span></span>
                         </div>
                     </div><br />
-
+                    
                     <div className="bar"><i style={{ color: '#ffff00', }} className="bx bxl-javascript"></i>
                         <div className="indfo">
                             <span>Javascript</span>
                         </div>
                         <div className="progress-line1 javascript">
+                            <span></span>
+                        </div>
+                    </div><br />
+
+                    <div className="bar"><i style={{ color: 'sky', }} className="bx bxl-react"></i>
+                        <div className="indfo">
+                            <span>React</span>
+                        </div>
+                        <div className="progress-line1 css">
                             <span></span>
                         </div>
                     </div><br />
@@ -248,6 +255,7 @@ function LandingPage() {
             <section className="contact  " id="contact">
                 <Contact />
             </section>
+            <View />
             <Theme />
             <Footer />
         </div>
