@@ -63,6 +63,7 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
     transition: .5s ease;
+   
 }
 
 section {
@@ -1175,6 +1176,12 @@ form .textarea-field .item,
   .row .img-thumbnail:hover img{
     transform: scale(1.2);
     box-shadow: 0 0 10px  var(--text-color);
+  }
+
+  .row .img-thumbnail .card-body .text-center .overscroll-none{
+    columns: 200px 1;
+    column-gap: 30px;
+    padding: 20px;
   }
 
 
