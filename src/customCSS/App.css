@@ -994,7 +994,7 @@ form .textarea-field .item,
     .home-content h1 {
         font-size: 2.5rem;
         text-align: center;
-
+        
     }
 
     .home-content h2 {
@@ -1073,10 +1073,6 @@ form .textarea-field .item,
 
     }
 
-    
-
-
-
 }
 
 @media (max-width: 617px) {
@@ -1090,6 +1086,12 @@ form .textarea-field .item,
     .portfolio-layer p {
         font-size: 1.3rem;
         margin: .3rem 0 1rem;
+    }
+
+    .home-content h1 {
+        font-size: 3.5rem;
+        text-align: center;
+
     }
 }
 
@@ -1129,7 +1131,13 @@ form .textarea-field .item,
 
 .box{
     box-shadow: 0 0 1rem var(--text-color);
+    height: 50px;
   }
+
+.box1{
+    box-shadow: 0 0 1rem var(--text-color);
+    
+}
 
 .overflow-y:hover .box-hover{
     box-shadow: 0 0 1rem var(--box-theme-color);

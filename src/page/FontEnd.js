@@ -9,7 +9,7 @@ const FontEnd = () => {
     return (
         <div>
  
-            <navbar className=" footer foot-color  p-2 fixed-top box">
+            <navbar className=" footer foot-color  p-2 fixed-top box ">
                 <div className="container-fluid">
                     <Link
                         to="#"
@@ -28,7 +28,7 @@ const FontEnd = () => {
                 <h1 className="text-7xl text-center bg-clip-text   m-5 p-5">Certificate</h1>
 
                 <div className="row flex justify-center m-5 p-2">
-                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box">
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
                         <img
                             src={powerb1}
                             className=" card-img-top bg-origin-content p-2 "
