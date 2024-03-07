@@ -107,13 +107,16 @@ section {
     color: var(--text-color);
     margin-left: 4rem;
     transition: .5s ease;
-    
 }
+
+
 
 .navbar a:hover,
 .navbar a.active {
     color: var(--main-color);
 }
+
+
 
 #menu-icon {
     font-size: 3.6rem;
@@ -1198,7 +1201,7 @@ form .textarea-field .item,
 .view{
     position: fixed;
     left: 0;
-    top: 100px;
+    top: 90px;
     padding: 15px;
     width: 200px;
     z-index: 101;
@@ -1217,4 +1220,17 @@ form .textarea-field .item,
 
 .view .Visit-view{
     font-size: 1.4rem;
+}
+
+
+.view .Page-view span{
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+}
+
+.view .Visit-view span{
+    font-size: 20px;
+    position: relative;
+    left: 20px;
 }
