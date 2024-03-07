@@ -64,50 +64,51 @@ const Contact = () => {
     
     //  Handle Full name Validations
 
-    const handleFullchange = (event) =>{
-        const inputRegexF = /^[A-Za-z]/;
+    const handleFullchange = (event) => {
+        var inputRegexF = /^[a-zA-Z\s]+$/;
         const inputFull = event.target.value;
         const errorTxtFull = document.querySelector(".error-txt.full");
-        const errorFull = document.querySelector(" .input-field.field .item.i1");
-        
+        const errorFull = document.querySelector(".input-field.field .item.i1");
+    
         if (inputRegexF.test(inputFull)) {
             setUserFull(inputFull);
             errorTxtFull.style.display = "none";
             errorFull.style.border = "2px solid #181718";
-        }else if (inputFull === '' || inputFull === null){
+        } else if (inputFull === '' || inputFull === null) {
             setUserFull(inputFull);
             errorTxtFull.style.display = "block";
             errorFull.style.border = "2px solid red";
             errorTxtFull.innerText = "Full name should be entered.";
-        }else{
+        } else {
             setUserFull(inputFull);
-            errorTxtFull.style.display = "none";
-            errorFull.style.border = "2px solid #181718";
+            errorTxtFull.style.display = "block";
+            errorFull.style.border = "2px solid red";
+            errorTxtFull.innerText = "Only English letters are allowed.";
         }
     };
 
     // Handle Email Validations
 
-    const handleEmailchange = (event) =>{
-        const inputRegexE = /^[A-Za-z0-9@.]/;
+    const handleEmailchange = (event) => {
+        var inputRegexE = /^[A-Za-z@.]+$/;
         const inputEmail = event.target.value;
         const errorTxtEmail = document.querySelector(".error-txt.email");
-        const errorEmail = document.querySelector(" .input-field.field .item.i2");
-        
+        const errorEmail = document.querySelector(".input-field.field .item.i2");
+    
         if (inputRegexE.test(inputEmail)) {
             setUserEmail(inputEmail);
             errorTxtEmail.style.display = "none";
             errorEmail.style.border = "2px solid #181718";
-            
-        }else if (inputEmail === '' || inputEmail === null){
+        } else if (inputEmail === '' || inputEmail === null) {
             setUserEmail(inputEmail);
             errorTxtEmail.style.display = "block";
             errorEmail.style.border = "2px solid red";
             errorTxtEmail.innerText = "Email Address should be entered.";
-        }else{
+        } else {
             setUserEmail(inputEmail);
-            errorTxtEmail.style.display = "none";
-            errorEmail.style.border = "2px solid #181718";
+            errorTxtEmail.style.display = "block";
+            errorEmail.style.border = "2px solid red";
+            errorTxtEmail.innerText = "Only A-Z, a-z, @, and . are allowed in the email.";
         }
     };
 
@@ -116,23 +117,26 @@ const Contact = () => {
     //Handle Message Validations
 
     const handleMessChange = (event) => {
-        const inputRegexM = /^[A-Za-z0-9]/;
+        var inputRegexM = /^[A-Za-zก-ฮ0-9\s.,!@#$%^&*()_+-=:;'"<>?{}`~]+$/;
         const inputMess = event.target.value;
         const errorTxtMess = document.querySelector(".error-txt.mess");
         const errorMess = document.querySelector(".textarea-field.field .item.i3");
+    
         if (inputRegexM.test(inputMess)) {
+           
             setUserMess(inputMess);
             errorTxtMess.style.display = "none";
             errorMess.style.border = "2px solid #181718";
-        }else if (inputMess === '' ||  inputMess === null){
+        } else if (inputMess === '' || inputMess === null) {
             setUserMess(inputMess);
             errorTxtMess.style.display = "block";
             errorMess.style.border = "2px solid red";
             errorTxtMess.innerText = "Message should be entered.";
-        }else{
+        } else {
             setUserMess(inputMess);
-            errorTxtMess.style.display = "none";
-            errorMess.style.border = "2px solid #181718";
+            errorTxtMess.style.display = "block";
+            errorMess.style.border = "2px solid red";
+            errorTxtMess.innerText = "Only A-Z, a-z, ก-ฮ, 0-9, and special characters are allowed in the message.";
         }
     };
   
@@ -144,7 +148,7 @@ const Contact = () => {
                 <input type="hidden" name="access_key" value="f32ccc1d-a16d-4e75-a154-b3a87f654187" />
                 <div className="input-box">
                     <div className="input-field field">
-                        <input type="text" name="user_name" placeholder="Full Name" value={UserFull} pattern='/^[A-Za-z]*$/'  className="item i1" maxLength={35} autocomplete="off"   onChange={handleFullchange}  />
+                        <input type="text" name="user_name" placeholder="Full Name" value={UserFull}  className="item i1" maxLength={35} autocomplete="off"   onChange={handleFullchange}  />
                         <div className="error-txt full">Full Name should be entered.</div>
                     </div>
                     <div className="input-field field">
