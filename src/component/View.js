@@ -17,7 +17,7 @@ const View = () => {
     // Simulate fetching pageviews from an API
     try {
       // Make a request to the specified URL
-      const response = await fetch('https://my-portfolio-b65s0018.netlify.app/');
+      const response = await fetch('https://my-portfolio-b65s0018.netlify.app');
       
       // If the request is successful, increment the pageviews count
       if (response.ok) {
