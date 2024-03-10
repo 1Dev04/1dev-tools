@@ -22,7 +22,7 @@ const View = () => {
     const newIsLiked = !isLiked;
     setIsLiked(newIsLiked);
 
-    const newLikeCount = newIsLiked ? likeCount + 1 : likeCount - 1;
+    const newLikeCount = newIsLiked ? likeCount + 1 : likeCount - 1 ;
     setLikeCount(newLikeCount);
 
     // Save to local storage
@@ -43,7 +43,7 @@ const View = () => {
         <h5 className="bi bi-eye-fill"> Visits</h5>
       </div>
       <div className="Like-view">
-        <button  className={`bi bi-heart${isLiked ? '-fill' : ''}`} style={{ color : "rgb(239 68 68)"}} onClick={handleLikeClick} ></button>
+        <button  className={`bi bi-heart${isLiked ? '-fill' : ''}`} style={{ color : "rgb(239 68 68)" }} onClick={handleLikeClick} ></button>
         <span> {likeCount}</span>
       </div>
     </div>
