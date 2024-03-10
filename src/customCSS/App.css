@@ -1198,11 +1198,29 @@ form .textarea-field .item,
 }
 
 
+@media (max-width: 830px) {
+    
+
+    .navbar.active {
+        display: none;
+        padding: 50%;
+    }
+
+    .navbar a {
+        display: flex;
+        font-size: 2rem;
+        margin: 3rem 10px;
+
+    }
+
+}
+
+
 .view{
     position: fixed;
     left: 0;
     top: 90px;
-    padding: 15px;
+    padding: 10px;
     width: 200px;
     z-index: 101;
     border-radius: 5px;
@@ -1233,4 +1251,18 @@ form .textarea-field .item,
     font-size: 20px;
     position: relative;
     left: 20px;
+}
+
+.view .Like-view button{
+    font-size: medium;
+    transition: transform 0.3s ease-in-out;
+}
+
+.view .Like-view:hover button{
+    font-size: 20px;
+    transform: scale(1.2);
+}
+
+.view .Like-view span{
+    font-size: medium;
 }

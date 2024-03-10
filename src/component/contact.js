@@ -148,17 +148,17 @@ const Contact = () => {
                 <input type="hidden" name="access_key" value="f32ccc1d-a16d-4e75-a154-b3a87f654187" />
                 <div className="input-box">
                     <div className="input-field field">
-                        <input type="text" name="user_name" placeholder="Full Name" value={UserFull}  className="item i1" maxLength={35} autocomplete="off"   onChange={handleFullchange}  />
+                        <input type="text" name="user_name" placeholder="Full Name" value={UserFull}  className="item i1" maxLength={35} autoComplete="off"   onChange={handleFullchange}  />
                         <div className="error-txt full">Full Name should be entered.</div>
                     </div>
                     <div className="input-field field">
-                        <input type="email" name="user_email" placeholder="Email Address" value={UserEmail}  className="item i2" maxLength={40}  autocomplete="off"    onChange={handleEmailchange} />
+                        <input type="email" name="user_email" placeholder="Email Address" value={UserEmail}  className="item i2" maxLength={40}  autoComplete="off"    onChange={handleEmailchange} />
                         <div className="error-txt email">Email Address should be entered.</div>
                     </div>
                 </div>
 
                 <div className="textarea-field field">
-                    <textarea name="message" placeholder="Your Message" value={UserMess} className="item i3" cols="30" rows="10" maxLength={1000} autocomplete="off"    onChange={handleMessChange} ></textarea>
+                    <textarea name="message" placeholder="Your Message" value={UserMess} className="item i3" cols="30" rows="10" maxLength={1000} autoComplete="off"    onChange={handleMessChange} ></textarea>
                     <div className="error-txt mess">message should be entered.</div>
                 </div>
 

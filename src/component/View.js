@@ -1,37 +1,50 @@
-import React, { useState, useEffect } from 'react';
+import React , { useState , useEffect }  from 'react' ;
+
 import '../customCSS/App.css';
 
 const View = () => {
-  const [pageViews, setPageViews] = useState(0);
-  const [visitCount, setVisitCount] = useState(0);
+
+  const [likeCount , setLikeCount ] = useState(0);
+  const [isLiked, setIsLiked] = useState(false);
 
   useEffect(() => {
-    const fetchData = async () => {
-      const type = sessionStorage.getItem('visit') === null ? 'type=visit-pageview' : 'type=pageview';
+    
+    const savedLikeCount = localStorage.getItem('likeCount');
+    const savedIsLiked = localStorage.getItem('isLiked');
 
-      try {
-        const response = await fetch(`http://172.20.10.4:3000?${type}`);
-        const data = await response.json();
+    if (savedLikeCount) {
+      setLikeCount(parseInt(savedLikeCount, 10));
+    }
 
-        setPageViews(data.pageviews);
-        setVisitCount(data.visits);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
+    if (savedIsLiked) {
+      setIsLiked(savedIsLiked === 'true');
+    }
+  }, []);
 
-    fetchData();
-  }, []); // Empty dependency array ensures the effect runs once after the initial render
+  const handleLikeClick = () => {
+    
+    const newIsLiked = !isLiked;
+    setIsLiked(newIsLiked);
+
+    const newLikeCount = newIsLiked ? likeCount + 1 : likeCount - 1;
+    setLikeCount(newLikeCount);
+    localStorage.setItem('likeCount', newLikeCount.toString());
+    localStorage.setItem('isLiked', newIsLiked.toString());
+  };
 
   return (
     <div className="view">
       <div className="Page-view">
-        <span id="page-count">{pageViews}</span>
+        <span id="page-count"></span>
         <h5 className="bi bi-emoji-heart-eyes-fill"> PageViews</h5>
       </div>
       <div className="Visit-view">
-        <span id="view-count">{visitCount}</span>
+        <span id="view-count"></span>
         <h5 className="bi bi-eye-fill"> Visits</h5>
+      </div>
+      <div className="Like-view">
+        <button  className={`bi bi-heart${isLiked ? '-fill' : ''}`} style={{ color : "rgb(239 68 68)"}} onClick={handleLikeClick} ></button>
+        <span> {likeCount} </span>
       </div>
     </div>
   );
