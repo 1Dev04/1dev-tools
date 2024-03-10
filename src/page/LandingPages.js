@@ -259,8 +259,6 @@ function LandingPage() {
             <Theme />
             <Footer />
         </div>
-
-
     );
 }
 
