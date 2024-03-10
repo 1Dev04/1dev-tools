@@ -10,20 +10,26 @@ const View = () => {
     const savedIsLiked = localStorage.getItem('isLiked');
 
     if (savedLikeCount) {
-      setLikeCount(parseInt(savedLikeCount, 10));
+      setLikeCount(parseInt(savedLikeCount, 0));
     }
+
 
     if (savedIsLiked) {
       setIsLiked(savedIsLiked === 'true');
     }
+    
   }, []);
 
   const handleLikeClick = () => {
     const newIsLiked = !isLiked;
     setIsLiked(newIsLiked);
 
-    const newLikeCount = newIsLiked ? likeCount + 1 : likeCount - 1 ;
+    const newLikeCount = newIsLiked ? likeCount + 1 : likeCount + 1 ;
     setLikeCount(newLikeCount);
+
+    if (newLikeCount === 1000000){
+      document.getElementById('likeCount').innerText = "MAX";
+    }
 
     // Save to local storage
     localStorage.setItem('likeCount', newLikeCount.toString());
@@ -43,7 +49,7 @@ const View = () => {
         <h5 className="bi bi-eye-fill"> Visits</h5>
       </div>
       <div className="Like-view">
-        <button  className={`bi bi-heart${isLiked ? '-fill' : ''}`} style={{ color : "rgb(239 68 68)" }} onClick={handleLikeClick} ></button>
+        <button  className={`bi bi-emoji-kiss-fill ${isLiked}`}  onClick={handleLikeClick} ></button>
         <span> {likeCount}</span>
       </div>
     </div>

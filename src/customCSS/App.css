@@ -1254,13 +1254,15 @@ form .textarea-field .item,
 }
 
 .view .Like-view button{
-    font-size: medium;
+    font-size: 20px;
     transition: transform 0.3s ease-in-out;
 }
 
 .view .Like-view:hover button{
-    font-size: 20px;
-    transform: scale(1.2);
+   
+    transform: scale(1.3);
+    transition: .2s ease;
+    color: var(--main-color);
 }
 
 .view .Like-view span{
