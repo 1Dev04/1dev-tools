@@ -95,6 +95,7 @@ const Theme = () => {
       <div className="day-night s-icon" onClick={sunMoon}>
         <i className="bi bi-sun-fill"></i>
       </div>
+      
       <h4>Theme Colors <span className="bi bi-palette"></span></h4>
 
       <div className="theme-options">
