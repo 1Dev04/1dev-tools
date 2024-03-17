@@ -27,7 +27,8 @@ const BackEnd = () => {
                 id="showtime">
                 <h1 className="text-7xl text-center bg-clip-text  m-5 p-5">Certificate</h1>
 
-                <div className="row flex justify-center m-5 p-2">
+                
+                <div className="row justify-content-center  m-5 p-2">
                     <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
                         <img
                             src={java}
@@ -49,18 +50,8 @@ const BackEnd = () => {
                                 </div>
                             </div>
                             <br />
-
-                            <div className="overflow-y m-3">
-                                <div className="row justify-content-right m-4 ">
-                                    <a href="https://github.com/Devdummyy/Java-Project" className="btn btn-dark box box-hover bg-dark " ><i className="bi bi-github IC "></i></a>
-                                </div>
-                            </div>
-
-                            <div className="overflow-y m-3">
-                                <div className="row justify-content-right m-4">
-                                    <a href="https://www.youtube.com/watch?v=bQ7pbJf0NUs" className="btn btn-dark box box-hover bg-dark " ><i className="bi bi-youtube IC "></i></a>
-                                </div>
-                            </div>
+                        
+                           
                         </div>
 
 
@@ -87,17 +78,8 @@ const BackEnd = () => {
                             <br />
 
                             
-                            <div className="overflow-y m-3">
-                                <div className="row justify-content-right m-4 ">
-                                    <a href="https://github.com/Devdummyy/C_CakeCafe" className="btn btn-dark box box-hover bg-dark " ><i className="bi bi-github IC "></i></a>
-                                </div>
-                            </div>
-
-                            <div className="overflow-y m-3">
-                                <div className="row justify-content-right m-4">
-                                    <a href="https://www.youtube.com/watch?v=c3gxKG7UsSM" className="btn btn-dark box box-hover bg-dark " ><i className="bi bi-youtube IC "></i></a>
-                                </div>
-                            </div>
+                  
+                            
                             
 
                         </div>
