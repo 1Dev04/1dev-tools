@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from '../component/Narbar.js';
 import Footer from '../component/Footer.js';
 import Contact from '../component/contact.js';
-import View from '../component/View.js';
+
 import Typed from 'typed.js'
 import Theme from '../component/Theme.js';
 import Image1 from '../asset/imageR/photo3.png';
@@ -255,7 +255,7 @@ function LandingPage() {
             <section className="contact  " id="contact">
                 <Contact />
             </section>
-            <View />
+            
             <Theme />
             <Footer />
         </div>
