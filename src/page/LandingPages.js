@@ -75,8 +75,8 @@ function LandingPage() {
 
             <section className="services" id="services">
                 <h2 className="heading">Certi<span>ficate</span></h2>
-
-                <div className="services-container">
+        
+            <div className="services-container">
                     <div className="services-box">
                         <i className="bx bx-code-alt"></i>
                         <h3>Font-End Developer</h3>
@@ -90,6 +90,8 @@ function LandingPage() {
                         <button onClick={handleClick2} className="btn bi bi-box-arrow-in-up-right"> Readmore</button>
                     </div>
                 </div>
+       
+                
             </section>
 
             <section className="container1" id="skills">
@@ -215,7 +217,7 @@ function LandingPage() {
             <section className="projects" id="projects">
                 <h2 className="heading"><span>Project</span></h2>
                 <div className="portfolio-container">
-
+                    
                     <div className="portfolio-box">
                         <img src={Port1} alt="port1" />
                         <div className="portfolio-layer">

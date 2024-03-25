@@ -34,24 +34,23 @@
   #sq3 {
     margin-top: -25px;
     margin-left: 15px;
-    animation: loader_5191 675ms ease-in-out 150ms infinite;
+    animation: loader_5191 675ms ease-in-out 145ms infinite alternate;
   }
-
-  
   
   #sq7 {
     margin-top: 20px;
     margin-left: -25px;
-    animation: loader_5191 675ms ease-in-out 450ms infinite;
+    animation: loader_5191 675ms ease-in-out 450ms infinite alternate;
   }
   
   #sq8 {
     margin-top: 20px;
-    animation: loader_5191 675ms ease-in-out 525ms infinite;
+    animation: loader_5191 675ms ease-in-out 525ms infinite alternate;
   }
   
   #sq9 {
     margin-top: 20px;
     margin-left: 15px;
-    animation: loader_5191 675ms ease-in-out 600ms infinite;
+    animation: loader_5191 675ms ease-in-out 600ms infinite alternate;
   }
+
