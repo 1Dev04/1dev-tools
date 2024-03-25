@@ -115,6 +115,13 @@ section {
 .navbar a:hover,
 .navbar a.active {
     color: var(--main-color);
+    transition: .5s ease;
+    text-shadow: 
+    0 0 1.5rem var(--main-color),
+    0 0 2rem var(--main-color),
+    0 0 2rem var(--main-color),
+    0 0 1rem var(--main-color),
+    0 0 1.5rem var(--main-color);
 }
 
 
@@ -964,10 +971,11 @@ form .textarea-field .item,
         display: flex;
         font-size: 2rem;
         margin: 3rem 0;
-
+        transition: .5s ease;
     }
 
-
+    
+   
 
     .social-media a {
         display: inline-flex;
@@ -1200,11 +1208,13 @@ form .textarea-field .item,
 
 
 @media (max-width: 830px) {
-    
+    .navbar{
+        display: none;
+    }
 
     .navbar.active {
-        display: none;
-        padding: 50%;
+        display: block;
+       
     }
 
     .navbar a {
