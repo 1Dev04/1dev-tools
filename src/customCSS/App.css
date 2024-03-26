@@ -957,11 +957,15 @@ form .textarea-field .item,
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
-        display: none;
+        
+        display: block;
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(-200%);
     }
 
     .navbar.active {
         display: block;
+        transform: translateX(0%);
     }
 
     .navbar a {
@@ -1206,12 +1210,14 @@ form .textarea-field .item,
 
 @media (max-width: 830px) {
     .navbar{
-        display: none;
+        display: block;
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(-200%);
     }
 
     .navbar.active {
         display: block;
-       
+        transform: translateX(0%);
     }
 
     .navbar a {

@@ -12,9 +12,7 @@ const Navbar = () => {
     const navLinks = document.querySelectorAll("header nav a");
 
     const handleMenuClick = () => {
-      
       menuIcon.classList.toggle("bx-x");
-      
       navbar.classList.toggle("active");
     };
 
@@ -31,6 +29,7 @@ const Navbar = () => {
                 document.querySelector("header nav a[href*=" + id + "]").classList.add("active");
             });
         };
+        navbar.classList.remove("active");
     });
 
     let header = document.querySelector("header");
@@ -70,19 +69,19 @@ const Navbar = () => {
         <i className="bx bx-menu" id="menu-icon"></i>
 
         <nav className="navbar">
-          <a href="#home" className="active">
+          <a href="#home" className="active scoll-S1">
             Home
           </a>
           
-          <a href="#about">About</a>
+          <a href="#about" className="scoll-S2">About</a>
           
-          <a href="#services">Certificate</a>
+          <a href="#services" className="scoll-S3">Certificate</a>
       
-          <a href="#skills">Skills</a>
+          <a href="#skills" className="scoll-S4">Skills</a>
          
-          <a href="#projects">Projects</a>
+          <a href="#projects" className="scoll-S5">Projects</a>
        
-          <a href="#contact">Contact</a>
+          <a href="#contact" className="scoll-S6">Contact</a>
 
         </nav>
       </header>
