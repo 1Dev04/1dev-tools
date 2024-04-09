@@ -142,9 +142,9 @@ const Contact = () => {
   
     
     return (
-           <div>
+           <div className="contact">
             <h2 className="heading">Contact <span>Me!</span></h2>
-            <form ref={form} onSubmit={sendEmail}>
+            <form className="form" ref={form} onSubmit={sendEmail}>
                 <input type="hidden" name="access_key" value="f32ccc1d-a16d-4e75-a154-b3a87f654187" />
                 <div className="input-box">
                     <div className="input-field field">
@@ -166,7 +166,7 @@ const Contact = () => {
             </form>
 
             <div className="social-media">
-                <a href="https://www.linkedin.com/in/krittiphon-yoonaitham-a291482b1/"><i className='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/krittiphon-yoonaitham-a291482b1/"><i className='bx bxl-linkedin T6'></i></a>
             </div>
             </div>
     );

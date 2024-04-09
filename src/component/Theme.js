@@ -98,7 +98,7 @@ const Theme = () => {
       
       <h4>Theme Colors <span className="bi bi-palette"></span></h4>
 
-      <div className="theme-options">
+      <div className="theme-options ">
         <span className="color-1 Sky" onClick={ThemeSky}></span>
         <span className="color-2 Pink" onClick={ThemePink}></span>
         <span className="color-3 Green" onClick={ThemeGreen}></span>

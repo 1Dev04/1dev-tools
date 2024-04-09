@@ -1,13 +1,13 @@
 import "../customCSS/input.css";
 import "../customCSS/App.css";
-import "../customCSS/new.css";
+
 
 const footer = () => {
     return (
 
         <footer className="footer ">
             <div className="footer-text">
-                <p>© Copyright 2024-2030 | Version 2.0 | Devdummy <span className="bi bi-robot"></span></p>
+                <p>© Copyright 2024-2030 | Version 3.0  <span className="bi bi-robot"></span></p>
             </div>
 
             <div className="footer-iconTop">

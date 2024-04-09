@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import "../customCSS/input.css";
 import "../customCSS/App.css";
-import "../customCSS/new.css";
+import "../customCSS/navbar.css";
+
 
 const Navbar = () => {
 
@@ -53,17 +54,10 @@ const Navbar = () => {
   return (
     <nav className="fixed-top">
       <header className="header">
-        <div className="logo bx ">
+        <div className="logo">
 
           PORTFOLIO
-          <div className="loader">
-            <div className="square" id="sq1"></div>
-            <div className="square" id="sq2"></div>
-            <div className="square" id="sq3"></div>
-            <div className="square" id="sq7"></div>
-            <div className="square" id="sq8"></div>
-            <div className="square" id="sq9"></div>
-          </div>
+          
         </div>
 
         <i className="bx bx-menu" id="menu-icon"></i>
@@ -76,13 +70,13 @@ const Navbar = () => {
           <a href="#about" className="scoll-S2">About</a>
           
           <a href="#services" className="scoll-S3">Certificate</a>
-      
+          
           <a href="#skills" className="scoll-S4">Skills</a>
-         
+          
           <a href="#projects" className="scoll-S5">Projects</a>
-       
+          
           <a href="#contact" className="scoll-S6">Contact</a>
-
+          
         </nav>
       </header>
     </nav>

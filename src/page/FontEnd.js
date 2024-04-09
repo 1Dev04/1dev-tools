@@ -4,9 +4,7 @@ import powerb1 from "../asset/certificate/powerbi1.jpg";
 import GoogleC from "../asset/certificate/GoogleC.png";
 import Reacts from "../asset/certificate/React.png";
 
-
 import '../customCSS/App.css'
-
 import "../customCSS/index.css";
 
 const FontEnd = () => {
@@ -15,16 +13,12 @@ const FontEnd = () => {
 
             <navbar className=" footer foot-color  p-2 fixed-top box ">
                 <div className="container-fluid">
-                    <Link
-                        to="#"
-                        className="bi bi-box-fill navbar-brand  navbar-brand rounded  fs-1"
-                    >
+                    <Link to="#" className="bi bi-box-fill navbar-brand  navbar-brand rounded  fs-1">
                         {" "}
                         Font-End-Diary
                     </Link>
                 </div>
             </navbar>
-
 
             <section
                 className=" container-fluid  py-4 "
@@ -105,7 +99,7 @@ const FontEnd = () => {
                 </div>
             </section>
             <footer className="footer foot-color  p-2 fixed-bottom box">
-                <Link className="bi bi-box-arrow-in-left size-16 navbar-brand rounded  fs-1" to="/"> {" "} Back
+                <Link className="bi bi-box-arrow-in-left size-16 navbar-brand rounded   fs-1" to="/"> {" "} Back
                 </Link>
             </footer>
         </div>
