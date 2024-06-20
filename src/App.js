@@ -14,7 +14,7 @@ import "./customCSS/NoneRes/noneRes.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Landing from '../src/page/LandingPages.js';
+import Landing from './page/LandingPages.js';
 import FontEnd from './page/FontEnd.js';
 import BackEnd from './page/BackEnd.js';
 

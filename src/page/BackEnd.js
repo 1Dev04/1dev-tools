@@ -3,6 +3,20 @@ import { Link } from "react-router-dom";
 import java from "../asset/certificate/Java.jpg";
 import C from "../asset/certificate/C.jpg";
 
+import A1 from "../asset/certificate/A1.png";
+import A2 from "../asset/certificate/A2.png";
+import A3 from "../asset/certificate/A3.png";
+import A4 from "../asset/certificate/A4.png";
+import A5 from "../asset/certificate/A5.png";
+import A6 from "../asset/certificate/A6.png";
+import A7 from "../asset/certificate/A7.png";
+import A8 from "../asset/certificate/A8.png";
+import A9 from "../asset/certificate/A9.png";
+import A10 from "../asset/certificate/A10.png";
+import A11 from "../asset/certificate/A11.png";
+import A12 from "../asset/certificate/A12.png";
+import A13 from "../asset/certificate/A13.png";
+
 import "../customCSS/index.css";
 
 const BackEnd = () => {
@@ -76,16 +90,284 @@ const BackEnd = () => {
                                 </div>
                             </div>
                             <br />
-
-                            
-                  
-                            
-                            
-
                         </div>
-
-
                     </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A1}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            Generative AI และ ChatGPT ทำงานอย่างไร?
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : อ. ดร.เอกพล ช่วงสุวนิช
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A2}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            ChatGPT ช่วยทำวิจัยได้ไม่ต้องเหนื่อยแทบตาย (ในทุกขั้นตอน)
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : รศ. ดร.วิโรจน์ อรุณมานะกุล
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A3}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            แท็กติกการสอนในยุคคิดอะไรไม่ออกบอก ChatGPT
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : ศ. ดร.จินตวีร์ คล้ายสังข์
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A4}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            ChatGPT กับเศรษฐกิจยุคใหม่เหนื่อยน้อยลง เเต่ได้ผลมากขึ้น
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : ผศ. ดร.วรประภา นาควัชระ
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A5}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            เขียนโค้ดคู่กับ AI เสร็จไว + ไม่ตกเทรนด์
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : ผศ. ดร.ฑิตยา หวานวารี
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A6}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            เย่! ไม่ต้องเรียน Python เเล้ว (หรือเปล่านะ) มี ChatGPT เเล้วนี่นา
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : ผศ. ดร.สุกรี สินธุภิญโญ <br></br> รศ. ดร.วีระ เหมืองสิน <br></br> ผศ. ดร.นัทที นิภานันท์
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A7}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            ChatGPT ถอยไปมาปล่อยพลัง AI ด้วย MICROSOFT x GPT4
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : คุณโอม ศิวะดิตถ์
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A8}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            การสอนในยุค AI จะเกิดอะไรขึ้น เมื่ออาจารย์ใช้ออกข้อสอบและเด็กใช้ทำข้อสอบ
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : Dr.Virot "TA" Chiraphadhanakul
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A9}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            Visual Storytelling with Ai
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : ตุลย์ เล็กอุทัย <br></br> อ.วรรษยุต คงจันทร์
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A10}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            ประเด็นจริยธรรมของ ChatGPT ที่ควรใส่ใจ
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : รศ. ดร.ศิรประภา ชวะนะญาณ
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A11}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            การเงินกับ AI สองเรื่องใกล้ตัวในชีวิตประจำวัน
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : รศ. ดร.คณิสร์ แสงโชติ
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A12}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            AI กับการตลาด 6.0: เปลี่ยนและปรับอะไรในสังคม
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : ผศ. ดร.เอกก์ ภทรธนกุล
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={A13}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-5xl">
+                            การปรับตัวใช้เครื่องมือ GenAI เพื่อผลลัพธ์ที่ดีกว่า
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Course instructors : ดร.อวิรุทธ์ ฉัตรมาลาทอง
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+
+
 
 
                 </div>

@@ -89,7 +89,7 @@ function LandingPage() {
                 <div className="about-content">
                     <h2 className="heading text-center ">About<span>Me</span></h2>
                     <h3 className="fs-1 text-center"> Full Stack Deverloper</h3>
-                    <p>Hello there! <br /> My name is Krittiphon Yoonaitham. l'm 19 years old. I'm from Bang pa han Ayutthaya. I'm currently pursuing the second years of Bachelor's degree in Computer Science at Kasetsart University Sriracha Campus. I have a passion for Coding Programming because it's fun. I am actively seeking a challenging internship opportunity in fields of Front-end , Back-end , Solfware Engineering and Wed Developer to acquire practical experience and propel my future career in these domains. 
+                    <p>Hello there! <br /> My name is Krittiphon Yoonaitham. l'm 20 years old. I'm from Bang pa han Ayutthaya. I'm currently pursuing the second years of Bachelor's degree in Computer Science at Kasetsart University Sriracha Campus. I have a passion for Coding Programming because it's fun. I am actively seeking a challenging internship opportunity in fields of Front-end , Back-end , Solfware Engineering and Wed Developer to acquire practical experience and propel my future career in these domains. 
                     </p>
                 </div>
                

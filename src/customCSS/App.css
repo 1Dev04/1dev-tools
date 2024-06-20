@@ -136,7 +136,7 @@ body.white {
 
   .row .img-thumbnail:hover img{
     transform: scale(1.2);
-    box-shadow: 0 0 10px  var(--text-color);
+   
   }
 
   /* view */
