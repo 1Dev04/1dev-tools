@@ -50,7 +50,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                                 Java Programing
                             </h5>
 
@@ -79,7 +79,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                                 C Programing
                             </h5>
 
@@ -100,7 +100,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             Generative AI และ ChatGPT ทำงานอย่างไร?
                             </h5>
 
@@ -121,7 +121,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             ChatGPT ช่วยทำวิจัยได้ไม่ต้องเหนื่อยแทบตาย (ในทุกขั้นตอน)
                             </h5>
 
@@ -142,7 +142,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             แท็กติกการสอนในยุคคิดอะไรไม่ออกบอก ChatGPT
                             </h5>
 
@@ -163,7 +163,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             ChatGPT กับเศรษฐกิจยุคใหม่เหนื่อยน้อยลง เเต่ได้ผลมากขึ้น
                             </h5>
 
@@ -184,7 +184,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             เขียนโค้ดคู่กับ AI เสร็จไว + ไม่ตกเทรนด์
                             </h5>
 
@@ -205,7 +205,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             เย่! ไม่ต้องเรียน Python เเล้ว (หรือเปล่านะ) มี ChatGPT เเล้วนี่นา
                             </h5>
 
@@ -226,7 +226,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             ChatGPT ถอยไปมาปล่อยพลัง AI ด้วย MICROSOFT x GPT4
                             </h5>
 
@@ -247,7 +247,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             การสอนในยุค AI จะเกิดอะไรขึ้น เมื่ออาจารย์ใช้ออกข้อสอบและเด็กใช้ทำข้อสอบ
                             </h5>
 
@@ -268,7 +268,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             Visual Storytelling with Ai
                             </h5>
 
@@ -289,7 +289,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             ประเด็นจริยธรรมของ ChatGPT ที่ควรใส่ใจ
                             </h5>
 
@@ -310,7 +310,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             การเงินกับ AI สองเรื่องใกล้ตัวในชีวิตประจำวัน
                             </h5>
 
@@ -331,7 +331,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             AI กับการตลาด 6.0: เปลี่ยนและปรับอะไรในสังคม
                             </h5>
 
@@ -352,7 +352,7 @@ const BackEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                             การปรับตัวใช้เครื่องมือ GenAI เพื่อผลลัพธ์ที่ดีกว่า
                             </h5>
 

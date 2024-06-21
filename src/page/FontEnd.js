@@ -33,7 +33,7 @@ const FontEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                              Power BI
                             </h5>
 
@@ -57,7 +57,7 @@ const FontEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                               Clound API
                             </h5>
 
@@ -80,7 +80,7 @@ const FontEnd = () => {
                             alt="00"
                         />
                         <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-5xl">
+                            <h5 className="h5 text-center  card-title text-4xl">
                               Basic React 
                             </h5>
 
