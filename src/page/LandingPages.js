@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Navbar from '../component/Narbar.js';
+import Navbar from '../component/Navbar.js';
 import Footer from '../component/Footer.js';
 import Contact from '../component/contact.js';
 
@@ -8,9 +8,9 @@ import Typed from 'typed.js'
 import Theme from '../component/Theme.js';
 import Image1 from '../asset/imageR/photo3.png';
 import Image2 from '../asset/imageR/photo4.png';
-import Port1 from '../asset/portfolio/Loadcheesecake.png';
-import Port2 from '../asset/portfolio/S1.png';
-import Port3 from '../asset/portfolio/DISCOCYBER.png';
+import Port1 from '../asset/portfolio/cheeseCake.png';
+import Port2 from '../asset/portfolio/cakeCafe.png';
+import Port3 from '../asset/portfolio/discoCyber.png';
 
 
 function LandingPage() {

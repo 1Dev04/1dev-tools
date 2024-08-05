@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import powerb1 from "../asset/certificate/powerbi1.jpg";
+import powerBi from "../asset/certificate/powerBi.jpg";
 import GoogleC from "../asset/certificate/GoogleC.png";
 import Reacts from "../asset/certificate/React.png";
 
@@ -28,7 +28,7 @@ const FontEnd = () => {
                 <div className="row flex justify-center m-5 p-2">
                     <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
                         <img
-                            src={powerb1}
+                            src={powerBi}
                             className=" card-img-top bg-origin-content p-2 "
                             alt="00"
                         />
@@ -58,13 +58,13 @@ const FontEnd = () => {
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
-                              Clound API
+                              Cloud API
                             </h5>
 
                             <div className="overscroll-auto text-2xl text-center  ">
                                 <br />
                                 <div className="overscroll-none" >
-                                I completed the Clound API training of the project to
+                                I completed the Cloud API training of the project to
                             enhance digital skills for students.
                                 </div>
                             </div>
