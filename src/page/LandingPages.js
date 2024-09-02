@@ -123,7 +123,7 @@ function LandingPage() {
                     <div className="services-box">
                         <i className='bx bx-certification'></i>
                         <h3>Other Certificates</h3>
-                        <p>The certificate from another event.</p>
+                        <p>Other certificates from another events.</p>
                         <button onClick={handleClick3} className="btn1   bi bi-box-arrow-in-up-right"> Readmore</button>
                     </div>
                     <div className="services-box">
