@@ -1,10 +1,10 @@
 import React from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import powerBi from "../asset/certificate/powerBi.jpg";
 import GoogleC from "../asset/certificate/GoogleC.png";
 import Reacts from "../asset/certificate/React.png";
 
-import '../customCSS/App.css'
+
 import "../customCSS/index.css";
 
 function FontEnd(){

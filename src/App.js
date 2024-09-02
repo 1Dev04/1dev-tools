@@ -15,9 +15,9 @@ import "./customCSS/NoneRes/noneRes.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Landing from './page/LandingPages.js';
-import FontEnd from './page/fontEnd.js';
-import BackEnd from './page/backEnd.js';
-import OtherC from './page/otherC.js';
+import FontEnd from './page/FontEnd.js';
+import BackEnd from './page/BackEnd.js';
+import OtherC from './page/OtherC.js';
 
 
 function App() {
