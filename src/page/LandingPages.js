@@ -121,7 +121,7 @@ function LandingPage() {
                         <button onClick={handleClick1} className="btn1  bi bi-box-arrow-in-up-right "> Readmore</button>
                     </div>
                     <div className="services-box">
-                        <i class='bx bx-certification'></i>
+                        <i className='bx bx-certification'></i>
                         <h3>Other Certificate</h3>
                         <p>I have been to other certificate from event and another position job.</p>
                         <button onClick={handleClick3} className="btn1   bi bi-box-arrow-in-up-right"> Readmore</button>
