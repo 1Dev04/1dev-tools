@@ -117,19 +117,19 @@ function LandingPage() {
                     <div className="services-box">
                         <i className="bx bx-code-alt"></i>
                         <h3>Font-End Developer</h3>
-                        <p>I can create about Font-End Developers and create exactly what I have in mind.</p>
+                        <p>Certificates of Training to become a Font-End Developer</p>
                         <button onClick={handleClick1} className="btn1  bi bi-box-arrow-in-up-right "> Readmore</button>
                     </div>
                     <div className="services-box">
                         <i className='bx bx-certification'></i>
-                        <h3>Other Certificate</h3>
-                        <p>I have been to other certificate from event and another position job.</p>
+                        <h3>Other Certificates</h3>
+                        <p>The certificate from another event.</p>
                         <button onClick={handleClick3} className="btn1   bi bi-box-arrow-in-up-right"> Readmore</button>
                     </div>
                     <div className="services-box">
                         <i className="bx bx-code-curly"></i>
                         <h3>Back-End Developer</h3>
-                        <p>I can create about Back-End Developers and create exactly what I have in mind.</p>
+                        <p>Certificates of Training to become a Back-End Developer</p>
                         <button onClick={handleClick2} className="btn1   bi bi-box-arrow-in-up-right"> Readmore</button>
                     </div>
                     
