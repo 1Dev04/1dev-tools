@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import "../customCSS/input.css";
 import "../customCSS/App.css";
-import "../customCSS/Navbar.css";
+import "../customCSS/navbar.css";
 
 
 const Navbar = () => {
