@@ -17,7 +17,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from './page/LandingPages.js';
 import FontEnd from './page/FontEnd.js';
 import BackEnd from './page/BackEnd.js';
-import OtherC from './page/OtherC.js';
+import OtherC from './page/otherC.js';
 
 
 function App() {
