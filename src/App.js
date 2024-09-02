@@ -7,11 +7,10 @@ import './customCSS/LDS/breakPoint.css'
 import './customCSS/MDL/breakPoint.css'
 import './customCSS/MDM/breakPoint.css'
 import './customCSS/MDP/breakPoint.css'
-import './customCSS/NR/noneRes.css'
+import './customCSS/NR/noneReis.css'
 import './customCSS/SDB/breakPoint.css'
 import './customCSS/TD/breakPoint.css'
 
-import "./customCSS/NoneRes/noneRes.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
