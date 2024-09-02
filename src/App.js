@@ -2,13 +2,14 @@
 import './customCSS/App.css';
 import './customCSS/input.css';
 import './customCSS/style-switcher.css';
-import "./customCSS/MobileDM/breakPoint.css";
-import "./customCSS/MobileDPort/breakPoint.css";
-import "./customCSS/SDesktopBase/breakPoint.css";
-import "./customCSS/TabletD/breakPoint.css";
-import "./customCSS/MobileDLand/breakPoint.css";
-import "./customCSS/SDesktopBase/breakPoint.css";
-import "./customCSS/LDesktopS/breakPoint.css";
+
+import './customCSS/LDS/breakPoint.css'
+import './customCSS/MDL/breakPoint.css'
+import './customCSS/MDM/breakPoint.css'
+import './customCSS/MDP/breakPoint.css'
+import './customCSS/NR/noneRes.css'
+import './customCSS/SDB/breakPoint.css'
+import './customCSS/TD/breakPoint.css'
 
 import "./customCSS/NoneRes/noneRes.css";
 
