@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate , useLocation } from 'react-router-dom';
 import Navbar from '../component/Navbar.js';
 import Footer from '../component/Footer.js';
-import Contact from '../component/contact.js';
+import Contact from '../component/Contact.js';
 
 import Typed from 'typed.js'
 import Theme from '../component/Theme.js';

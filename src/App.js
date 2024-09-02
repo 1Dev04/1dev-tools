@@ -2,21 +2,21 @@
 import './customCSS/App.css';
 import './customCSS/input.css';
 import './customCSS/style-switcher.css';
-import "./customCSS/MobileDM/Breakpoint.css";
-import "./customCSS/MobileDPort/Breakpoint.css";
-import "./customCSS/SDesktopBase/Breakpoint.css";
-import "./customCSS/TabletD/Breakpoint.css";
-import "./customCSS/MobileDLand/Breakpoint.css";
-import "./customCSS/SDesktopBase/Breakpoint.css";
-import "./customCSS/LDesktopS/Breakpoint.css";
+import "./customCSS/MobileDM/breakPoint.css";
+import "./customCSS/MobileDPort/breakPoint.css";
+import "./customCSS/SDesktopBase/breakPoint.css";
+import "./customCSS/TabletD/breakPoint.css";
+import "./customCSS/MobileDLand/breakPoint.css";
+import "./customCSS/SDesktopBase/breakPoint.css";
+import "./customCSS/LDesktopS/breakPoint.css";
 
 import "./customCSS/NoneRes/noneRes.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Landing from './page/LandingPages.js';
-import FontEnd from './page/FontEnd.js';
-import BackEnd from './page/BackEnd.js';
+import Landing from './page/landingPages.js';
+import FontEnd from './page/fontEnd.js';
+import BackEnd from './page/backEnd.js';
 import OtherC from './page/otherC.js';
 
 
