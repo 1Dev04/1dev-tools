@@ -28,31 +28,31 @@
         display: none;
     }
 
-        /* menu */
-    
-        .navbar a {
-            font-size: 1.7rem;
-            color: var(--text-color);
-            margin-left: 4rem;
-            transition: .5s ease;
-        }
-    
-        /* hover navbar */
-        
-        .navbar a:hover,
-        .navbar a.active {
-            color: var(--main-color);
-            transition: .5s ease;
-            transform: scale(1.2) translateY(-0.2rem);
-            filter: drop-shadow(0px 1px 5px var(--main-color));
-        }
-        
-        /* active me */
-        
-        .navbar.active {
-            display: none;
-            transform: translateX(0%);
-        }
+    /* menu */
+
+    .navbar a {
+        font-size: 1.7rem;
+        color: var(--text-color);
+        margin-left: 4rem;
+        transition: .5s ease;
+    }
+
+    /* hover navbar */
+
+    .navbar a:hover,
+    .navbar a.active {
+        color: var(--main-color);
+        transition: .5s ease;
+        transform: scale(1.2) translateY(-0.2rem);
+        filter: drop-shadow(0px 1px 5px var(--main-color));
+    }
+
+    /* active me */
+
+    .navbar.active {
+        display: none;
+        transform: translateX(0%);
+    }
 
     /* Body */
 
@@ -89,11 +89,11 @@
 
     .about {
         display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    transition: .5s ease;
-    background-color: var(--about-color);
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        transition: .5s ease;
+        background-color: var(--about-color);
     }
 
     /* about immage */
@@ -138,14 +138,14 @@
 
     .about .about-content p {
         font-family: "Source Code Pro", monospace;
-       
+
         margin: 2rem 0 3rem;
         font-size: 1.5rem;
     }
 
-    
 
-   
+
+
 
     /* Frame one */
 
@@ -156,9 +156,9 @@
         padding: 0.2rem 9%;
         flex-direction: column;
     }
-    
+
     /* Navbar text */
-   
+
     .fixed-top .header .logo {
         font-family: "Orbitron", sans-serif;
         font-optical-sizing: auto;
@@ -170,7 +170,7 @@
     .home .home-img img {
         position: sticky;
         margin-top: 4rem;
-        width:280px;
+        width: 280px;
         left: 180px;
         animation: floatImage1 8s ease-in-out infinite;
         filter: drop-shadow(0px 1px 5px var(--main-color));
@@ -189,7 +189,7 @@
         font-family: "Orbitron", sans-serif;
         font-optical-sizing: auto;
         font-size: 2.8rem;
-        
+
     }
 
     /* Three text to frame one */
@@ -197,7 +197,7 @@
     .home .home-content h2 {
         font-family: "Orbitron", sans-serif;
         font-size: 1.7rem;
-        
+
         font-optical-sizing: auto;
     }
 
@@ -210,7 +210,7 @@
         font-size: 4rem;
     }
 
-     /* One text to frame one span*/
+    /* One text to frame one span*/
 
     .home-content h3 span {
         font-family: "Orbitron", sans-serif;
@@ -247,64 +247,64 @@
     /* icon animation in  Frame one */
 
 
-    .social-media a:hover .T1  {
+    .social-media a:hover .T1 {
         transition: 0.7s ease;
         transform: scale(1.8) rotate(360deg);
-    }   
+    }
 
-    .social-media a .T2   {
+    .social-media a .T2 {
         transition: 0.7s ease;
         transform: scale(1) rotate(-360deg);
-    }   
+    }
 
-    .social-media a:hover .T2  {
+    .social-media a:hover .T2 {
         transition: 0.7s ease;
         transform: scale(1.8) rotate(360deg);
-    }   
+    }
 
-    .social-media a .T3   {
+    .social-media a .T3 {
         transition: 0.7s ease;
         transform: scale(1) rotate(-360deg);
-    }   
+    }
 
-    .social-media a:hover .T3  {
+    .social-media a:hover .T3 {
         transition: 0.7s ease;
         transform: scale(1.8) rotate(360deg);
-    }   
+    }
 
-    .social-media a .T4   {
+    .social-media a .T4 {
         transition: 0.7s ease;
         transform: scale(1) rotate(-360deg);
-    }   
+    }
 
-    .social-media a:hover .T4  {
+    .social-media a:hover .T4 {
         transition: 0.7s ease;
         transform: scale(1.8) rotate(360deg);
-    }   
+    }
 
-    .social-media a .T5   {
+    .social-media a .T5 {
         transition: 0.7s ease;
         transform: scale(1.8) rotate(-360deg);
-    }   
+    }
 
-    .social-media a:hover .T5  {
+    .social-media a:hover .T5 {
         transition: 0.7s ease;
         transform: scale(1.8) rotate(360deg);
-    }   
+    }
 
-    .social-media a .T6   {
+    .social-media a .T6 {
         transition: 0.7s ease;
         transform: scale(1) rotate(-360deg);
-    }   
+    }
 
-    .social-media a:hover .T6  {
+    .social-media a:hover .T6 {
         transition: 0.7s ease;
         transform: scale(1.8) rotate(360deg);
-    }   
+    }
 
- 
-    
- 
+
+
+
     /* icon to frame one span */
 
     .social-media a:hover {
@@ -317,12 +317,12 @@
 
     /* Tap to Certificate */
 
-    .services  h2 {
+    .services h2 {
         margin-bottom: 2rem;
-        
+
     }
 
-    /* Certificate boder  */ 
+    /* Certificate boarder  */
 
     .services .services-container {
         display: flex;
@@ -358,7 +358,7 @@
         transition: 0.5s ease;
     }
 
-    /* Boder inside to Certificate */
+    /* boarder inside to Certificate */
 
     .services-container .services-box {
         flex: 0.3 2 30rem;
@@ -371,13 +371,13 @@
         box-shadow: 0 0 1rem var(--main-color);
     }
 
-    /* Boder inside to Certificate hover*/
+    /* boarder inside to Certificate hover*/
 
     .services-container .services-box:hover {
         border-color: var(--main-color);
     }
 
-     /* One Text boder inside to Certificate */
+    /* One Text boarder inside to Certificate */
 
     .services .services-container .services-box h3 {
         font-family: "Orbitron", sans-serif;
@@ -385,7 +385,7 @@
         font-size: 3rem;
     }
 
-     /* Three Text boder inside to Certificate */
+    /* Three Text boarder inside to Certificate */
 
     .services .services-container .services-box p {
         font-family: "Source Code Pro", monospace;
@@ -394,7 +394,7 @@
         margin: 0.8rem 0 1rem;
     }
 
-     /* Button boder inside to Certificate */
+    /* Button boarder inside to Certificate */
 
     .services .services-container .services-box button {
         font-family: "Source Code Pro", monospace;
@@ -415,7 +415,7 @@
     }
 
     /* One text to Myskill span */
-    
+
     .heading span {
         font-family: "Orbitron", sans-serif;
         text-align: center;
@@ -423,7 +423,7 @@
         transition: 0.5 ease;
     }
 
-     /* Two text to Myskil */
+    /* Two text to Myskill */
 
     .Technical-bar h2 {
         font-family: "Orbitron", sans-serif;
@@ -445,7 +445,7 @@
         transition: 0.5s ease;
     }
 
-     /* Three text to Myskill */
+    /* Three text to Myskill */
 
     .heading1 {
         font-family: "Source Code Pro", monospace;
@@ -459,7 +459,7 @@
         transition: 0.5s ease;
     }
 
-     /* bar to Myskill */
+    /* bar to Myskill */
 
     .bar {
         font-size: 25px;
@@ -502,10 +502,10 @@
         opacity: 0;
     }
 
-    /* boader inside My Skill  */
+    /* boarder inside My Skill  */
 
     .Technical-bar .bar .progress-line1 {
-        
+
         position: relative;
         border-radius: 10px;
         width: 100%;
@@ -525,7 +525,7 @@
     /* inside bars span to Myskill  */
 
     .Technical-bar .bar .progress-line1 span {
-        
+
         height: 100%;
         background-color: var(--main-color);
         position: absolute;
@@ -536,9 +536,9 @@
         transition: 0.5s ease;
     }
 
-     /* radial-bars text to Myskill  */
+    /* radial-bars text to Myskill  */
 
-     .Technical-bar .radial-bars .radial-bar .text{
+    .Technical-bar .radial-bars .radial-bar .text {
         font-family: "Source Code Pro", monospace;
         font-size: 20px;
     }
@@ -549,43 +549,43 @@
         width: 80%;
     }
 
-     /* count bar to Myskill  */
+    /* count bar to Myskill  */
 
     .progress-line1.css span {
         width: 80%;
     }
 
-     /* count bar to Myskill  */
+    /* count bar to Myskill  */
 
     .progress-line1.javascript span {
         width: 60%;
     }
 
-     /* count bar to Myskill  */
+    /* count bar to Myskill  */
 
     .progress-line1.java span {
         width: 100%;
     }
 
-     /* count bar  to Myskill  */
+    /* count bar  to Myskill  */
 
     .progress-line1.python span {
         width: 50%;
     }
 
-     /* count bar  to Myskill  */
+    /* count bar  to Myskill  */
 
     .progress-line1.c span {
         width: 90%;
     }
 
-     /* count bar  to Myskill  */
+    /* count bar  to Myskill  */
 
     .progress-line1.post span {
         width: 100%;
     }
 
-     /* count bar after span to Myskill  */
+    /* count bar after span to Myskill  */
 
     .progress-line1 span::after {
         position: absolute;
@@ -601,51 +601,51 @@
         transition: 0.5s ease;
     }
 
-   
 
-     /* popup text to Myskill  */
+
+    /* popup text to Myskill  */
 
     .progress-line1.html span::after {
         content: "80%";
     }
 
-     /* popup text to Myskill  */
+    /* popup text to Myskill  */
 
     .progress-line1.css span::after {
         content: "80%";
     }
 
-     /* popup text to Myskill  */
+    /* popup text to Myskill  */
 
     .progress-line1.javascript span::after {
         content: "60%";
     }
 
-     /* popup text to Myskill  */
+    /* popup text to Myskill  */
 
     .progress-line1.java span::after {
         content: "100%";
     }
 
-     /* popup text to Myskill  */
+    /* popup text to Myskill  */
 
     .progress-line1.python span::after {
         content: "50%";
     }
 
-     /* popup text to Myskill  */
+    /* popup text to Myskill  */
 
     .progress-line1.c span::after {
         content: "90%";
     }
 
-     /* popup text to Myskill  */
+    /* popup text to Myskill  */
 
     .progress-line1.post span::after {
         content: "100%";
     }
 
-     /* popup text to Myskill  */
+    /* popup text to Myskill  */
 
     .progress-line1 span::before {
         content: " ";
@@ -663,7 +663,7 @@
         transition: 0.5s ease;
     }
 
-     /* radial-bars to Myskill  */
+    /* radial-bars to Myskill  */
 
     .radial-bars {
         width: 100%;
@@ -673,7 +673,7 @@
         align-items: flex-start;
     }
 
-     /* radial-bar to Myskill  */
+    /* radial-bar to Myskill  */
 
     .radial-bars .radial-bar {
         width: 50%;
@@ -703,7 +703,7 @@
         animation: animation-bar 1s linear forwards;
     }
 
-      /* path in My skill  */
+    /* path in My skill  */
 
 
     .path {
@@ -715,7 +715,7 @@
         stroke-linecap: round;
         transition: 0.5s ease;
     }
-    
+
     /* ANIMATION in My skill  */
 
     .path-1 {
@@ -738,7 +738,7 @@
 
     .path-4 {
         animation: animate-path4 0.8s 1s linear forwards;
-        
+
     }
 
     /* percentage in My skill  */
@@ -754,7 +754,7 @@
         opacity: 0;
     }
 
-     /* progress-bar text in My skill  */
+    /* progress-bar text in My skill  */
 
     .radial-bar .progress-bar .text {
         width: 100%;
@@ -767,7 +767,7 @@
         animation: showText 0.5s linear forwards;
         opacity: 0;
     }
- 
+
     /* Projects span in Project */
 
     .projects span {
@@ -781,7 +781,7 @@
         gap: 2rem;
     }
 
-      /* distane border in Project */
+    /* distand border in Project */
 
     .portfolio-container {
         display: grid;
@@ -790,7 +790,7 @@
         gap: 2rem;
     }
 
-      /* box radius in Project */
+    /* box radius in Project */
 
     .portfolio-container .portfolio-box {
         position: relative;
@@ -800,7 +800,7 @@
         display: flex;
     }
 
-      /* image in Project */
+    /* image in Project */
 
     .portfolio-box img {
         width: 100%;
@@ -808,7 +808,7 @@
         transition: .9s ease;
     }
 
-      /* image hover in Project */
+    /* image hover in Project */
 
     .portfolio-box:hover img {
         width: 100%;
@@ -816,7 +816,7 @@
         transition: .9s ease;
     }
 
-      /* box animation  in Project */
+    /* box animation  in Project */
 
     .portfolio-box .portfolio-layer {
         position: absolute;
@@ -835,26 +835,26 @@
         transition: .9s ease;
     }
 
-      /* hover animation  in Project */
+    /* hover animation  in Project */
 
     .portfolio-box:hover .portfolio-layer {
         transform: translateY(0);
     }
 
-      /* background hover in Project */
+    /* background hover in Project */
 
     .portfolio-box:hover {
         background-color: var(--box-theme-color);
     }
 
-      /* One text in Project */
+    /* One text in Project */
 
     .portfolio-box .portfolio-layer h4 {
         font-family: "Orbitron", sans-serif;
         font-size: 3.4rem;
     }
 
-      /* Two text in Project */
+    /* Two text in Project */
 
     .portfolio-box .portfolio-layer p {
         font-family: "Source Code Pro", monospace;
@@ -873,14 +873,14 @@
         background: var(--text-color);
         border-radius: 50%;
         transition: .8s ease;
-        transform: scale(1) ;
+        transform: scale(1);
         margin: 1rem;
     }
 
-    .portfolio-layer a:hover{
+    .portfolio-layer a:hover {
         transition: .8s ease;
         transform: scale(1.1) rotate(-360deg);
-        box-shadow: 0rem 0px 1rem 2px var(--text-color) ;
+        box-shadow: 0rem 0px 1rem 2px var(--text-color);
     }
 
 
@@ -891,10 +891,10 @@
     .portfolio-layer a i {
         font-size: 2.3rem;
         color: var(--second-bg-color);
-        
+
     }
 
-    
+
 
 
     /* Contact */
@@ -927,7 +927,7 @@
     .btn1 {
         font-family: "Source Code Pro", monospace;
         display: inline-block;
-        padding: 1rem 3rem ;
+        padding: 1rem 3rem;
         border-radius: 1rem;
         box-shadow: 0 0 10px var(--main-color);
         font-size: 1.7rem;
@@ -939,29 +939,30 @@
 
     /* animaton 1 before / after in Certificate */
 
-      .btn1:hover::before, .btn1:hover::after {
+    .btn1:hover::before,
+    .btn1:hover::after {
         transform: scale(1.2);
         transition: .8s ease;
-        
-      }
 
-      /* animation 1 hover  in Certificate */
-      
-      .btn1:hover {
+    }
+
+    /* animation 1 hover  in Certificate */
+
+    .btn1:hover {
         transition: .8s ease;
-        box-shadow: inset 0px 0px 15px var(--main-color),0 0 1.2rem var(--main-color);
+        box-shadow: inset 0px 0px 15px var(--main-color), 0 0 1.2rem var(--main-color);
         transform: scale(1.1);
         border: 1px solid var(--main-color);
-      }
+    }
 
-      /* animation 2 in Certificate */
+    /* animation 2 in Certificate */
 
     .btn11 {
         font-family: "Source Code Pro", monospace;
         display: inline-block;
-        padding: 0.7rem 1.1rem ;
+        padding: 0.7rem 1.1rem;
         border-radius: 1rem;
-       
+
         box-shadow: 0 0 10px var(--main-color);
         font-size: 1rem;
         color: var(--text-color);
@@ -969,8 +970,8 @@
         font-weight: 600;
         transition: .5s ease;
     }
-    
-   /* 
+
+    /* 
     .btn11:hover {
        
         box-shadow: 0px 0px 1px rgb(163, 255, 151) inset,
@@ -987,22 +988,23 @@
 
     /*animation 2 before / after in contact */
 
-      .services-box  button:hover::before,.services-box button:hover::after {
+    .services-box button:hover::before,
+    .services-box button:hover::after {
         transform: scale(1.2);
         transition: .8s ease;
-        
-      }
 
-      /* animation 2 hover in contact */
-      
-      .services-box button:hover {
+    }
+
+    /* animation 2 hover in contact */
+
+    .services-box button:hover {
         transition: .8s ease;
-        box-shadow: inset 0px 0px 15px var(--main-color),0 0 1.2rem var(--main-color);
+        box-shadow: inset 0px 0px 15px var(--main-color), 0 0 1.2rem var(--main-color);
         transform: scale(1.1);
         border: 1px solid var(--main-color);
-      }
+    }
 
-      /*body input in contact */
+    /*body input in contact */
 
     form .input-box {
 
@@ -1023,8 +1025,8 @@
     .input-box .input-field1 {
         width: 48.5%;
     }
-    
-     /* inside item in contact  */
+
+    /* inside item in contact  */
 
     .field .item {
         width: 100%;
@@ -1038,14 +1040,14 @@
         margin: 12px 0;
     }
 
-     /* font  in contact  */
+    /* font  in contact  */
 
     .field .item::placeholder {
         font-family: "Source Code Pro", monospace;
         color: var(--text-color);
     }
 
-     /* background inside input  in contact  */
+    /* background inside input  in contact  */
 
     form .textarea-field .item,
     .contact form .input-box input {
@@ -1062,7 +1064,6 @@
 
     .contact form .input-box input {
         width: 100%;
-
     }
 
     /* message in contact  */
@@ -1074,7 +1075,27 @@
 
     /*  error 1 in contact  */
 
-    .field .error-txt {
+    .field1 .error-txt {
+        font-family: "Source Code Pro", monospace;
+        font-size: 11px;
+        color: var(--main-color);
+        text-align: right;
+        margin: -1px 0 10px;
+        transition: .5s ease;
+        display: none;
+    }
+
+    .field2 .error-txt {
+        font-family: "Source Code Pro", monospace;
+        font-size: 11px;
+        color: var(--main-color);
+        text-align: right;
+        margin: -1px 0 10px;
+        transition: .5s ease;
+        display: none;
+    }
+
+    .field3 .error-txt {
         font-family: "Source Code Pro", monospace;
         font-size: 11px;
         color: var(--main-color);
@@ -1085,30 +1106,38 @@
     }
 
 
-    
+
+
     /* color error 1 in contact  */
-    
-    .field.error .item {
+
+    .field1 .item {
         border-color: rgb(247, 55, 55);
         transition: .2s ease;
     }
 
 
-
-
     /* text error 1 in contact  */
-
-    .field.error .error-txt {
+    .field1 .error-txt {
         transition: .5 ease;
-        display: block;
+        display: none;
     }
 
-    
+    .field2 .error-txt {
+        transition: .5 ease;
+        display: none;
+    }
+
+    .field3 .error-txt {
+        transition: .5 ease;
+        display: none;
+    }
+
+
 
     /* Footer */
 
-    
-     /* body in footer  */
+
+    /* body in footer  */
 
     .footer {
         display: flex;
@@ -1117,11 +1146,11 @@
         flex-wrap: wrap;
         padding: 2rem 9%;
         background: var(--box-color);
-    
+
     }
 
-    
-     /* text in footer  */
+
+    /* text in footer  */
 
     .footer p {
         font-family: "Source Code Pro", monospace;
@@ -1130,8 +1159,8 @@
         margin-top: 1rem;
     }
 
-    
-     /* icon link in footer  */
+
+    /* icon link in footer  */
 
     .footer-iconTop a {
         display: inline-flex;
@@ -1143,14 +1172,14 @@
         transition: .5s ease;
     }
 
-    
-     /* hover icon in footer  */
+
+    /* hover icon in footer  */
 
     .footer-iconTop a:hover {
         box-shadow: 0 0 2rem var(--main-color);
     }
 
-     /* icon in footer  */
+    /* icon in footer  */
 
     .footer-iconTop a i {
         font-size: 2.1rem;
@@ -1180,7 +1209,7 @@
 
     @keyframes floatImage2 {
         0% {
-            transform: rotate(10deg)  scale(0.9);
+            transform: rotate(10deg) scale(0.9);
         }
 
         50% {
@@ -1188,9 +1217,9 @@
         }
 
         100% {
-            transform:  scale(0.9) rotate(10deg);
+            transform: scale(0.9) rotate(10deg);
         }
 
-      
+
     }
 }

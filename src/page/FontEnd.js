@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import powerBi from "../asset/certificate/powerBi.jpg";
 import GoogleC from "../asset/certificate/GoogleC.png";
 import Reacts from "../asset/certificate/React.png";
@@ -7,16 +7,15 @@ import Reacts from "../asset/certificate/React.png";
 import '../customCSS/App.css'
 import "../customCSS/index.css";
 
-const FontEnd = () => {
+function FontEnd(){
     return (
-        <div>
-
+        <div className="frontend">
             <navbar className=" footer foot-color  p-2 fixed-top box ">
                 <div className="container-fluid">
-                    <Link to="#" className="bi bi-box-fill navbar-brand  navbar-brand rounded  fs-1">
+                    <div className="bi bi-box-fill navbar-brand  navbar-brand rounded  fs-1" to="">
                         {" "}
                         Font-End-Diary
-                    </Link>
+                    </div>
                 </div>
             </navbar>
 
@@ -99,7 +98,7 @@ const FontEnd = () => {
                 </div>
             </section>
             <footer className="footer foot-color  p-2 fixed-bottom box">
-                <Link className="bi bi-box-arrow-in-left size-16 navbar-brand rounded   fs-1" to="/"> {" "} Back
+                <Link className="bi bi-box-arrow-in-left size-16 navbar-brand rounded   fs-1" to="/#home">  Back
                 </Link>
             </footer>
         </div>

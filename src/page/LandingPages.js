@@ -1,5 +1,5 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { useNavigate , useLocation } from 'react-router-dom';
 import Navbar from '../component/Navbar.js';
 import Footer from '../component/Footer.js';
 import Contact from '../component/contact.js';
@@ -18,18 +18,22 @@ function LandingPage() {
     const navigate = useNavigate();
 
     const handleClick1 = () => {
-        navigate("/Font-End-Dialy");
+        navigate("/Font-End-Daily");
     };
 
     const handleClick2 = () => {
-        navigate("/Back-End-Dialy");
+        navigate("/Back-End-Daily");
+    };
+
+    const handleClick3 = () => {
+        navigate("/Other-Daily");
     };
 
     React.useEffect(() => {
         const typed = new Typed('.multiple-text', {
             strings: ['Full Stack Developer', 'Game Developer', 'Rapper'],
-            typeSpeed: 100,
-            backSpeed: 100,
+            typeSpeed: 50,
+            backSpeed: 50,
             loop: true
         });
         return () => {
@@ -38,25 +42,36 @@ function LandingPage() {
         };
     }, []);
 
+    const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+
     return (
         <div className="dark">
-        <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
-	<div class="wheel"></div>
-	<div class="hamster">
-		<div class="hamster__body">
-			<div class="hamster__head">
-				<div class="hamster__ear"></div>
-				<div class="hamster__eye"></div>
-				<div class="hamster__nose"></div>
+        <div aria-label="Orange and tan hamster running in a metal wheel" role="img" className="wheel-and-hamster">
+	<div className="wheel"></div>
+	<div className="hamster">
+		<div className="hamster__body">
+			<div className="hamster__head">
+				<div className="hamster__ear"></div>
+				<div className="hamster__eye"></div>
+				<div className="hamster__nose"></div>
 			</div>
-			<div class="hamster__limb hamster__limb--fr"></div>
-			<div class="hamster__limb hamster__limb--fl"></div>
-			<div class="hamster__limb hamster__limb--br"></div>
-			<div class="hamster__limb hamster__limb--bl"></div>
-			<div class="hamster__tail"></div>
+			<div className="hamster__limb hamster__limb--fr"></div>
+			<div className="hamster__limb hamster__limb--fl"></div>
+			<div className="hamster__limb hamster__limb--br"></div>
+			<div className="hamster__limb hamster__limb--bl"></div>
+			<div className="hamster__tail"></div>
 		</div>
 	</div>
-	<div class="spoke"></div>
+	<div className="spoke"></div>
 </div>
             <Navbar />
             <section className="home" id="home">
@@ -67,7 +82,7 @@ function LandingPage() {
                     <h3 className="text-center">Hello, <span>It's me</span></h3>
                     <h1 className="text-center">Krittiphon Yoonaitham</h1>
                     <br></br>
-                    <h2 className="text-center">I'm a   
+                    <h2 className="text-center">I'm a {" "}  
                         <span className="multiple-text"> </span>
                     </h2>
         
@@ -106,11 +121,18 @@ function LandingPage() {
                         <button onClick={handleClick1} className="btn1  bi bi-box-arrow-in-up-right "> Readmore</button>
                     </div>
                     <div className="services-box">
+                        <i class='bx bx-certification'></i>
+                        <h3>Other Certificate</h3>
+                        <p>I have been to other certificate from event and another position job.</p>
+                        <button onClick={handleClick3} className="btn1   bi bi-box-arrow-in-up-right"> Readmore</button>
+                    </div>
+                    <div className="services-box">
                         <i className="bx bx-code-curly"></i>
                         <h3>Back-End Developer</h3>
                         <p>I can create about Back-End Developers and create exactly what I have in mind.</p>
                         <button onClick={handleClick2} className="btn1   bi bi-box-arrow-in-up-right"> Readmore</button>
                     </div>
+                    
                 </div>
             </section>
 

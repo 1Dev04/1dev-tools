@@ -1,6 +1,6 @@
 import React, { useRef , useState } from 'react';
 import emailJS from '@emailjs/browser';
-import Sweet2 from 'sweetalert2'
+import Sweet2 from 'sweetalert2';
 
 const Contact = () => {
     
@@ -154,7 +154,7 @@ const Contact = () => {
             <form className="form" ref={form} onSubmit={sendEmail}>
                 <input type="hidden" name="access_key" value="f32ccc1d-a16d-4e75-a154-b3a87f654187" />
                 <div className="input-box">
-                    <div className="input-field field1">
+                    <div className="input-field  field1">
                         <input type="text" name="user_name" placeholder="Full Name" value={UserFull}  className="item i1" maxLength={35} autoComplete="off"   onChange={handleFullChange}  />
                         <div className="error-txt full">Full Name should be entered.</div>
                     </div>
