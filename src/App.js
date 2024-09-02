@@ -14,7 +14,7 @@ import './customCSS/TD/breakPoint.css'
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Landing from './page/landingPages.js';
+import Landing from './page/LandingPages.js';
 import FontEnd from './page/fontEnd.js';
 import BackEnd from './page/backEnd.js';
 import OtherC from './page/otherC.js';
