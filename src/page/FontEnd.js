@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import powerBi from "../asset/certificate/powerBi.jpg";
-import GoogleC from "../asset/certificate/GoogleC.png";
-import Reacts from "../asset/certificate/React.png";
+import powerBi from "../asset/certificate/frontend/powerBi.jpg";
+import GoogleC from "../asset/certificate/frontend/GoogleC.png";
+import Reacts from "../asset/certificate/frontend/React.png";
 
 
 import "../customCSS/index.css";
@@ -14,7 +14,7 @@ function FontEnd(){
                 <div className="container-fluid">
                     <div className="bi bi-box-fill navbar-brand  navbar-brand rounded  fs-1" to="">
                         {" "}
-                        Font-End-Diary
+                        Front-End-Diary
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@ function FontEnd(){
                         <img
                             src={powerBi}
                             className=" card-img-top bg-origin-content p-2 "
-                            alt="00"
+                            alt="Frontend"
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
@@ -53,7 +53,7 @@ function FontEnd(){
                         <img
                             src={GoogleC}
                             className=" card-img-top bg-origin-content p-2 "
-                            alt="00"
+                            alt="Frontend"
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
@@ -76,7 +76,7 @@ function FontEnd(){
                         <img
                             src={Reacts}
                             className=" card-img-top bg-origin-content p-2 "
-                            alt="00"
+                            alt="Frontend"
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">

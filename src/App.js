@@ -26,7 +26,7 @@ function App() {
     <Router>
       <Routes>
           <Route path="/" element={<Landing />} ></Route>
-          <Route path="/Font-End-Daily" element={<FontEnd />}></Route>
+          <Route path="/Front-End-Daily" element={<FontEnd />}></Route>
           <Route path="/Back-End-Daily" element={<BackEnd />}></Route>
           <Route path="/Other-Daily" element={<OtherC />}></Route>
       </Routes>

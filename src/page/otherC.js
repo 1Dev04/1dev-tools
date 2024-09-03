@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import A1 from "../asset/certificate/A1.png";
-import A2 from "../asset/certificate/A2.png";
-import A3 from "../asset/certificate/A3.png";
-import A4 from "../asset/certificate/A4.png";
-import A5 from "../asset/certificate/A5.png";
-import A6 from "../asset/certificate/A6.png";
-import A7 from "../asset/certificate/A7.png";
-import A8 from "../asset/certificate/A8.png";
-import A9 from "../asset/certificate/A9.png";
-import A10 from "../asset/certificate/A10.png";
-import A11 from "../asset/certificate/A11.png";
-import A12 from "../asset/certificate/A12.png";
-import A13 from "../asset/certificate/A13.png";
+import A1 from "../asset/certificate/other/A1.png";
+import A2 from "../asset/certificate/other/A2.png";
+import A3 from "../asset/certificate/other/A3.png";
+import A4 from "../asset/certificate/other/A4.png";
+import A5 from "../asset/certificate/other/A5.png";
+import A6 from "../asset/certificate/other/A6.png";
+import A7 from "../asset/certificate/other/A7.png";
+import A8 from "../asset/certificate/other/A8.png";
+import A9 from "../asset/certificate/other/A9.png";
+import A10 from "../asset/certificate/other/A10.png";
+import A11 from "../asset/certificate/other/A11.png";
+import A12 from "../asset/certificate/other/A12.png";
+import A13 from "../asset/certificate/other/A13.png";
 
 
 import "../customCSS/index.css";
@@ -29,7 +29,7 @@ function BackEnd(){
                         className="bi bi-box-fill navbar-brand  navbar-brand rounded  fs-1"
                     >
                         {" "}
-                        Other-Diary
+                        Other-ones-Diary
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ function BackEnd(){
                         <img
                             src={A1}
                             className=" card-img-top bg-origin-content p-2 "
-                            alt="00"
+                            alt="other ones"
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
@@ -68,7 +68,7 @@ function BackEnd(){
                         <img
                             src={A2}
                             className=" card-img-top bg-origin-content p-2 "
-                            alt="00"
+                            alt="other ones"
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
@@ -89,7 +89,7 @@ function BackEnd(){
                         <img
                             src={A3}
                             className=" card-img-top bg-origin-content p-2 "
-                            alt="00"
+                            alt="other ones"
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
@@ -110,7 +110,7 @@ function BackEnd(){
                         <img
                             src={A4}
                             className=" card-img-top bg-origin-content p-2 "
-                            alt="00"
+                            alt="other ones"
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
@@ -131,7 +131,7 @@ function BackEnd(){
                         <img
                             src={A5}
                             className=" card-img-top bg-origin-content p-2 "
-                            alt="00"
+                            alt="other ones"
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
@@ -152,7 +152,7 @@ function BackEnd(){
                         <img
                             src={A6}
                             className=" card-img-top bg-origin-content p-2 "
-                            alt="00"
+                            alt="other ones"
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
