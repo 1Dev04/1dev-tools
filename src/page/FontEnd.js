@@ -47,6 +47,7 @@ function FontEnd(){
 
 
                         </div>
+
                     </div>
 
                     <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
