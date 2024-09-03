@@ -29,7 +29,7 @@ function LandingPage() {
 
     React.useEffect(() => {
         const typed = new Typed(".multiple-text", {
-            strings: ["Full Stack Developer", "Game Developer", "Rapper"],
+            strings: ["Full Stack Developer", "Game Developer", "Rapper", "Web Developer"],
             typeSpeed: 50,
             backSpeed: 50,
             loop: true,
