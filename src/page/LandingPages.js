@@ -117,7 +117,6 @@ function LandingPage() {
                     <h2 className="heading text-center ">
                         About<span>Me</span>
                     </h2>
-                    <h3 className="fs-1 text-center"> Full Stack Deverloper</h3>
                     <p>
                         Hello there! <br /> My name is Krittiphon Yoonaitham. l'm 20 years
                         old. I'm from Bang pa han Ayutthaya. I'm currently pursuing the

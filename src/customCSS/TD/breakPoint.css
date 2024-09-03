@@ -241,7 +241,7 @@
         0 0 6rem var(--main-color),
         0 0 9.5rem var(--main-color);
         */
-        transition: 0.1s ease;
+        transition: 0.7s ease;
         transform: scale(1) rotate(-360deg);
     }
 
@@ -314,6 +314,7 @@
         background: var(--main-color);
         color: var(--second-bg-color);
         box-shadow: 0 0 1rem var(--main-color);
+        
     }
 
     /* Certificate */
@@ -848,7 +849,7 @@
 
     .radial-bars .radial-bar .progress-bar {
         stroke-width: 10;
-        stroke: var(--text-color);
+        stroke: var(--second-bg-color);
         fill: transparent;
         stroke-dasharray: 502;
         stroke-dashoffset: 502;
