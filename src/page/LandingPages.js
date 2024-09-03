@@ -117,19 +117,19 @@ function LandingPage() {
                     <div className="services-box">
                         <i className="bx bx-code-alt"></i>
                         <h3>Font-End Developer</h3>
-                        <p>Certificates of Training to become a Font-End Developer</p>
+                        <p>Certificates of Training to become a Font-End Developer.</p>
                         <button onClick={handleClick1} className="btn1  bi bi-box-arrow-in-up-right "> Readmore</button>
                     </div>
                     <div className="services-box">
                         <i className='bx bx-certification'></i>
-                        <h3>Other Certificates</h3>
-                        <p>Other certificates from another events.</p>
+                        <h3>Other</h3>
+                        <p>Other certificates related to the profession.</p>
                         <button onClick={handleClick3} className="btn1   bi bi-box-arrow-in-up-right"> Readmore</button>
                     </div>
                     <div className="services-box">
                         <i className="bx bx-code-curly"></i>
                         <h3>Back-End Developer</h3>
-                        <p>Certificates of Training to become a Back-End Developer</p>
+                        <p>Certificates of Training to become a Back-End Developer.</p>
                         <button onClick={handleClick2} className="btn1   bi bi-box-arrow-in-up-right"> Readmore</button>
                     </div>
                     
@@ -204,6 +204,15 @@ function LandingPage() {
                         </div>
                     </div><br />
 
+                    <div className="bar"><i style={{ color: '#6fdafc', }} className="bx bxl-go-lang"></i>
+                        <div className="indfo">
+                            <span>Golang</span>
+                        </div>
+                        <div className="progress-line1 go">
+                            <span></span>
+                        </div>
+                    </div><br />
+
                     <div className="bar"><i style={{ color: '#c800ff', }} className="bx bxl-postgresql"></i>
                         <div className="indfo">
                             <span>Postgresql</span>
@@ -212,6 +221,114 @@ function LandingPage() {
                             <span></span>
                         </div>
                     </div><br />
+
+                    <div className="bar"><i style={{ color: '#63ffd7', }} className="bx bxs-data"></i>
+                        <div className="indfo">
+                            <span>MySQL</span>
+                        </div>
+                        <div className="progress-line1 mySQL">
+                            <span></span>
+                        </div>
+                    </div><br />
+
+                    <div className="bar"><i style={{ color: '#ffc433', }} className="bx bxl-ok-ru"></i>
+                        <div className="indfo">
+                            <span>Postman</span>
+                        </div>
+                        <div className="progress-line1 postM">
+                            <span></span>
+                        </div>
+                    </div><br />
+
+                    <div className="bar"><i style={{ color: '#2894ff', }} className="bx bxl-docker"></i>
+                        <div className="indfo">
+                            <span>Docker</span>
+                        </div>
+                        <div className="progress-line1 Dock">
+                            <span></span>
+                        </div>
+                    </div><br />
+
+                    <div className="bar"><i style={{ color: '#af3cff', }} className="bx bxl-bootstrap"></i>
+                        <div className="indfo">
+                            <span>Bootstap5</span>
+                        </div>
+                        <div className="progress-line1 Boot">
+                            <span></span>
+                        </div>
+                    </div><br />
+
+                    <div className="bar"><i style={{ color: '#9ee5fc', }} className="bx bxl-tailwind-css"></i>
+                        <div className="indfo">
+                            <span>TailwindCSS</span>
+                        </div>
+                        <div className="progress-line1 Tail">
+                            <span></span>
+                        </div>
+                    </div><br />
+
+                    <h2 className="heading1">Computer<span> Skills</span></h2>
+                    
+                    <div className="bar"><i style={{ color: '#c100ff', }} className=""></i>
+                        <div className="indfo">
+                            <span>Word</span>
+                        </div>
+                        <div className="progress-line1 word">
+                            <span></span>
+                        </div>
+                    </div><br />    
+
+                    <div className="bar"><i style={{ color: '#c100ff', }} className=""></i>
+                        <div className="indfo">
+                            <span>Excel</span>
+                        </div>
+                        <div className="progress-line1 excel">
+                            <span></span>
+                        </div>
+                    </div><br />
+
+                    <div className="bar"><i style={{ color: '#c100ff', }} className=""></i>
+                        <div className="indfo">
+                            <span>PowerPoint</span>
+                        </div>
+                        <div className="progress-line1 powerp">
+                            <span></span>
+                        </div>
+                    </div><br />
+
+                    <div className="bar"><i style={{ color: '#ffff00', }} className=""></i>
+                        <div className="indfo">
+                            <span>PowerBI</span>
+                        </div>
+                        <div className="progress-line1 powerb">
+                            <span></span>
+                        </div>
+                    </div><br />
+
+
+
+                    <h2 className="heading1">Language<span> Skills</span></h2>
+                    
+                    <div className="bar"><i style={{ color: '#0000', }} className=""></i>
+                        <div className="indfo">
+                            <span>Thai</span>
+                        </div>
+                        <div className="progress-line1 TH">
+                            <span></span>
+                        </div>
+                    </div><br />
+
+                    <div className="bar"><i style={{ color: '#0000', }} className=""></i>
+                        <div className="indfo">
+                            <span>English</span>
+                        </div>
+                        <div className="progress-line1 Eng">
+                            <span></span>
+                        </div>
+                    </div><br />
+
+                    
+
 
                     <div className="contalner1">
                         <h2 className="heading1">Professional<span> Skills</span></h2>
@@ -253,6 +370,9 @@ function LandingPage() {
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
             </section>
 

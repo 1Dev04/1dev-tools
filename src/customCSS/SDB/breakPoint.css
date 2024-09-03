@@ -539,51 +539,10 @@
         font-size: 20px;
     }
 
-    /* count bar to Myskill  */
+   
+      /* count bar after span to Myskill  */
 
-    .progress-line1.html span {
-        width: 80%;
-    }
-
-    /* count bar to Myskill  */
-
-    .progress-line1.css span {
-        width: 80%;
-    }
-
-    /* count bar to Myskill  */
-
-    .progress-line1.javascript span {
-        width: 60%;
-    }
-
-    /* count bar to Myskill  */
-
-    .progress-line1.java span {
-        width: 100%;
-    }
-
-    /* count bar  to Myskill  */
-
-    .progress-line1.python span {
-        width: 50%;
-    }
-
-    /* count bar  to Myskill  */
-
-    .progress-line1.c span {
-        width: 90%;
-    }
-
-    /* count bar  to Myskill  */
-
-    .progress-line1.post span {
-        width: 100%;
-    }
-
-    /* count bar after span to Myskill  */
-
-    .progress-line1 span::after {
+      .progress-line1 span::after {
         position: absolute;
         padding: .3px 8px;
         background-color: var(--bg1-color);
@@ -597,49 +556,240 @@
         transition: 0.5s ease;
     }
 
+  /* count bar to Myskill  */
+
+  .progress-line1.html span {
+    width: 80%;
+}
+
+/* count bar to Myskill  */
+
+.progress-line1.css span {
+    width: 80%;
+}
+
+/* count bar to Myskill  */
+
+.progress-line1.javascript span {
+    width: 60%;
+}
+
+/* count bar to Myskill  */
+
+.progress-line1.java span {
+    width: 100%;
+}
+
+/* count bar  to Myskill  */
+
+.progress-line1.python span {
+    width: 50%;
+}
+
+/* count bar  to Myskill  */
+
+.progress-line1.c span {
+    width: 90%;
+}
+
+/* count bar  to Myskill  */
+
+.progress-line1.go span {
+    width: 90%;
+}
+
+/* count bar  to Myskill  */
+
+.progress-line1.post span {
+    width: 100%;
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.mySQL span {
+    width: 91%;
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.postM span {
+    width: 95%;
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.Dock span {
+    width: 100%;
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.Boot span {
+    width: 100%;
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.Tail span {
+    width: 100%;
+}
 
 
-    /* popup text to Myskill  */
+/* popup text to Myskill  word */
 
-    .progress-line1.html span::after {
-        content: "80%";
-    }
+.progress-line1.word span {
+    width: 98%;
+}
 
-    /* popup text to Myskill  */
+/* popup text to Myskill  excel */
 
-    .progress-line1.css span::after {
-        content: "80%";
-    }
+.progress-line1.excel span {
+    width: 97%;
+}
 
-    /* popup text to Myskill  */
+/* popup text to Myskill  powerp */
 
-    .progress-line1.javascript span::after {
-        content: "60%";
-    }
+.progress-line1.powerp span {
+    width: 98%;
+}
 
-    /* popup text to Myskill  */
 
-    .progress-line1.java span::after {
-        content: "100%";
-    }
+/* popup text to Myskill  powerb */
 
-    /* popup text to Myskill  */
+.progress-line1.powerb span {
+    width: 100%;
+}
 
-    .progress-line1.python span::after {
-        content: "50%";
-    }
+/* popup text to Myskill  Th */
 
-    /* popup text to Myskill  */
+.progress-line1.TH span {
+    width: 100%;
+}
 
-    .progress-line1.c span::after {
-        content: "90%";
-    }
+/* popup text to Myskill Eng */
 
-    /* popup text to Myskill  */
+.progress-line1.Eng span {
+    width: 50%;
+}
 
-    .progress-line1.post span::after {
-        content: "100%";
-    }
+/* popup text to Myskill  */
+
+.progress-line1.html span::after {
+    content: "80%";
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.css span::after {
+    content: "80%";
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.javascript span::after {
+    content: "60%";
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.java span::after {
+    content: "100%";
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.python span::after {
+    content: "50%";
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.c span::after {
+    content: "90%";
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.go span::after {
+    content: "90%";
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.post span::after {
+    content: "100%";
+}
+
+
+/* popup text to Myskill  */
+
+.progress-line1.mySQL span::after {
+    content: "91%";
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.postM span::after {
+    content: "95%";
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.Dock span::after {
+    content: "100%";
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.Boot span::after {
+    content: "100%";
+}
+
+/* popup text to Myskill  */
+
+.progress-line1.Tail span::after {
+    content: "100%";
+}
+
+
+
+
+/* popup text to Myskill  word */
+
+.progress-line1.word span::after {
+    content: "98%";
+}
+
+/* popup text to Myskill  excel */
+
+.progress-line1.excel span::after {
+    content: "97%";
+}
+
+/* popup text to Myskill  powerp */
+
+.progress-line1.powerp span::after {
+    content: "98%";
+}
+
+
+/* popup text to Myskill  powerb */
+
+.progress-line1.powerb span::after {
+    content: "100%";
+}
+
+/* popup text to Myskill  Th */
+
+.progress-line1.TH span::after {
+    content: "100%";
+}
+
+/* popup text to Myskill Eng */
+
+.progress-line1.Eng span::after {
+    content: "50%";
+}
 
     /* popup text to Myskill  */
 

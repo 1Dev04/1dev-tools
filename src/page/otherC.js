@@ -22,7 +22,7 @@ function BackEnd(){
     return (
         <div className="backend">
 
-            <navbar className=" footer foot-color p-2 fixed-top box">
+            <div className=" footer foot-color p-2 fixed-top box">
                 <div className="container-fluid">
                     <div
                         to="#"
@@ -32,7 +32,7 @@ function BackEnd(){
                         Other-Diary
                     </div>
                 </div>
-            </navbar>
+            </div>
 
 
             <section

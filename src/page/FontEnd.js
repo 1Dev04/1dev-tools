@@ -10,14 +10,14 @@ import "../customCSS/index.css";
 function FontEnd(){
     return (
         <div className="frontend">
-            <navbar className=" footer foot-color  p-2 fixed-top box ">
+            <div className=" footer foot-color  p-2 fixed-top box ">
                 <div className="container-fluid">
                     <div className="bi bi-box-fill navbar-brand  navbar-brand rounded  fs-1" to="">
                         {" "}
                         Font-End-Diary
                     </div>
                 </div>
-            </navbar>
+            </div>
 
             <section
                 className=" container-fluid  py-4 "
