@@ -236,12 +236,15 @@
         0 0 6rem var(--main-color),
         0 0 9.5rem var(--main-color);
         */
-        transition: 0.7s ease;
+        transition: 0.1s ease;
         transform: scale(1) rotate(-360deg);
     }
 
-    /* icon animation in  Frame one */
-
+       /* icon animation in  Frame one */
+       .social-media a .T1 {
+        transition: 0.7s ease;
+        transform: scale(1) rotate(-360deg);
+    }
 
     .social-media a:hover .T1 {
         transition: 0.7s ease;
@@ -250,12 +253,12 @@
 
     .social-media a .T2 {
         transition: 0.7s ease;
-        transform: scale(1) rotate(-360deg);
+        transform: scale(1) rotate(360deg);
     }
 
     .social-media a:hover .T2 {
         transition: 0.7s ease;
-        transform: scale(1.8) rotate(360deg);
+        transform: scale(1.8) rotate(-360deg);
     }
 
     .social-media a .T3 {
@@ -280,7 +283,7 @@
 
     .social-media a .T5 {
         transition: 0.7s ease;
-        transform: scale(1.8) rotate(-360deg);
+        transform: scale(1) rotate(-360deg);
     }
 
     .social-media a:hover .T5 {
@@ -297,8 +300,6 @@
         transition: 0.7s ease;
         transform: scale(1.8) rotate(360deg);
     }
-
-
 
 
     /* icon to frame one span */
