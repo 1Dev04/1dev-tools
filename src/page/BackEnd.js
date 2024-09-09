@@ -97,7 +97,7 @@ function BackEnd(){
                             <div className="overscroll-auto text-2xl text-center  "> 
                                 <br />
                                 <div className="overscroll-none">
-                                    I joined the Golang : Golang course with Udemy.I wrote and run C code using the Replit C online compiler & interpreter. Also I built the CakeCafe_C project with C     code.
+                                    I joined the Golang : Golang course with Udemy.
                                 </div>
                             </div>
                             <br />
