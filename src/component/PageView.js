@@ -23,7 +23,7 @@ function View() {
 
   return (
     <div className="body-view">
-      <h4 className="name"><i className="bx bx-user-circle color-icon"></i> <strong>{visitCount}</strong></h4>
+      <h4 className="name"><i className="bx bx-refresh color-icon"></i> <strong>{visitCount}</strong></h4>
     </div>
   );
 }
