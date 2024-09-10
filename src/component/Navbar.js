@@ -59,9 +59,9 @@ const Navbar = () => {
           PORTFOLIO
           
         </div>
-
+        
         <i className="bx bx-menu" id="menu-icon"></i>
-
+       
         <nav className="navbar">
           <a href="#home" className="active scoll-S1">
             Home
@@ -79,8 +79,10 @@ const Navbar = () => {
           
         </nav>
       </header>
+      
     </nav>
   );
+  
 };
 
 export default Navbar;
