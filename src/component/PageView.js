@@ -5,7 +5,7 @@ import '../customCSS/View.css';
 import '../customCSS/style-switcher.css';
 
 const ViewCount = () => {
-  const [viewCount, setViewCountState] = useState(0); // เปลี่ยนชื่อฟังก์ชัน setViewCount เพื่อไม่ให้สับสนกับฟังก์ชัน set ของ Firebase
+  const [viewCount, setViewCountState] = useState(''); // เปลี่ยนชื่อฟังก์ชัน setViewCount เพื่อไม่ให้สับสนกับฟังก์ชัน set ของ Firebase
 
   useEffect(() => {
     // ฟังก์ชันดึงและอัพเดตจำนวนการเข้าชม
@@ -20,7 +20,7 @@ const ViewCount = () => {
         set(viewRef, updatedCount); // อัพเดตจำนวนการเข้าชมในฐานข้อมูล
         setViewCountState(updatedCount); // อัพเดตค่าใน state
       } else {
-        set(viewRef, 1); // ถ้ายังไม่มีค่าในฐานข้อมูล ให้ตั้งเป็น 1
+        set(viewRef, 0); // ถ้ายังไม่มีค่าในฐานข้อมูล ให้ตั้งเป็น 1
         setViewCountState(1); // ตั้งค่าจำนวนการเข้าชมเป็น 1 ใน state
       }
     };
