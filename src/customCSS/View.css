@@ -11,21 +11,43 @@
         border-radius: 5px;
         transition: all .3s ease;
         transform: translateX(105%);
+        transition: .5s ease;
     }
 
-    
-
     .name{
-       
         color: var(--text-color);
         font-size: 20px;
-        position: absolute;
-
-        
+        position: absolute;  
+       
     }
 
     .name .color-icon{
         color:var(--main-color);
         font-size: 20px;
+        
     }
+
+    .name1{
+        color: var(--text-color);
+        font-size: 20px;
+        top: 50px;
+        position: absolute;  
+       
+    }
+
+    .name1 .color-icon {
+        color: var(--main-color);
+        font-size: 20px;
+        transition: all 0.3s ease;
+    }
+    
+    .name1:hover .color-icon {
+     
+        text-shadow: 0px 0px 10px var(--main-color); 
+        filter:  drop-shadow(0px 0px 20px var--main-color);
+       
+    }
+
+ 
+
 }

@@ -34,16 +34,16 @@
 
 body.white {
     --text-color: #000000;
-    --bg-color: rgb(255, 255, 255);
-    --second-bg-color: #ffffff;
-    --box-color: rgb(243, 243, 243);
-    --about-color: #eeeeee;
-    --box-theme-color: hsl(0, 0%, 99%);
+    --bg-color: rgb(255, 247, 217);
+    --second-bg-color: #fff4b8;
+    --box-color: rgb(255, 245, 193);
+    --about-color: #fff7cc;
+    --box-theme-color: hsl(48, 100%, 88%);
     --icon-color: black;
 
-    --bg1-color: #838383;
+    --bg1-color: #fff2a8;
 
-    transition: 1s ease;
+    transition: .5s ease;
 
 }
 

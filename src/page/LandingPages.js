@@ -90,7 +90,7 @@ function LandingPage() {
                         I'm a <span className="multiple-text"> </span>
                     </h2>
 
-                    <div className="text-center  social-media">
+                    <div className="text-center social-media">
                         <a href="https://www.facebook.com/krittiphon.yoonaitham.9">
                             <i className="bx bxl-facebook T1"></i>
                         </a>

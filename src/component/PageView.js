@@ -1,38 +1,73 @@
 import React, { useEffect, useState } from "react";
-import { database, ref, get, set } from "../page/Firebase"; // แก้ไขการ import
+import { database, ref, get, set } from "../page/Firebase";
 
 import '../customCSS/View.css';
 import '../customCSS/style-switcher.css';
 
 const ViewCount = () => {
-  const [viewCount, setViewCountState] = useState(''); // เปลี่ยนชื่อฟังก์ชัน setViewCount เพื่อไม่ให้สับสนกับฟังก์ชัน set ของ Firebase
+  const [viewCount, setViewCountState] = useState(''); 
+  const [likeCount, setLikeCountState] = useState('');
+ 
 
   useEffect(() => {
     // ฟังก์ชันดึงและอัพเดตจำนวนการเข้าชม
     const fetchAndUpdateViewCount = async () => {
-      const viewRef = ref(database, "views"); // ชี้ไปที่ path "views" ใน Realtime Database
+      const viewRef = ref(database, "views");
       const snapshot = await get(viewRef);
 
       if (snapshot.exists()) {
-        const currentCount = snapshot.val(); // ดึงจำนวนการเข้าชมปัจจุบัน
-        
-        const updatedCount = currentCount + 1; // เพิ่มการเข้าชมอีก 1
-        set(viewRef, updatedCount); // อัพเดตจำนวนการเข้าชมในฐานข้อมูล
-        setViewCountState(updatedCount); // อัพเดตค่าใน state
+        const currentCount = snapshot.val(); 
+        const updatedCount = currentCount + 1;
+        set(viewRef, updatedCount); 
+        setViewCountState(updatedCount); 
       } else {
-        set(viewRef, 0); // ถ้ายังไม่มีค่าในฐานข้อมูล ให้ตั้งเป็น 1
-        setViewCountState(1); // ตั้งค่าจำนวนการเข้าชมเป็น 1 ใน state
+        set(viewRef, 1); 
+        setViewCountState(1); 
       }
     };
 
     fetchAndUpdateViewCount();
+    
+    const fetchAndUpdateLikeCount = async () => {
+      const likeRef = ref(database, "likes");
+      const snapshot = await get(likeRef);
+      if (snapshot.exists()) {
+        setLikeCountState(snapshot.val());
+      } else {
+        set(likeRef, 0);
+        setLikeCountState(0);
+      }
+    };
+
+    fetchAndUpdateLikeCount();
   }, []);
+
+  const handleLikeClick = async () => {
+    const likeRef = ref(database, "likes");
+    const snapshot = await get(likeRef);
+
+    if (snapshot.exists()) {
+      const currentCount = snapshot.val();
+      const updatedCount = currentCount + 1;
+      set(likeRef, updatedCount); 
+      setLikeCountState(updatedCount); 
+    }
+
+  
+
+  };
 
   return (
     <div className="body-view">
-      <h4 className="name"><i className="bx bxs-user color-icon"></i> <strong>{viewCount}</strong></h4>
+      <h4 className="name">
+        <i className="bx bxs-user color-icon"></i> <strong>{viewCount}</strong>
+      </h4>
+      <h4 className="name1 like-page" onClick={handleLikeClick}>
+        <button><i className='bx bxs-heart color-icon'></i> </button>
+        <strong> {likeCount}</strong>
+      </h4>
     </div>
   );
-}
+};
 
 export default ViewCount;
