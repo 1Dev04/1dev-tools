@@ -34,14 +34,14 @@
 
 body.white {
     --text-color: #000000;
-    --bg-color: rgb(181, 252, 253);
+    --bg-color: rgb(193, 254, 255);
     --second-bg-color: rgb(181, 252, 253);
     --box-color: rgb(211, 255, 255);
-    --about-color: rgb(131, 250, 251);
+    --about-color: rgb(169, 254, 255);
     --box-theme-color: rgb(230, 254, 254);
     --icon-color: black;
 
-    --bg1-color: rgb(230, 254, 254);
+    --bg1-color: rgb(255, 255, 255);
 
     transition: .5s ease;
 
