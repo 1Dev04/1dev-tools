@@ -16,6 +16,7 @@ const ViewCount = () => {
       const snapshot = await get(viewRef);
 
       if (snapshot.exists()) {
+        
         const currentCount = snapshot.val();
         const updatedCount = currentCount + 1;
         set(viewRef, updatedCount);

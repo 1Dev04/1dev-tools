@@ -94,10 +94,10 @@ function LandingPage() {
                         <a href="https://www.facebook.com/krittiphon.yoonaitham.9">
                             <i className="bx bxl-facebook T1"></i>
                         </a>
-                        <a href="https://www.instagram.com/yk1moss">
+                        <a href="https://www.instagram.com/1dev_m">
                             <i className="bx bxl-instagram T2"></i>
                         </a>
-                        <a href="https://github.com/Devdummyy">
+                        <a href="https://github.com/1Dev04">
                             <i className="bx bxl-github T3"></i>
                         </a>
                         <a href="https://www.tiktok.com/@yk1moss?_t=8i7ePfNoJJY&_r=1">
