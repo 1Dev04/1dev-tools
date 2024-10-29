@@ -14,7 +14,8 @@ import A10 from "../asset/certificate/other/A10.png";
 import A11 from "../asset/certificate/other/A11.png";
 import A12 from "../asset/certificate/other/A12.png";
 import A13 from "../asset/certificate/other/A13.png";
-
+import link from "../asset/certificate/other/Link.jpg";
+import Hack from "../asset/certificate/other/Hack.png";
 
 import "../customCSS/index.css";
 
@@ -310,6 +311,48 @@ function BackEnd(){
                                 <br />
                                 <div className="overscroll-none">
                                 Course instructors : ดร.อวิรุทธ์ ฉัตรมาลาทอง
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={link}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-4xl">
+                            Link American Standard
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                I completed the Link : Network Cabling for Engineering
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={Hack}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-4xl">
+                            Hackathon 
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Hack to the Max : Digital Infrastructure
                                 </div>
                             </div>
                             <br />

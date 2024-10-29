@@ -172,9 +172,7 @@ const Contact = () => {
                 <input type="submit" className="btn1" value="Confirm"/>
             </form>
 
-            <div className="social-media">
-                <a href="https://www.linkedin.com/in/krittiphon-yoonaitham-a291482b1/"><i className='bx bxl-linkedin T6'></i></a>
-            </div>
+            
             </div>
     );
 };

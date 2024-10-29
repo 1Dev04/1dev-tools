@@ -18,7 +18,7 @@ import Landing from './page/LandingPages.js';
 import FontEnd from './page/FontEnd.js';
 import BackEnd from './page/BackEnd.js';
 import OtherC from './page/otherC.js';
-
+import PhotoAlbum from './page/PhotoAlbum.js';
 
 function App() {
   return (
@@ -29,6 +29,7 @@ function App() {
           <Route path="/Front-End-Daily" element={<FontEnd />}></Route>
           <Route path="/Back-End-Daily" element={<BackEnd />}></Route>
           <Route path="/Other-Daily" element={<OtherC />}></Route>
+          <Route path="/Photo-Album" element={<PhotoAlbum />}></Route>
       </Routes>
     </Router>
     </div>

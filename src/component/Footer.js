@@ -7,7 +7,7 @@ const footer = () => {
 
         <footer className="footer ">
             <div className="footer-text">
-                <p>© Copyright| Version 4.9  <span className="bi bi-robot"></span></p>
+                <p>© Copyright| Version 5.0  <span className="bi bi-robot"></span></p>
             </div>
 
             <div className="footer-iconTop">

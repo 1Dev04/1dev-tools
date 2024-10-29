@@ -359,7 +359,7 @@
 
     .services-container .services-box {
         flex: 0.3 2 30rem;
-        background: var(--box-color);
+        background: var(--box-theme-color);
         padding: 2rem 2rem 2rem;
         border-radius: 2rem;
         text-align: center;
