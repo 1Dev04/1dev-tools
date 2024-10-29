@@ -379,6 +379,16 @@ function LandingPage() {
               <span></span>
             </div>
           </div>
+          <br />
+
+          <div className="bar">
+            <div className="indfo">
+              <span>NextJS</span>
+            </div>
+            <div className="progress-line1 java">
+              <span></span>
+            </div>
+          </div>
 
           <h2 className="heading1">
             Computer<span> Skills</span>
@@ -428,14 +438,7 @@ function LandingPage() {
           </div>
           <br />
 
-          <div className="bar">
-            <div className="indfo">
-              <span>NextJS</span>
-            </div>
-            <div className="progress-line1 java">
-              <span></span>
-            </div>
-          </div>
+        
 
           <h2 className="heading1">
             Language<span> Skills</span>
