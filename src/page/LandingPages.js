@@ -382,6 +382,7 @@ function LandingPage() {
           <br />
 
           <div className="bar">
+          <i style={{ color: "#61fc" }} className="bx bx-rocket"></i>
             <div className="indfo">
               <span>NextJS</span>
             </div>
