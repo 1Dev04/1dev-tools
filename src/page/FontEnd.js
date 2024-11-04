@@ -7,7 +7,7 @@ import Reacts from "../asset/certificate/frontend/React.png";
 
 import "../customCSS/index.css";
 
-function FontEnd(){
+function FontEnd() {
     return (
         <div className="frontend">
             <div className=" footer foot-color  p-2 fixed-top box ">
@@ -23,8 +23,31 @@ function FontEnd(){
                 className=" container-fluid  py-4 "
                 id="showtime">
                 <h1 className="text-7xl text-center bg-clip-text   m-5 p-5">Certificate</h1>
-
                 <div className="row flex justify-center m-5 p-2">
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={Reacts}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="Frontend"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-4xl">
+                                Basic React
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none" >
+                                    I completed the  Basic React training of the project to
+                                    enhance digital skills for students.
+                                </div>
+                            </div>
+                            <br />
+
+                        </div>
+                    </div>
+
                     <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
                         <img
                             src={powerBi}
@@ -33,14 +56,14 @@ function FontEnd(){
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
-                             Power BI
+                                Power BI
                             </h5>
 
                             <div className="overscroll-auto text-2xl text-center  ">
                                 <br />
                                 <div className="overscroll-none" >
-                                I completed the Power Bi basic training of the project to
-                            enhance digital skills for students.
+                                    I completed the Power Bi basic training of the project to
+                                    enhance digital skills for students.
                                 </div>
                             </div>
                             <br />
@@ -58,14 +81,14 @@ function FontEnd(){
                         />
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
-                              Cloud API
+                                Cloud API
                             </h5>
 
                             <div className="overscroll-auto text-2xl text-center  ">
                                 <br />
                                 <div className="overscroll-none" >
-                                I completed the Cloud API training of the project to
-                            enhance digital skills for students.
+                                    I completed the Cloud API training of the project to
+                                    enhance digital skills for students.
                                 </div>
                             </div>
                             <br />
@@ -73,28 +96,7 @@ function FontEnd(){
                         </div>
                     </div>
 
-                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
-                        <img
-                            src={Reacts}
-                            className=" card-img-top bg-origin-content p-2 "
-                            alt="Frontend"
-                        />
-                        <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-4xl">
-                              Basic React 
-                            </h5>
 
-                            <div className="overscroll-auto text-2xl text-center  ">
-                                <br />
-                                <div className="overscroll-none" >
-                                I completed the  Basic React training of the project to
-                            enhance digital skills for students.
-                                </div>
-                            </div>
-                            <br />
-
-                        </div>
-                    </div>
 
                 </div>
             </section>

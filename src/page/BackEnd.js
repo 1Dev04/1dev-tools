@@ -7,7 +7,7 @@ import Jenkins from "../asset/certificate/backend/jenkins.jpg";
 
 import "../customCSS/index.css";
 
-function BackEnd(){
+function BackEnd() {
     return (
         <div className="backend">
 
@@ -29,15 +29,60 @@ function BackEnd(){
                 id="showtime">
                 <h1 className="text-7xl text-center bg-clip-text  m-5 p-5">Certificate</h1>
 
-                
+
                 <div className="row justify-content-center  m-5 p-2">
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={Jenkins}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="Backend"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-4xl">
+                                "Jenkins"
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                    I joined the Jenkins : The corporate training.
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={Golang}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="Backend"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-4xl">
+                                Ultimate Golang Backend
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                    I joined the Golang : Golang course with Udemy.
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+
                     <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
                         <img
                             src={java}
                             className=" card-img-top bg-origin-content p-2 "
                             alt="Backend"
                         />
-                        
+
                         <div className="card-body m-2 font-text2">
                             <h5 className="h5 text-center  card-title text-4xl">
                                 Java Programming
@@ -53,8 +98,8 @@ function BackEnd(){
                                 </div>
                             </div>
                             <br />
-                        
-                           
+
+
                         </div>
 
 
@@ -82,51 +127,6 @@ function BackEnd(){
                         </div>
                     </div>
 
-                   
-                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
-                        <img
-                            src={Golang}
-                            className=" card-img-top bg-origin-content p-2 "
-                            alt="Backend"
-                        />
-                        <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-4xl">
-                                Ultimate Golang Backend
-                            </h5>
-
-                            <div className="overscroll-auto text-2xl text-center  "> 
-                                <br />
-                                <div className="overscroll-none">
-                                    I joined the Golang : Golang course with Udemy.
-                                </div>
-                            </div>
-                            <br />
-                        </div>
-                    </div>
-
-
-                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
-                        <img
-                            src={Jenkins}
-                            className=" card-img-top bg-origin-content p-2 "
-                            alt="Backend"
-                        />
-                        <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-4xl">
-                               "Jenkins"
-                            </h5>
-
-                            <div className="overscroll-auto text-2xl text-center  "> 
-                                <br />
-                                <div className="overscroll-none">
-                                    I joined the Jenkins : The corporate training.
-                                </div>
-                            </div>
-                            <br />
-                        </div>
-                    </div>
-
-
 
 
                 </div>
@@ -134,10 +134,10 @@ function BackEnd(){
             <footer className="footer foot-color  p-2 fixed-bottom box">
                 <Link
                     className="bi bi-box-arrow-in-left size-16 navbar-brand rounded  fs-1 "
-                    to="/#home" 
+                    to="/#home"
                 >
-                    
-                    
+
+
                     Back
                 </Link>
             </footer>

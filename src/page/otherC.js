@@ -44,6 +44,49 @@ function BackEnd(){
 
                 <div className="row justify-content-center  m-5 p-2">
 
+                <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={Hack}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-4xl">
+                            Hackathon 
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                Hack to the Max : Digital Infrastructure
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+                        <img
+                            src={link}
+                            className=" card-img-top bg-origin-content p-2 "
+                            alt="00"
+                        />
+                        <div className="card-body m-2 font-text2">
+                            <h5 className="h5 text-center  card-title text-4xl">
+                            Link American Standard
+                            </h5>
+
+                            <div className="overscroll-auto text-2xl text-center  ">
+                                <br />
+                                <div className="overscroll-none">
+                                I completed the Link : Network Cabling for Engineering
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+
+
                     <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
                         <img
                             src={A1}
@@ -316,52 +359,6 @@ function BackEnd(){
                             <br />
                         </div>
                     </div>
-
-                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
-                        <img
-                            src={link}
-                            className=" card-img-top bg-origin-content p-2 "
-                            alt="00"
-                        />
-                        <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-4xl">
-                            Link American Standard
-                            </h5>
-
-                            <div className="overscroll-auto text-2xl text-center  ">
-                                <br />
-                                <div className="overscroll-none">
-                                I completed the Link : Network Cabling for Engineering
-                                </div>
-                            </div>
-                            <br />
-                        </div>
-                    </div>
-
-                    <div className=" m-4 col-lg-4 col-md-5 col-sm-7 img-thumbnail m-2 bg-transparent box1">
-                        <img
-                            src={Hack}
-                            className=" card-img-top bg-origin-content p-2 "
-                            alt="00"
-                        />
-                        <div className="card-body m-2 font-text2">
-                            <h5 className="h5 text-center  card-title text-4xl">
-                            Hackathon 
-                            </h5>
-
-                            <div className="overscroll-auto text-2xl text-center  ">
-                                <br />
-                                <div className="overscroll-none">
-                                Hack to the Max : Digital Infrastructure
-                                </div>
-                            </div>
-                            <br />
-                        </div>
-                    </div>
-
-
-
-
 
                 </div>
             </section>
