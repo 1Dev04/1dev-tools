@@ -104,7 +104,7 @@ function LandingPage() {
             <a href="https://www.facebook.com/krittiphon.yoonaitham.9">
               <i className="bx bxl-facebook T1"></i>
             </a>
-            <a href="https://www.instagram.com/1dev_m">
+            <a href="https://www.instagram.com/1devmoz/">
               <i className="bx bxl-instagram T2"></i>
             </a>
             <a href="https://github.com/1Dev04">
@@ -134,13 +134,7 @@ function LandingPage() {
           </h2>
           <p>
             Hello there! <br /> My name is Krittiphon Yoonaitham. l'm 20 years
-            old. I'm from Bang pa han Ayutthaya. I'm currently pursuing the
-            third years of Bachelor's degree in Computer Science at Kasetsart
-            University Sriracha Campus. I have a passion for Coding Programming
-            because it's fun. I am actively seeking a challenging internship
-            opportunity in fields of Front-end , Back-end , Solfware Engineering
-            and Wed Developer to acquire practical experience and propel my
-            future career in these domains.
+            old. I'm from Bang pa han Ayutthaya. Currently pursuing a Bachelor's degree in Computer Science at Kasetsart University Sriracha Campus to actively seeking a challenging internship or Cooperative Education opportunity in fields of Front-end , Back-end , Software Engineering or Developer in period May - Oct 2025 around 6 months or negotiation to acquire practical experience and propel the future career in these domains.
           </p>
         </div>
       </section>
