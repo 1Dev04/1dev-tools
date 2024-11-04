@@ -133,8 +133,7 @@ function LandingPage() {
             About<span>Me</span>
           </h2>
           <p>
-            Hello there! <br /> My name is Krittiphon Yoonaitham. l'm 20 years
-            old. I'm from Bang pa han Ayutthaya. Currently pursuing a Bachelor's degree in Computer Science at Kasetsart University Sriracha Campus to actively seeking a challenging internship or Cooperative Education opportunity in fields of Front-end , Back-end , Software Engineering or Developer in period May - Oct 2025 around 6 months or negotiation to acquire practical experience and propel the future career in these domains.
+            Currently pursuing a Bachelor's degree in Computer Science at Kasetsart University Sriracha Campus to actively seeking a challenging internship or Cooperative Education opportunity in fields of Front-end , Back-end , Software Engineering or Developer in period May - Oct 2025 around 6 months or negotiation to acquire practical experience and propel the future career in these domains.
           </p>
         </div>
       </section>
