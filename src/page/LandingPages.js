@@ -133,7 +133,7 @@ function LandingPage() {
             About<span>Me</span>
           </h2>
           <p>
-            Currently pursuing a Bachelor's degree in Computer Science at Kasetsart University Sriracha Campus to actively seeking a challenging internship or Cooperative Education opportunity in fields of Front-end , Back-end , Software Engineering or Developer in period May - Oct 2025 around 6 months or negotiation to acquire practical experience and propel the future career in these domains.
+          Currently pursuing a Bachelor of Computer Science at Kasetsart University, Sriracha Campus. Seeking a challenging internship or cooperative education opportunity from May to October 2025 (6 months, negotiable) as a Software Engineer or Developer. Passionate about coding, open source contributions, and end-to-end project development. Aiming to gain real-world experience and build a strong foundation for future careers in these fields.
           </p>
         </div>
       </section>

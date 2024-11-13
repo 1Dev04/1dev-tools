@@ -39,14 +39,16 @@
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
         display: block;
-        transition: transform .8s ease;
-        transform: translateX(-200%) rotate(360deg);
+        transition: .8s ease;
+        opacity: 0;
+        transform: translateX(-100%) ;
     }
 
     /* active me */
 
     .navbar.active {
         display: block;
+        opacity: 1;
         transform: translateX(0%);
     }
 
