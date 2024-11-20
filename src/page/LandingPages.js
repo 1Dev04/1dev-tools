@@ -13,7 +13,7 @@ import Image2 from "../asset/imageR/photo4.png";
 import Port1 from "../asset/portfolio/cheeseCake.png";
 import Port2 from "../asset/portfolio/cakeCafe.png";
 import Port3 from "../asset/portfolio/Cyber.png";
-import Port4 from "../asset/portfolio/ku.jpg";
+import Port4 from "../asset/portfolio/ku.png";
 
 function LandingPage() {
   const navigate = useNavigate();
