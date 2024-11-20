@@ -13,6 +13,7 @@ import Image2 from "../asset/imageR/photo4.png";
 import Port1 from "../asset/portfolio/cheeseCake.png";
 import Port2 from "../asset/portfolio/cakeCafe.png";
 import Port3 from "../asset/portfolio/Cyber.png";
+import Port4 from "../asset/portfolio/ku.png";
 
 function LandingPage() {
   const navigate = useNavigate();
@@ -133,7 +134,7 @@ function LandingPage() {
             About<span>Me</span>
           </h2>
           <p>
-          Currently pursuing a Bachelor of Computer Science at Kasetsart University, Sriracha Campus. Seeking a challenging internship or cooperative education opportunity from May to October 2025 (6 months, negotiable) as a Software Engineer or Developer. Passionate about coding, open source contributions, and end-to-end project development. Aiming to gain real-world experience and build a strong foundation for future careers in these fields.
+            Currently pursuing a Bachelor of Computer Science at Kasetsart University, Sriracha Campus. Seeking a challenging internship or cooperative education opportunity from May to October 2025 (6 months, negotiable) as a Software Engineer or Developer. Passionate about coding, open source contributions, and end-to-end project development. Aiming to gain real-world experience and build a strong foundation for future careers in these fields.
           </p>
         </div>
       </section>
@@ -364,7 +365,7 @@ function LandingPage() {
           <br />
 
           <div className="bar">
-          <i style={{ color: "#4fc" }} className="bx bxl-netlify"></i>
+            <i style={{ color: "#4fc" }} className="bx bxl-netlify"></i>
             <div className="indfo">
               <span>Netlify</span>
             </div>
@@ -375,7 +376,7 @@ function LandingPage() {
           <br />
 
           <div className="bar">
-          <i style={{ color: "#61fc" }} className="bx bx-rocket"></i>
+            <i style={{ color: "#61fc" }} className="bx bx-rocket"></i>
             <div className="indfo">
               <span>NextJS</span>
             </div>
@@ -432,7 +433,7 @@ function LandingPage() {
           </div>
           <br />
 
-        
+
 
           <h2 className="heading1">
             Language<span> Skills</span>
@@ -569,7 +570,7 @@ function LandingPage() {
       </section>
 
       <section className="projects" id="projects">
-        <span className="heading">Project</span>
+        <span className="heading">Projects</span>
         <div className="portfolio-container">
           <div className="portfolio-box">
             <img src={Port1} alt="port1" />
@@ -613,7 +614,23 @@ function LandingPage() {
               </a>
             </div>
           </div>
+
+          <div className="portfolio-box">
+            <img src={Port4} alt="port4" />
+            <div className="portfolio-layer">
+              <h4>KUSRC</h4>
+              <p>นิสิตวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ ศรีราชา คว้า รางวัลจากโครงการ Hack to the Max</p>
+              <a href="https://www.csi-kusrc.tech/-hack-to-the-max-digital-infrastructure">
+                <i className="bx bx-link-external hov-i"></i>
+              </a>
+            </div>
+          </div>
+
+          
+        
         </div>
+       
+
       </section>
 
       <section className="contact" id="contact">
