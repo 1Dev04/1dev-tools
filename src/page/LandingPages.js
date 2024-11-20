@@ -13,7 +13,7 @@ import Image2 from "../asset/imageR/photo4.png";
 import Port1 from "../asset/portfolio/cheeseCake.png";
 import Port2 from "../asset/portfolio/cakeCafe.png";
 import Port3 from "../asset/portfolio/Cyber.png";
-import Port4 from "../asset/portfolio/KU.png";
+import KU from "../asset/imageR/KUs.png";
 
 
 function LandingPage() {
@@ -617,7 +617,7 @@ function LandingPage() {
           </div>
 
           <div className="portfolio-box">
-            <img src={Port4} alt="port4" />
+            <img src={KU} alt="KU" />
             <div className="portfolio-layer">
               <h4>KU SRC</h4>
               <p>นิสิตวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ ศรีราชา คว้า รางวัลจากโครงการ Hack to the Max</p>
