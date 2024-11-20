@@ -616,7 +616,6 @@ function LandingPage() {
             </div>
           </div>
 
-
           <div className="portfolio-box">
             <img src={Port4} alt="port4" />
             <div className="portfolio-layer">
