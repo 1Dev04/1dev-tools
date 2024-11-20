@@ -13,7 +13,8 @@ import Image2 from "../asset/imageR/photo4.png";
 import Port1 from "../asset/portfolio/cheeseCake.png";
 import Port2 from "../asset/portfolio/cakeCafe.png";
 import Port3 from "../asset/portfolio/Cyber.png";
-import Port4 from "../asset/portfolio/ku.png";
+import Port4 from "../asset/portfolio/KU.png";
+
 
 function LandingPage() {
   const navigate = useNavigate();
@@ -615,10 +616,11 @@ function LandingPage() {
             </div>
           </div>
 
+
           <div className="portfolio-box">
             <img src={Port4} alt="port4" />
             <div className="portfolio-layer">
-              <h4>KUSRC</h4>
+              <h4>KU SRC</h4>
               <p>นิสิตวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ ศรีราชา คว้า รางวัลจากโครงการ Hack to the Max</p>
               <a href="https://www.csi-kusrc.tech/-hack-to-the-max-digital-infrastructure">
                 <i className="bx bx-link-external hov-i"></i>
@@ -626,10 +628,12 @@ function LandingPage() {
             </div>
           </div>
 
-          
-        
+
+
+
+
         </div>
-       
+
 
       </section>
 
