@@ -14,7 +14,7 @@ import Port1 from "../asset/portfolio/cheeseCake.png";
 import Port2 from "../asset/portfolio/cakeCafe.png";
 import Port3 from "../asset/portfolio/Cyber.png";
 import KU from "../asset/imageR/KUs.png";
-
+import nextP from "../asset/imageR/nextP.png";
 
 function LandingPage() {
   const navigate = useNavigate();
@@ -627,8 +627,19 @@ function LandingPage() {
             </div>
           </div>
 
+          <div className="portfolio-box">
+            <img src={nextP} alt="KU" />
+            <div className="portfolio-layer">
+              <h4>KU SRC</h4>
+              <p>Next.JS project demo and deployment by Vercel</p>
+              <a href="https://demo-next-lilac.vercel.app/">
+                <i className="bx bx-link-external hov-i"></i>
+              </a>
+            </div>
+          </div>
 
 
+         
 
 
         </div>
