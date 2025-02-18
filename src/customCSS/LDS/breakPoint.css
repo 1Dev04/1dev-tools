@@ -363,7 +363,7 @@
     /* boarder inside to Certificate */
 
     .services-container .services-box {
-        flex: 0.3 2 30rem;
+        flex: 0.2 2 50rem;
         background: var(--box-theme-color);
         padding: 2rem 2rem 2rem;
         border-radius: 2rem;

@@ -143,62 +143,37 @@ function LandingPage() {
       <section className="services" id="services">
         <h2 className="heading">
           Certi<span>ficate</span>
-        </h2>
+        </h2> 
 
         <div className="services-container ">
-          <div className="services-box">
+          <button className="services-box"  onClick={handleClick1}>
             <i className="bx bx-code-alt"></i>
             <h3>Front-End Developer</h3>
             <p>Certificates of Training to become a Font-End Developer.</p>
-            <button
-              onClick={handleClick1}
-              className="btn1  bi bi-box-arrow-in-up-right "
-            >
-              {" "}
-              See more
-            </button>
-          </div>
-          <div className="services-box">
+
+          </button>
+          <button className="services-box" onClick={handleClick2}>
             <i className="bx bx-code-curly"></i>
             <h3>Back-End Developer</h3>
             <p>Certificates of Training to become a Back-End Developer.</p>
-            <button
-              onClick={handleClick2}
-              className="btn1   bi bi-box-arrow-in-up-right"
-            >
-              {" "}
-              See more
-            </button>
-          </div>
-          <div className="services-box">
+          
+          </button>
+          <button className="services-box" onClick={handleClick3}>
             <i className="bx bx-certification"></i>
             <h3>
-              Other <br />
-              ones
+              Other ones
             </h3>
             <p>Other certificates related to the profession.</p>
-            <button
-              onClick={handleClick3}
-              className="btn1   bi bi-box-arrow-in-up-right"
-            >
-              {" "}
-              See more
-            </button>
-          </div>
-          <div className="services-box">
+           
+          </button>
+          <button className="services-box" onClick={handleClick4}>
             <i className="bx bxs-photo-album"></i>
             <h3>
               Photo Album
             </h3>
             <p>Photo Album related to the profession.</p>
-            <button
-              onClick={handleClick4}
-              className="btn1   bi bi-box-arrow-in-up-right"
-            >
-              {" "}
-              See more
-            </button>
-          </div>
+            
+          </button>
         </div>
       </section>
 

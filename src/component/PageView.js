@@ -26,7 +26,7 @@ const ViewCount = () => {
         setViewCountState(1);
       }
     };
-
+ 
     fetchAndUpdateViewCount();
 
     const fetchAndUpdateLikeCount = async () => {
