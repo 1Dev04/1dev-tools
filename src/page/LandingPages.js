@@ -40,8 +40,9 @@ function LandingPage() {
       strings: [
         "Full Stack Developer",
         "Game Developer",
-        "Rapper",
         "Web Developer",
+        "Mobile Developer",
+        "Compose a song",
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -99,7 +100,7 @@ function LandingPage() {
           <h1 className="text-center">Krittiphon Yoonaitham</h1>
           <br></br>
           <h2 className="text-center">
-            I'm a <span className="multiple-text"> </span>
+            <span className="multiple-text"></span>
           </h2>
 
           <div className="text-center social-media">
@@ -150,21 +151,28 @@ function LandingPage() {
             <i className="bx bx-code-alt"></i>
             <h3>Front-End Developer</h3>
             <p>Certificates of Training to become a Font-End Developer.</p>
-
+            <center >
+                <h3 className='bx bxs-right-top-arrow-circle' ></h3>
+            </center>
           </button>
           <button className="services-box" onClick={handleClick2}>
             <i className="bx bx-code-curly"></i>
             <h3>Back-End Developer</h3>
             <p>Certificates of Training to become a Back-End Developer.</p>
-          
+            <center >
+                <h3 className='bx bxs-right-top-arrow-circle' ></h3>
+            </center>
           </button>
           <button className="services-box" onClick={handleClick3}>
             <i className="bx bx-certification"></i>
             <h3>
               Other ones
             </h3>
+            
             <p>Other certificates related to the profession.</p>
-           
+            <center >
+                <h3 className='bx bxs-right-top-arrow-circle' ></h3>
+            </center>
           </button>
           <button className="services-box" onClick={handleClick4}>
             <i className="bx bxs-photo-album"></i>
@@ -172,7 +180,9 @@ function LandingPage() {
               Photo Album
             </h3>
             <p>Photo Album related to the profession.</p>
-            
+            <center >
+                <h3 className='bx bxs-right-top-arrow-circle' ></h3>
+            </center>
           </button>
         </div>
       </section>
