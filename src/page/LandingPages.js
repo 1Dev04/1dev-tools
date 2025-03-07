@@ -152,7 +152,7 @@ function LandingPage() {
             <h3>Front-End Developer</h3>
             <p>Certificates of Training to become a Font-End Developer.</p>
             <center >
-                <h3 className='bx bxs-right-top-arrow-circle' ></h3>
+            <h3 aria-label='bx bxs-right-top-arrow-circle' role="img"><li className="bx bxs-right-top-arrow-circle"></li></h3>
             </center>
           </button>
           <button className="services-box" onClick={handleClick2}>
@@ -160,7 +160,7 @@ function LandingPage() {
             <h3>Back-End Developer</h3>
             <p>Certificates of Training to become a Back-End Developer.</p>
             <center >
-                <h3 className='bx bxs-right-top-arrow-circle' ></h3>
+            <h3 aria-label='bx bxs-right-top-arrow-circle' role="img"><li className="bx bxs-right-top-arrow-circle"></li></h3>
             </center>
           </button>
           <button className="services-box" onClick={handleClick3}>
@@ -171,7 +171,7 @@ function LandingPage() {
             
             <p>Other certificates related to the profession.</p>
             <center >
-                <h3 className='bx bxs-right-top-arrow-circle' ></h3>
+            <h3 aria-label='bx bxs-right-top-arrow-circle' role="img"><li className="bx bxs-right-top-arrow-circle"></li></h3>
             </center>
           </button>
           <button className="services-box" onClick={handleClick4}>
@@ -181,7 +181,7 @@ function LandingPage() {
             </h3>
             <p>Photo Album related to the profession.</p>
             <center >
-                <h3 className='bx bxs-right-top-arrow-circle' ></h3>
+            <h3 aria-label='bx bxs-right-top-arrow-circle' role="img"><li className="bx bxs-right-top-arrow-circle"></li></h3>
             </center>
           </button>
         </div>
