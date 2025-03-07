@@ -2,9 +2,7 @@
 
 /* Large Desktop */
 
-@media screen and (min-width: 1024px) and (max-width: 2000px) {
-
-
+@media screen and (min-width: 1024px) and (max-width: 5000px) {
 
     .header {
         position: fixed;
@@ -565,67 +563,71 @@
    /* count bar to Myskill  */
 
    .progress-line1.html span {
-    width: 80%;
+    width: 90%;
 }
 
 /* count bar to Myskill  */
 
 .progress-line1.css span {
-    width: 80%;
+    width: 90%;
 }
 
 /* count bar to Myskill  */
 
 .progress-line1.javascript span {
-    width: 60%;
+    width: 80%;
+}
+
+.progress-line1.react span {
+    width: 90%;
 }
 
 /* count bar to Myskill  */
 
 .progress-line1.java span {
-    width: 100%;
+    width: 78%;
 }
 
 /* count bar  to Myskill  */
 
 .progress-line1.python span {
-    width: 50%;
+    width: 60%;
 }
 
 /* count bar  to Myskill  */
 
 .progress-line1.c span {
-    width: 90%;
+    width: 81%;
 }
 
 /* count bar  to Myskill  */
 
 .progress-line1.go span {
-    width: 90%;
+    width: 50%;
 }
 
 /* count bar  to Myskill  */
 
 .progress-line1.post span {
-    width: 100%;
+    width: 90%;
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.mySQL span {
-    width: 91%;
+    width: 90%;
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.postM span {
-    width: 95%;
+    width: 90%;
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.Dock span {
-    width: 100%;
+    width: 90%;
 }
 
 /* popup text to Myskill  */
@@ -650,7 +652,7 @@
 /* popup text to Myskill  excel */
 
 .progress-line1.excel span {
-    width: 97%;
+    width: 98%;
 }
 
 /* popup text to Myskill  powerp */
@@ -681,68 +683,74 @@
 /* popup text to Myskill  */
 
 .progress-line1.html span::after {
-    content: "80%";
+    content: "90%";
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.css span::after {
-    content: "80%";
+    content: "90%";
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.javascript span::after {
-    content: "60%";
+    content: "80%";
+}
+
+    /* popup text to Myskill  */
+
+ .progress-line1.react span::after {
+    content: "90%";
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.java span::after {
-    content: "100%";
+    content: "78%";
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.python span::after {
-    content: "50%";
+    content: "60%";
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.c span::after {
-    content: "90%";
+    content: "81%";
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.go span::after {
-    content: "90%";
+    content: "50%";
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.post span::after {
-    content: "100%";
+    content: "90%";
 }
 
 
 /* popup text to Myskill  */
 
 .progress-line1.mySQL span::after {
-    content: "91%";
+    content: "90%";
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.postM span::after {
-    content: "95%";
+    content: "90%";
 }
 
 /* popup text to Myskill  */
 
 .progress-line1.Dock span::after {
-    content: "100%";
+    content: "90%";
 }
 
 /* popup text to Myskill  */

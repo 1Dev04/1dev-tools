@@ -234,7 +234,7 @@ function LandingPage() {
             <div className="indfo">
               <span>React</span>
             </div>
-            <div className="progress-line1 css">
+            <div className="progress-line1 react">
               <span></span>
             </div>
           </div>
