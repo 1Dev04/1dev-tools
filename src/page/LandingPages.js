@@ -141,7 +141,7 @@ function LandingPage() {
         </div>
       </section>
 
-      <section className="services" id="services">
+      <section className="services" id="certificate">
         <h2 className="heading">
           Certi<span>ficate</span>
         </h2> 
