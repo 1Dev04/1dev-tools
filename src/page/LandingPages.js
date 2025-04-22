@@ -2,8 +2,10 @@ import React, { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import Navbar from "../component/Navbar.js";
 import Footer from "../component/Footer.js";
-import Contact from "../component/contact.js";
 
+/* 
+import Contact from "../component/contact.js"; 
+*/
 
 import Typed from "typed.js";
 import Theme from "../component/Theme.js";
@@ -127,6 +129,7 @@ function LandingPage() {
         </div>
       </section>
 
+      
       <section className="about contact" id="about">
         <div className="about-img">
           <img src={Image2} alt="photo4" />
@@ -632,9 +635,10 @@ function LandingPage() {
 
       </section>
 
-      <section className="contact" id="contact">
+      {/* <section className="contact" id="contact">
         <Contact />
-      </section>
+      </section> */}
+      
 
       <PageView />
       <Theme />
