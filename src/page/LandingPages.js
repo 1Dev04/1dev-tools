@@ -17,6 +17,7 @@ import Port2 from "../asset/portfolio/cakeCafe.png";
 import Port3 from "../asset/portfolio/Cyber.png";
 import KU from "../asset/imageR/KUs.png";
 import nextP from "../asset/imageR/nextP.png";
+import mobileappP from "../asset/imageR/mobileapp.png";
 
 function LandingPage() {
   const navigate = useNavigate();
@@ -626,6 +627,16 @@ function LandingPage() {
             </div>
           </div>
 
+             <div className="portfolio-box">
+            <img src={mobileappP} alt="mobile dev" />
+            <div className="portfolio-layer">
+              <h4>KU SRC</h4>
+              <p>Mobile Application: ABC Shop</p>
+              <a href="https://youtu.be/zE7b4hVGziY">
+                <i className="bx bx-link-external hov-i"></i>
+              </a>
+            </div>
+          </div>
 
          
 
