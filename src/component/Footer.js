@@ -4,15 +4,14 @@ import "../customCSS/App.css";
 
 const footer = () => {
     return (
-
         <footer className="footer ">
             <div className="footer-text">
-                <p>© Copyright| Version 5.6  <span className="bi bi-robot"></span></p>
+                <p>© Copyright| Version 6 </p>
             </div>
 
-            <div className="footer-iconTop">
+            <button className="footer-iconTop broder">
                 <a href="#home"><i className="bx up-arrow bi bi-arrow-bar-up"></i></a>
-            </div>
+            </button>
         </footer>
     );
 }

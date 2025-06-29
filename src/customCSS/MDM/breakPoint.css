@@ -473,6 +473,97 @@
         font-size: 23px;
     }
 
+    
+.tec-skill {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Card */
+.tec-skill .side {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.tec-skill .side i {
+  font-size: 40px;
+}
+
+
+.side .hid-name-html,
+.side .hid-name-css,
+.side .hid-name-js,
+.side .hid-name-react,
+.side .hid-name-java,
+.side .hid-name-python,
+.side .hid-name-cc,
+.side .hid-name-go,
+.side .hid-name-postgres,
+.side .hid-name-mysql,
+.side .hid-name-postman,
+.side .hid-name-docker,
+.side .hid-name-bootstap,
+.side .hid-name-tailwind,
+.side .hid-name-netlify,
+.side .hid-name-nextjs,
+.side .hid-name-php,
+.side .hid-name-gitlab,
+.side .hid-name-lua
+{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--bg-color);
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, bottom 0.3s ease;
+}
+
+/* แสดง tooltip เมื่อ hover */
+.side:hover .hid-name-html,
+.side:hover .hid-name-css,
+.side:hover .hid-name-js,
+.side:hover .hid-name-react,
+.side:hover .hid-name-java,
+.side:hover .hid-name-python,
+.side:hover .hid-name-cc,
+.side:hover .hid-name-go,
+.side:hover .hid-name-postgres,
+.side:hover .hid-name-mysql,
+.side:hover .hid-name-postman,
+.side:hover .hid-name-docker,
+.side:hover .hid-name-bootstap,
+.side:hover .hid-name-tailwind,
+.side:hover .hid-name-netlify,
+.side:hover .hid-name-nextjs,
+.side:hover .hid-name-php,
+.side:hover .hid-name-gitlab,
+.side:hover .hid-name-lua
+{
+  opacity: 1;
+  bottom: 50px;
+}
+
+
+
     /* bar distance to Myskill */
 
     .Technical-bar .bar {

@@ -19,6 +19,9 @@ import KU from "../asset/imageR/KUs.png";
 import nextP from "../asset/imageR/nextP.png";
 import mobileappP from "../asset/imageR/mobileapp.png";
 
+// icons 
+import lua from "../asset/icons/ico_lua.png";
+
 function LandingPage() {
   const navigate = useNavigate();
 
@@ -130,7 +133,6 @@ function LandingPage() {
         </div>
       </section>
 
-      
       <section className="about contact" id="about">
         <div className="about-img">
           <img src={Image2} alt="photo4" />
@@ -140,7 +142,20 @@ function LandingPage() {
             About<span>Me</span>
           </h2>
           <p>
-            Currently pursuing a Bachelor of Computer Science at Kasetsart University, Sriracha Campus. Seeking a challenging internship or cooperative education opportunity from May to October 2025 (6 months, negotiable) as a Software Engineer or Developer. Passionate about coding, open source contributions, and end-to-end project development. Aiming to gain real-world experience and build a strong foundation for future careers in these fields.
+            Name: Krittiphon Yoonaitham <br />
+            Nickname: Moss <br />
+            Age: 21 <br />
+            Pursuing: Bachelor of Computer Science at Kasetsart University,
+            Sriracha Campus <br />
+            Internshiping: CLICKNEXT CO. LTD. <br />
+            Position: Full-Stack Developer <br />
+            Catchphrase: Never give up <br />
+            Hobbie: Compose a song <br />
+            Target: <br />
+            Contributing to open-source projects, and developing end-to-end
+            solutions. Seeking real-world experience to strengthen practical
+            skills and build a solid foundation for a future career in software
+            development.
           </p>
         </div>
       </section>
@@ -148,44 +163,48 @@ function LandingPage() {
       <section className="services" id="certificate">
         <h2 className="heading">
           Certi<span>ficate</span>
-        </h2> 
+        </h2>
 
         <div className="services-container ">
-          <button className="services-box"  onClick={handleClick1}>
+          <button className="services-box" onClick={handleClick1}>
             <i className="bx bx-code-alt"></i>
             <h3>Front-End Developer</h3>
             <p>Certificates of Training to become a Font-End Developer.</p>
-            <center >
-            <h3 aria-label='bx bxs-right-top-arrow-circle' role="img"><li className="bx bxs-right-top-arrow-circle"></li></h3>
+            <center>
+              <h3 aria-label="bx bxs-right-top-arrow-circle" role="img">
+                <li className="bx bxs-right-top-arrow-circle"></li>
+              </h3>
             </center>
           </button>
           <button className="services-box" onClick={handleClick2}>
             <i className="bx bx-code-curly"></i>
             <h3>Back-End Developer</h3>
             <p>Certificates of Training to become a Back-End Developer.</p>
-            <center >
-            <h3 aria-label='bx bxs-right-top-arrow-circle' role="img"><li className="bx bxs-right-top-arrow-circle"></li></h3>
+            <center>
+              <h3 aria-label="bx bxs-right-top-arrow-circle" role="img">
+                <li className="bx bxs-right-top-arrow-circle"></li>
+              </h3>
             </center>
           </button>
           <button className="services-box" onClick={handleClick3}>
             <i className="bx bx-certification"></i>
-            <h3>
-              Other ones
-            </h3>
-            
+            <h3>Other ones</h3>
+
             <p>Other certificates related to the profession.</p>
-            <center >
-            <h3 aria-label='bx bxs-right-top-arrow-circle' role="img"><li className="bx bxs-right-top-arrow-circle"></li></h3>
+            <center>
+              <h3 aria-label="bx bxs-right-top-arrow-circle" role="img">
+                <li className="bx bxs-right-top-arrow-circle"></li>
+              </h3>
             </center>
           </button>
           <button className="services-box" onClick={handleClick4}>
             <i className="bx bxs-photo-album"></i>
-            <h3>
-              Photo Album
-            </h3>
+            <h3>Photo Album</h3>
             <p>Photo Album related to the profession.</p>
-            <center >
-            <h3 aria-label='bx bxs-right-top-arrow-circle' role="img"><li className="bx bxs-right-top-arrow-circle"></li></h3>
+            <center>
+              <h3 aria-label="bx bxs-right-top-arrow-circle" role="img">
+                <li className="bx bxs-right-top-arrow-circle"></li>
+              </h3>
             </center>
           </button>
         </div>
@@ -200,181 +219,147 @@ function LandingPage() {
           <h2 className="heading1">
             Technical<span> Skills</span>
           </h2>
-          <div className="bar">
-            <i style={{ color: "#ff4d00" }} className="bx bxl-html5 "></i>
-            <div className="indfo">
-              <span>HTML</span>
+
+          <div className="tec-skill">
+            <div className="side">
+              <i style={{ color: "#e34c26" }} className="bx bxl-html5 "></i>
+              <div className="hid-name-html">
+                <span>HTML</span>
+              </div>
             </div>
-            <div className="progress-line1 html">
-              <span></span>
+
+            <div className="side">
+              <i style={{ color: "#264de4" }} className="bx bxl-css3"></i>
+              <div className="hid-name-css">
+                <span>CSS</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#f0db4f" }} className="bx bxl-javascript"></i>
+              <div className="hid-name-js">
+                <span>Javascript</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#61DBFB" }} className="bx bxl-react"></i>
+              <div className="hid-name-react">
+                <span>React</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#f89820" }} className="bx bxl-java"></i>
+              <div className="hid-name-java">
+                <span>Java</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#3776AB" }} className="bx bxl-python"></i>
+              <div className="hid-name-python">
+                <span>Python</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i
+                style={{ color: "#00599C" }}
+                className="bx bxl-c-plus-plus"
+              ></i>
+              <div className="hid-name-cc">
+                <span>C/C++</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#00ADD8" }} className="bx bxl-go-lang"></i>
+              <div className="hid-name-go">
+                <span>Golang</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#336791" }} className="bx bxl-postgresql"></i>
+              <div className="hid-name-postgres">
+                <span>Postgresql</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#00758F" }} className="bx bxs-data"></i>
+              <div className="hid-name-mysql">
+                <span>MySQL</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#FF6C37" }} className="bx bxl-ok-ru"></i>
+              <div className="hid-name-postman">
+                <span>Postman</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#0db7ed" }} className="bx bxl-docker"></i>
+              <div className="hid-name-docker">
+                <span>Docker</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#7952B3" }} className="bx bxl-bootstrap"></i>
+              <div className="hid-name-bootstap">
+                <span>Bootstap5</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i
+                style={{ color: "#38B2AC" }}
+                className="bx bxl-tailwind-css"
+              ></i>
+              <div className="hid-name-tailwind">
+                <span>TailwindCSS</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#00C7B7" }} className="bx bxl-netlify"></i>
+              <div className="hid-name-netlify">
+                <span>Netlify</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#000000" }} className="bx bx-rocket"></i>
+              <div className="hid-name-nextjs">
+                <span>NextJS</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#8892be" }} className="bx bxl-php"></i>
+              <div className="hid-name-php">
+                <span>PHP</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#fca121" }} className="bx bxl-gitlab"></i>
+              <div className="hid-name-gitlab">
+                <span>Gitlab</span>
+              </div>
+            </div>
+
+              <div className="side">
+              <i><img src={lua} alt="lua" /></i>
+              <div className="hid-name-lua">
+                <span>Lua</span>
+              </div>
             </div>
           </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#00ffff" }} className="bx bxl-css3"></i>
-            <div className="indfo">
-              <span>CSS</span>
-            </div>
-            <div className="progress-line1 css">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#ffff00" }} className="bx bxl-javascript"></i>
-            <div className="indfo">
-              <span>Javascript</span>
-            </div>
-            <div className="progress-line1 javascript">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "sky" }} className="bx bxl-react"></i>
-            <div className="indfo">
-              <span>React</span>
-            </div>
-            <div className="progress-line1 react">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#f84444" }} className="bx bxl-java"></i>
-            <div className="indfo">
-              <span>Java</span>
-            </div>
-            <div className="progress-line1 java">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#0080ff" }} className="bx bxl-python"></i>
-            <div className="indfo">
-              <span>Python</span>
-            </div>
-            <div className="progress-line1 python">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#00ff84" }} className="bx bxl-c-plus-plus"></i>
-            <div className="indfo">
-              <span>C/C++</span>
-            </div>
-            <div className="progress-line1 c">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#6fdafc" }} className="bx bxl-go-lang"></i>
-            <div className="indfo">
-              <span>Golang</span>
-            </div>
-            <div className="progress-line1 go">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#c800ff" }} className="bx bxl-postgresql"></i>
-            <div className="indfo">
-              <span>Postgresql</span>
-            </div>
-            <div className="progress-line1 post">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#63ffd7" }} className="bx bxs-data"></i>
-            <div className="indfo">
-              <span>MySQL</span>
-            </div>
-            <div className="progress-line1 mySQL">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#ffc433" }} className="bx bxl-ok-ru"></i>
-            <div className="indfo">
-              <span>Postman</span>
-            </div>
-            <div className="progress-line1 postM">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#2894ff" }} className="bx bxl-docker"></i>
-            <div className="indfo">
-              <span>Docker</span>
-            </div>
-            <div className="progress-line1 Dock">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#af3cff" }} className="bx bxl-bootstrap"></i>
-            <div className="indfo">
-              <span>Bootstap5</span>
-            </div>
-            <div className="progress-line1 Boot">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#9ee5fc" }} className="bx bxl-tailwind-css"></i>
-            <div className="indfo">
-              <span>TailwindCSS</span>
-            </div>
-            <div className="progress-line1 Tail">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#4fc" }} className="bx bxl-netlify"></i>
-            <div className="indfo">
-              <span>Netlify</span>
-            </div>
-            <div className="progress-line1 java">
-              <span></span>
-            </div>
-          </div>
-          <br />
-
-          <div className="bar">
-            <i style={{ color: "#61fc" }} className="bx bx-rocket"></i>
-            <div className="indfo">
-              <span>NextJS</span>
-            </div>
-            <div className="progress-line1 java">
-              <span></span>
-            </div>
-          </div>
-
           <h2 className="heading1">
             Computer<span> Skills</span>
           </h2>
@@ -421,9 +406,18 @@ function LandingPage() {
               <span></span>
             </div>
           </div>
+          
           <br />
 
-
+          <div className="bar">
+            <i style={{ color: "#ffff00" }} className=""></i>
+            <div className="indfo">
+              <span>Draw.io</span>
+            </div>
+            <div className="progress-line1 powerb">
+              <span></span>
+            </div>
+          </div>
 
           <h2 className="heading1">
             Language<span> Skills</span>
@@ -609,7 +603,10 @@ function LandingPage() {
             <img src={KU} alt="KU" />
             <div className="portfolio-layer">
               <h4>KU SRC</h4>
-              <p>นิสิตวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ ศรีราชา คว้า รางวัลจากโครงการ Hack to the Max</p>
+              <p>
+                นิสิตวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ ศรีราชา คว้า
+                รางวัลจากโครงการ Hack to the Max
+              </p>
               <a href="https://www.csi-kusrc.tech/-hack-to-the-max-digital-infrastructure">
                 <i className="bx bx-link-external hov-i"></i>
               </a>
@@ -627,7 +624,7 @@ function LandingPage() {
             </div>
           </div>
 
-             <div className="portfolio-box">
+          <div className="portfolio-box">
             <img src={mobileappP} alt="mobile dev" />
             <div className="portfolio-layer">
               <h4>KU SRC</h4>
@@ -637,19 +634,12 @@ function LandingPage() {
               </a>
             </div>
           </div>
-
-         
-
-
         </div>
-
-
       </section>
 
       {/* <section className="contact" id="contact">
         <Contact />
       </section> */}
-      
 
       <PageView />
       <Theme />

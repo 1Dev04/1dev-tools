@@ -72,7 +72,7 @@ const ViewCount = () => {
       </h4>
       <strong className="text-heart"> {likeCount}</strong>
       <div class="alert">
-          <span className="close-btn"><i class='bx bxs-up-arrow-alt'></i></span>
+          <span className="close-btn"><i className='bx bxs-up-arrow-alt'></i></span>
       </div>
       <br></br>
       <div className="text-Al">Click on the <strong>Heart</strong>.</div>
