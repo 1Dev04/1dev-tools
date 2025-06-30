@@ -33,18 +33,17 @@
 
 
 body.white {
-    --text-color: #000000;
-    --bg-color: rgb(255, 255, 255);
-    --second-bg-color: #dadada;
-    --box-color: #dadada;
-    --about-color: #f2f2f2;
-    --box-theme-color: #f2f2f2;
-    --icon-color: black;
+    --text-color: #1a1a1a;                  /* สีเทาเข้ม อ่านง่ายกว่าดำล้วน */
+    --bg-color: #fcfcfc;                    /* พื้นหลังหลัก ขาวนวล */
+    --second-bg-color: #f4f4f8;             /* พื้นหลังรอง โทนอุ่นๆ */
+    --box-color: #ffffff;                   /* กล่องสีขาวคลีน */
+    --about-color: #fffafc;                 /* โซนแนะนำ โทนชมพูนวลจางๆ */
+    --box-theme-color: #ffffff;             /* กล่องธีม โทนฟ้าหม่นอ่อน */
+    --icon-color: #5a5a5a;                  /* ไอคอน เทาเข้ม สบายตา */
 
-    --bg1-color: #ffffff;
+    --bg1-color: #fbfbfe;                   /* พื้นหลังอื่นๆ โทนฟ้าขาวอ่อน */
 
-    transition: .5s ease;
-
+    transition: 0.5s ease;
 }
 
 /* Key frame to My Skills */
