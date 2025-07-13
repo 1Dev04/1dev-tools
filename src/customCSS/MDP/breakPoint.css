@@ -81,6 +81,16 @@
         transition: 0.5s ease;
     }
 
+     /* สำหรับ Chrome, Edge, และ Safari */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* ป้องกัน overflow */
+  body {
+    overflow-y: scroll; /* ยังสามารถ scroll ได้แต่ไม่แสดง scrollbar */
+  }
+
     /* span all */
 
     span {
@@ -95,23 +105,28 @@
         padding: 5rem 9% 2rem;
     }
 
-    /* About Me */
+     /* About Me */
+.about {
+    display: flex; /* << เพิ่มตรงนี้เพื่อให้จัดตำแหน่งได้ */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    transition: 0.5s ease;
+    background-color: var(--about-color);
+    position: relative; /* ให้ใช้กับลูกที่ absolute ได้ */
+}
 
-    .about {
-        flex-direction: column-reverse;
-    }
-
-    /* about immage */
-
-    .about .about-img {
-
-        position: sticky;
-        left: 200px auto;
-        margin-top: 4rem;
-        filter: drop-shadow(0px 1px 2px var(--main-color));
-        scale: 1.1;
-        animation: floatImage2 7s ease-in-out infinite;
-    }
+/* about image */
+.about .about-img {
+    width: 200px; /* หรือขนาดที่ต้องการ */
+    scale: 1; /* อย่าใช้ 0.1 ถ้าอยากให้เห็นชัด */
+    filter: drop-shadow(0px 1px 2px var(--main-color));
+    transition: transform 2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
     /* One text about me */
 
@@ -502,65 +517,65 @@ font-size: 50px;
 
 
 .side .hid-name-html,
-.side .hid-name-css,
-.side .hid-name-js,
-.side .hid-name-react,
-.side .hid-name-java,
-.side .hid-name-python,
-.side .hid-name-cc,
-.side .hid-name-go,
-.side .hid-name-postgres,
-.side .hid-name-mysql,
-.side .hid-name-postman,
-.side .hid-name-docker,
-.side .hid-name-bootstap,
-.side .hid-name-tailwind,
-.side .hid-name-netlify,
-.side .hid-name-nextjs,
-.side .hid-name-php,
-.side .hid-name-gitlab,
-.side .hid-name-lua
-{
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: var(--bg-color);
-  color: white;
-  padding: 4px 8px;
-  font-size: 12px;
-  border-radius: 4px;
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease, bottom 0.3s ease;
-}
+  .side .hid-name-css,
+  .side .hid-name-js,
+  .side .hid-name-react,
+  .side .hid-name-java,
+  .side .hid-name-python,
+  .side .hid-name-cc,
+  .side .hid-name-go,
+  .side .hid-name-postgres,
+  .side .hid-name-mysql,
+  .side .hid-name-postman,
+  .side .hid-name-docker,
+  .side .hid-name-bootstap,
+  .side .hid-name-tailwind,
+  .side .hid-name-netlify,
+  .side .hid-name-nextjs,
+  .side .hid-name-php,
+  .side .hid-name-gitlab,
+  .side .hid-name-lua, 
+  .side .hid-name-mongo {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--popup-color-bg);
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, bottom 0.3s ease;
+  }
 
-/* แสดง tooltip เมื่อ hover */
-.side:hover .hid-name-html,
-.side:hover .hid-name-css,
-.side:hover .hid-name-js,
-.side:hover .hid-name-react,
-.side:hover .hid-name-java,
-.side:hover .hid-name-python,
-.side:hover .hid-name-cc,
-.side:hover .hid-name-go,
-.side:hover .hid-name-postgres,
-.side:hover .hid-name-mysql,
-.side:hover .hid-name-postman,
-.side:hover .hid-name-docker,
-.side:hover .hid-name-bootstap,
-.side:hover .hid-name-tailwind,
-.side:hover .hid-name-netlify,
-.side:hover .hid-name-nextjs,
-.side:hover .hid-name-php,
-.side:hover .hid-name-gitlab,
-.side:hover .hid-name-lua
-{
-  opacity: 1;
-  bottom: 50px;
-}
+  /* แสดง tooltip เมื่อ hover */
+  .side:hover .hid-name-html,
+  .side:hover .hid-name-css,
+  .side:hover .hid-name-js,
+  .side:hover .hid-name-react,
+  .side:hover .hid-name-java,
+  .side:hover .hid-name-python,
+  .side:hover .hid-name-cc,
+  .side:hover .hid-name-go,
+  .side:hover .hid-name-postgres,
+  .side:hover .hid-name-mysql,
+  .side:hover .hid-name-postman,
+  .side:hover .hid-name-docker,
+  .side:hover .hid-name-bootstap,
+  .side:hover .hid-name-tailwind,
+  .side:hover .hid-name-netlify,
+  .side:hover .hid-name-nextjs,
+  .side:hover .hid-name-php,
+  .side:hover .hid-name-gitlab,
+  .side:hover .hid-name-mongo ,
+  .side:hover .hid-name-lua {
+    opacity: 1;
 
+    bottom: 53px;
+  }
 
 
     /* bar distance to Myskill */

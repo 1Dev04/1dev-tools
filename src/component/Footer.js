@@ -6,7 +6,7 @@ const footer = () => {
     return (
         <footer className="footer ">
             <div className="footer-text">
-                <p>© Copyright| Version 6 </p>
+                <p>© Copyright| Version 7 </p>
             </div>
 
             <button className="footer-iconTop broder">

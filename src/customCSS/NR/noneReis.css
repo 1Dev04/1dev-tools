@@ -65,6 +65,16 @@
     background-size: var(--s) calc(var(--s) * 0.577);
   }
 
+   /* สำหรับ Chrome, Edge, และ Safari */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* ป้องกัน overflow */
+  body {
+    overflow-y: scroll; /* ยังสามารถ scroll ได้แต่ไม่แสดง scrollbar */
+  }
+
   /* span all */
 
   span {

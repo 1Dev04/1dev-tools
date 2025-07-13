@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import Navbar from "../component/Navbar.js";
 import Footer from "../component/Footer.js";
-
+import { FAQItem } from "./_companents/faq-item";
 /* 
 import Contact from "../component/contact.js"; 
 */
@@ -18,8 +18,10 @@ import Port3 from "../asset/portfolio/Cyber.png";
 import KU from "../asset/imageR/KUs.png";
 import nextP from "../asset/imageR/nextP.png";
 import mobileappP from "../asset/imageR/mobileapp.png";
+import HackEYE from "../asset/certificate/dairyPhoto/HackEYE.png";
+import kuP from "../asset/certificate/dairyPhoto/ku.png";
 
-// icons 
+// icons
 import lua from "../asset/icons/ico_lua.png";
 
 function LandingPage() {
@@ -37,8 +39,8 @@ function LandingPage() {
     navigate("/Other-Daily");
   };
 
-  const handleClick4 = () => {
-    navigate("/Photo-Album");
+  const handleIntern = () => {
+    navigate("/Internship-project");
   };
 
   React.useEffect(() => {
@@ -69,6 +71,38 @@ function LandingPage() {
       }
     }
   }, [location]);
+
+  const faqs = [
+    {
+      question: "อะไรคือแรงบันดาลใจที่ทำให้คุณเป็น Programmer ?",
+      answer: "ตั้งเเต่เด็กที่เคยเสียใจกับผลการเรียน สู่คนที่ค้นพบ 'จุดแข็ง' ของตัวเองผ่านเกม และเดินหน้าสู่เส้นทางโปรแกรมเมอร์ด้วยแรงผลักดันจากความหลงใหล",
+      answer2: "จุดแข็งของผมคือ ชอบออกแบบ และมี ความคิดสร้างสรรค์ ซึ่งช่วยให้ผมคิดอะไรใหม่ ๆ"
+    },
+    {
+      question: "ทุกวันนี้คุณพัฒนาตัวเองด้วยวิธีไหนบ้าง ?",
+      answer: "สำคัญที่สุด คือ การมีวินัย",
+      answer2: "NEVER GIVE UP"
+    },
+    {
+      question: "คุณเลือกทำงานจากความฝัน หรือจากความมั่นคง ?",
+      answer: "ทั้ง 2 อย่างครับ",
+    },
+    {
+      question: "มีใครเป็นไอดอลหรือบุคคลต้นแบบในชีวิตคุณ ?",
+      answer: "ซีเค เจิง (CK Cheong): ซีอีโอและผู้ร่วมก่อตั้ง Fastwork.co",
+      answer2:
+        "Jirayut (Topp) Srupsrisopa: ผู้ก่อตั้งและซีอีโอ Bitkub Capital Group Holdings Co., Ltd.",
+    },
+    {
+      question: "คุณจัดการกับความกลัวหรือความไม่มั่นใจยังไง ?",
+      answer: "ถ้ายอมความคิดเหล่านั้น คุณจะมาถึงจุดนี้ทำไม?",
+       answer2: "ผมใช้วิธีเปลี่ยนความคิดตัวเอง อะไรจะเกิดก็ต้องเกิด"
+    },
+    {
+      question: "อะไรคือเหตุผลที่คุณไม่ยอมแพ้ แม้เจออุปสรรค ?",
+      answer: "อุปสรรค ทำให้ผมเก่งขึ้นมาก เเต่ต้องเเลกกับความกลัว",
+    },
+  ];
 
   return (
     <div className="dark">
@@ -133,30 +167,32 @@ function LandingPage() {
         </div>
       </section>
 
-      <section className="about contact" id="about">
-        <div className="about-img">
-          <img src={Image2} alt="photo4" />
-        </div>
-        <div className="about-content">
-          <h2 className="heading text-center ">
-            About<span>Me</span>
-          </h2>
-          <p>
-            Name: Krittiphon Yoonaitham <br />
-            Nickname: Moss <br />
-            Age: 21 <br />
-            Pursuing: Bachelor of Computer Science at Kasetsart University,
-            Sriracha Campus <br />
-            Internshiping: CLICKNEXT CO. LTD. <br />
-            Position: Full-Stack Developer <br />
-            Catchphrase: Never give up <br />
-            Hobbie: Compose a song <br />
-            Target: <br />
-            Contributing to open-source projects, and developing end-to-end
-            solutions. Seeking real-world experience to strengthen practical
-            skills and build a solid foundation for a future career in software
-            development.
-          </p>
+      <section className="contact" id="about">
+        <h2 className="heading text-center ">
+          About<span>Me</span>
+        </h2>
+        <div className="about">
+          <div className="about-img">
+            <img src={Image2} alt="photo4" />
+          </div>
+          <div className="about-content">
+            <p>
+              Name: Krittiphon Yoonaitham <br />
+              Nickname: Moss <br />
+              Age: 21 <br />
+              Pursuing: Bachelor of Computer Science at Kasetsart University,
+              Sriracha Campus <br />
+              Internshiping: CLICKNEXT CO. LTD. <br />
+              Position: Full-Stack Developer <br />
+              Catchphrase: Never give up <br />
+              Hobbie: Compose a song <br />
+              Target: <br />
+              Contributing to open-source projects, and developing end-to-end
+              solutions. Seeking real-world experience to strengthen practical
+              skills and build a solid foundation for a future career in
+              software development.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -197,20 +233,10 @@ function LandingPage() {
               </h3>
             </center>
           </button>
-          <button className="services-box" onClick={handleClick4}>
-            <i className="bx bxs-photo-album"></i>
-            <h3>Photo Album</h3>
-            <p>Photo Album related to the profession.</p>
-            <center>
-              <h3 aria-label="bx bxs-right-top-arrow-circle" role="img">
-                <li className="bx bxs-right-top-arrow-circle"></li>
-              </h3>
-            </center>
-          </button>
         </div>
       </section>
 
-      <section className="container1" id="skills">
+      <section className="container1 " id="skills">
         <h2 className="heading">
           Hard<span> Skills</span>
         </h2>
@@ -353,10 +379,19 @@ function LandingPage() {
               </div>
             </div>
 
-              <div className="side">
-              <i><img src={lua} alt="lua" /></i>
+            <div className="side">
+              <i>
+                <img src={lua} alt="lua" />
+              </i>
               <div className="hid-name-lua">
                 <span>Lua</span>
+              </div>
+            </div>
+
+            <div className="side">
+              <i style={{ color: "#13aa52" }} className="bx bxl-mongodb"></i>
+              <div className="hid-name-mongo">
+                <span>Mongodb</span>
               </div>
             </div>
           </div>
@@ -365,7 +400,7 @@ function LandingPage() {
           </h2>
 
           <div className="bar">
-            <i style={{ color: "#c100ff" }} className=""></i>
+            <i style={{ color: "#c100ff" }}></i>
             <div className="indfo">
               <span>Word</span>
             </div>
@@ -376,7 +411,7 @@ function LandingPage() {
           <br />
 
           <div className="bar">
-            <i style={{ color: "#c100ff" }} className=""></i>
+            <i style={{ color: "#c100ff" }}></i>
             <div className="indfo">
               <span>Excel</span>
             </div>
@@ -387,7 +422,7 @@ function LandingPage() {
           <br />
 
           <div className="bar">
-            <i style={{ color: "#c100ff" }} className=""></i>
+            <i style={{ color: "#c100ff" }}></i>
             <div className="indfo">
               <span>PowerPoint</span>
             </div>
@@ -398,7 +433,7 @@ function LandingPage() {
           <br />
 
           <div className="bar">
-            <i style={{ color: "#ffff00" }} className=""></i>
+            <i style={{ color: "#ffff00" }}></i>
             <div className="indfo">
               <span>PowerBI</span>
             </div>
@@ -406,11 +441,11 @@ function LandingPage() {
               <span></span>
             </div>
           </div>
-          
+
           <br />
 
           <div className="bar">
-            <i style={{ color: "#ffff00" }} className=""></i>
+            <i style={{ color: "#ffff00" }}></i>
             <div className="indfo">
               <span>Draw.io</span>
             </div>
@@ -424,7 +459,7 @@ function LandingPage() {
           </h2>
 
           <div className="bar">
-            <i style={{ color: "#0000" }} className=""></i>
+            <i style={{ color: "#0000" }}></i>
             <div className="indfo">
               <span>Thai</span>
             </div>
@@ -435,7 +470,7 @@ function LandingPage() {
           <br />
 
           <div className="bar">
-            <i style={{ color: "#0000" }} className=""></i>
+            <i style={{ color: "#0000" }}></i>
             <div className="indfo">
               <span>English</span>
             </div>
@@ -557,15 +592,23 @@ function LandingPage() {
         <span className="heading">Projects</span>
         <div className="portfolio-container">
           <div className="portfolio-box">
+            <img
+              src="https://media.licdn.com/dms/image/v2/C510BAQGihmUgvPDRUA/company-logo_200_200/company-logo_200_200/0/1630575474865?e=1755129600&amp;v=beta&amp;t=-Ai2lZkH_gTEAoWkqL11JNViaeRg_ap7lZdj79s2aOM"
+              loading="lazy"
+              alt="โลโก้ ClickNext"
+              id="ember35"
+              className="evi-image lazy-image ember-view org-top-card-primary-content__logo
+            "
+            />
+            <button className="portfolio-layer" onClick={handleIntern}>
+              <h4>Internship</h4>
+            </button>
+          </div>
+
+          <div className="portfolio-box">
             <img src={Port1} alt="port1" />
             <div className="portfolio-layer">
               <h4>Java Project</h4>
-              <p>
-                I joined the Java Programming course with BorntoDev school.I
-                self-learned how to set up PostgreSQL, establish a connection
-                from my Java code, and execute SQL queries. I built the
-                CheeseCake_Cafe project with JAVA and PostgreSQL.{" "}
-              </p>
               <a href="https://www.youtube.com/watch?v=bQ7pbJf0NUs&t=77s">
                 <i className="bx bx-link-external hov-i"></i>
               </a>
@@ -576,12 +619,6 @@ function LandingPage() {
             <img src={Port2} alt="port2" />
             <div className="portfolio-layer">
               <h4>C Project</h4>
-              <p>
-                I joined the Zero To One : C Programming course with BorntoDev
-                school.I wrote and run C code using the Replit's C online
-                compiler & interpreter. Also I built the CakeCafe_C project with
-                C code.
-              </p>
               <a href="https://www.youtube.com/watch?v=c3gxKG7UsSM">
                 <i className="bx bx-link-external hov-i "></i>{" "}
               </a>
@@ -592,7 +629,6 @@ function LandingPage() {
             <img src={Port3} alt="port3" />
             <div className="portfolio-layer">
               <h4>Game Roblox Project </h4>
-              <p>I created a Roblox Game Programming with Lua Language</p>
               <a href="https://www.roblox.com/games/6401878474/DISCO-CYBER">
                 <i className="bx bx-link-external hov-i"></i>
               </a>
@@ -603,10 +639,6 @@ function LandingPage() {
             <img src={KU} alt="KU" />
             <div className="portfolio-layer">
               <h4>KU SRC</h4>
-              <p>
-                นิสิตวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ ศรีราชา คว้า
-                รางวัลจากโครงการ Hack to the Max
-              </p>
               <a href="https://www.csi-kusrc.tech/-hack-to-the-max-digital-infrastructure">
                 <i className="bx bx-link-external hov-i"></i>
               </a>
@@ -617,7 +649,6 @@ function LandingPage() {
             <img src={nextP} alt="KU" />
             <div className="portfolio-layer">
               <h4>KU SRC</h4>
-              <p>Next.JS project demo and deployment by Vercel</p>
               <a href="https://demo-next-lilac.vercel.app/">
                 <i className="bx bx-link-external hov-i"></i>
               </a>
@@ -628,7 +659,6 @@ function LandingPage() {
             <img src={mobileappP} alt="mobile dev" />
             <div className="portfolio-layer">
               <h4>KU SRC</h4>
-              <p>Mobile Application: ABC Shop</p>
               <a href="https://youtu.be/zE7b4hVGziY">
                 <i className="bx bx-link-external hov-i"></i>
               </a>
@@ -637,9 +667,44 @@ function LandingPage() {
         </div>
       </section>
 
-      {/* <section className="contact" id="contact">
-        <Contact />
-      </section> */}
+      {/* section Slide auto photo card */}
+      <section className="activity" id="activitys">
+        <h2 className="heading">
+          Activity<span>All</span>
+        </h2>
+
+        <div className="row flex">
+          <div className="colunm flex justify-center   ">
+            <div className=" m-4 col-lg-4 col-md-2 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+              <img
+                src={HackEYE}
+                className=" card-img-top bg-origin-content p-2 "
+                alt="Frontend"
+              />
+            </div>
+            <div className=" m-4 col-lg-4 col-md-2 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+              <img
+                src={kuP}
+                className=" card-img-top bg-origin-content p-2 "
+                alt="Frontend"
+              />
+            </div>
+          </div>
+        </div>
+        <br />
+        <h2 className="heading">Q&A</h2>
+
+        <div className="bg-black-200 p-6 rounded-lg shadow-xl w-full mt-50">
+          {faqs.map((faq, index) => (
+            <FAQItem
+              key={index}
+              question={faq.question}
+              answer={faq.answer}
+              answer2={faq.answer2}
+            />
+          ))}
+        </div>
+      </section>
 
       <PageView />
       <Theme />

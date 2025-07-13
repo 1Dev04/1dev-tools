@@ -75,6 +75,8 @@ const Navbar = () => {
           
           <a href="#projects" className="scoll-S5">Projects</a>
           
+           <a href="#activitys" className="scoll-S6">Activitys</a>
+          
           {/* <a href="#contact" className="scoll-S6">Contact</a>  */}
           
           
