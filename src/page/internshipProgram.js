@@ -21,6 +21,8 @@ function InternshipProgram() {
       icon1: <i style={{ color: "#8892be", fontSize: 15 }} className="bx bxl-php "></i>,
       icon2: <i style={{ color: "#0db7ed", fontSize: 15 }} className="bx bxl-docker"></i>,
       icon3: <i style={{ color: "#00758F", fontSize: 15 }} className="bx bxs-data"></i>,
+      icon4: <i style={{ color: "#fca121" }} className="bx bxl-gitlab"></i>,
+      icon5: <i style={{ color: "#7952B3" }} className="bx bxl-bootstrap"></i>,
       iconVSColor: "bg-gray-800", 
       dotColor: "bg-green-500",
     },
@@ -40,6 +42,8 @@ function InternshipProgram() {
       icon1: <i style={{ color: "#8892be", fontSize: 15 }} className="bx bxl-php "></i>,
       icon2: <i style={{ color: "#0db7ed", fontSize: 15 }} className="bx bxl-docker"></i>,
       icon3: <i style={{ color: "#00758F", fontSize: 15 }} className="bx bxs-data"></i>,
+      icon4: <i style={{ color: "#fca121" }} className="bx bxl-gitlab"></i>,
+      icon5: <i style={{ color: "#7952B3" }} className="bx bxl-bootstrap"></i>,
       iconVSColor: "bg-gray-800",
       dotColor: "bg-green-500",
     },
@@ -58,6 +62,8 @@ function InternshipProgram() {
       icon1: <i style={{ color: "#8892be", fontSize: 15 }} className="bx bxl-php "></i>,
       icon2: <i style={{ color: "#0db7ed", fontSize: 15 }} className="bx bxl-docker"></i>,
       icon3: <i style={{ color: "#00758F", fontSize: 15 }} className="bx bxs-data"></i>,
+      icon4: <i style={{ color: "#fca121" }} className="bx bxl-gitlab"></i>,
+      icon5: <i style={{ color: "#7952B3" }} className="bx bxl-bootstrap"></i>,
       iconVSColor: "bg-gray-800",
       dotColor: "bg-yellow-500",
     },
@@ -151,6 +157,18 @@ function InternshipProgram() {
               style={{ fontSize: '1.5rem' }}
             >
               {item.icon3}
+            </span>
+            <span
+              className={`w-12 h-12 rounded-full flex items-center justify-center ${item.iconVSColor}`}
+              style={{ fontSize: '1.5rem' }}
+            >
+              {item.icon4}
+            </span>
+               <span
+              className={`w-12 h-12 rounded-full flex items-center justify-center ${item.iconVSColor}`}
+              style={{ fontSize: '1.5rem' }}
+            >
+              {item.icon5}
             </span>
           </div>
         </li>
