@@ -106,6 +106,11 @@
     display: none;
   }
 
+  /* View */
+  .body-view {
+    display: none;
+  }
+
   /* One text about me span */
 
   .about .about-content h2 span {
@@ -978,14 +983,19 @@
 
 
 
-  .wheel-and-hamster {
-    --dur: 1s;
-    position: relative;
-    width: 12em;
-    height: 12em;
-    font-size: 14px;
+.wheel-and-hamster {
+  --dur: 1s;
+  position: relative;
+  width: 12em;
+  height: 12em;
+  font-size: 14px;
 
-  }
+  display: flex;               
+  justify-content: center;     
+  align-items: center;        
+
+  margin: 30rem 2rem;              
+}
 
   .wheel,
   .hamster,
