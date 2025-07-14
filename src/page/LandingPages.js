@@ -394,6 +394,14 @@ function LandingPage() {
                 <span>Mongodb</span>
               </div>
             </div>
+
+            <div className="side">
+             <i style={{ color: "#FF8F00" }} className="bx bxl-firebase"></i>
+              <div className="hid-name-mongo">
+                <span>Firebase</span>
+              </div>
+            </div>
+
           </div>
           <h2 className="heading1">
             Computer<span> Skills</span>
