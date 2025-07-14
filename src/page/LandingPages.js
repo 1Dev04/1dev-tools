@@ -602,6 +602,7 @@ function LandingPage() {
             />
             <button className="portfolio-layer" onClick={handleIntern}>
               <h4>Internship</h4>
+              <br/>
             </button>
           </div>
 
@@ -609,6 +610,7 @@ function LandingPage() {
             <img src={Port1} alt="port1" />
             <div className="portfolio-layer">
               <h4>Java Project</h4>
+              <br/>
               <a href="https://www.youtube.com/watch?v=bQ7pbJf0NUs&t=77s">
                 <i className="bx bx-link-external hov-i"></i>
               </a>
@@ -619,6 +621,7 @@ function LandingPage() {
             <img src={Port2} alt="port2" />
             <div className="portfolio-layer">
               <h4>C Project</h4>
+              <br/>
               <a href="https://www.youtube.com/watch?v=c3gxKG7UsSM">
                 <i className="bx bx-link-external hov-i "></i>{" "}
               </a>
@@ -629,6 +632,7 @@ function LandingPage() {
             <img src={Port3} alt="port3" />
             <div className="portfolio-layer">
               <h4>Game Roblox Project </h4>
+              <br/>
               <a href="https://www.roblox.com/games/6401878474/DISCO-CYBER">
                 <i className="bx bx-link-external hov-i"></i>
               </a>
@@ -639,6 +643,7 @@ function LandingPage() {
             <img src={KU} alt="KU" />
             <div className="portfolio-layer">
               <h4>KU SRC</h4>
+              <br/>
               <a href="https://www.csi-kusrc.tech/-hack-to-the-max-digital-infrastructure">
                 <i className="bx bx-link-external hov-i"></i>
               </a>
@@ -649,6 +654,7 @@ function LandingPage() {
             <img src={nextP} alt="KU" />
             <div className="portfolio-layer">
               <h4>KU SRC</h4>
+              <br/>
               <a href="https://demo-next-lilac.vercel.app/">
                 <i className="bx bx-link-external hov-i"></i>
               </a>
@@ -659,6 +665,7 @@ function LandingPage() {
             <img src={mobileappP} alt="mobile dev" />
             <div className="portfolio-layer">
               <h4>KU SRC</h4>
+              <br/>
               <a href="https://youtu.be/zE7b4hVGziY">
                 <i className="bx bx-link-external hov-i"></i>
               </a>
