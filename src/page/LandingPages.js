@@ -670,7 +670,7 @@ function LandingPage() {
       {/* section Slide auto photo card */}
       <section className="activity" id="activitys">
         <h2 className="heading">
-          Activity<span>All</span>
+          Activity
         </h2>
 
         <div className="row flex">
