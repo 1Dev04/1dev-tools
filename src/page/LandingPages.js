@@ -675,14 +675,14 @@ function LandingPage() {
 
         <div className="row flex">
           <div className="colunm flex justify-center   ">
-            <div className=" m-4 col-lg-4 col-md-2 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+            <div className=" m-4 col-lg-4 col-md-5 col-sm-4 img-thumbnail m-1 bg-transparent box1">
               <img
                 src={HackEYE}
                 className=" card-img-top bg-origin-content p-2 "
                 alt="Frontend"
               />
             </div>
-            <div className=" m-4 col-lg-4 col-md-2 col-sm-7 img-thumbnail m-2 bg-transparent box1">
+            <div className=" m-4 col-lg-4 col-md-5 col-sm-4 img-thumbnail m-1 bg-transparent box1">
               <img
                 src={kuP}
                 className=" card-img-top bg-origin-content p-2 "
