@@ -165,8 +165,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.2rem 9%;
     flex-direction: column;
+    padding: 8%;
   }
 
   /* Navbar text */
@@ -179,15 +179,22 @@
 
   /* frame one image */
 
-  .home .home-img img {
+  .home .home-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: sticky;
     margin-top: 4rem;
     width: 280px;
     left: 180px;
-    animation: floatImage1 8s ease-in-out infinite;
     filter: drop-shadow(0px 1px 5px var(--main-color));
     transition: transform 2s ease-in-out;
   }
+
+   .home .home-img img {
+      width: 70%;
+      animation: floatImage1 8s ease-in-out infinite;
+   }
 
   /* frame one 2 tap */
 
@@ -244,13 +251,8 @@
     color: var(--main-color);
     transition: 0.5s ease;
     margin: 3rem 1.5rem 3rem 0;
-    /* text-shadow: 
-        0 0 2.5rem var(--main-color),
-        0 0 4rem var(--main-color),
-        0 0 5.5rem var(--main-color),
-        0 0 6rem var(--main-color),
-        0 0 9.5rem var(--main-color);
-        */
+   text-shadow: 
+        0 0 2.5rem var(--main-color);
     transition: 0.7s ease;
     transform: scale(1) rotate(-360deg);
   }
@@ -1409,41 +1411,27 @@
 
   /* Key frame to one */
 
-  @keyframes floatImage1 {
+@keyframes floatImage1 {
     0% {
-      transform: translateX(1%) scale(0.01);
+      transform: translateY(-1%) scale(0.8);
     }
 
     25% {
-      transform: translateY(-1%) scale(1);
+      transform: translateY(2%) scale(0.8);
     }
 
     50% {
-      transform: translateY(5%) scale(1);
+      transform: translateY(-2%) scale(0.8);
     }
 
     75% {
-      transform: translateY(-1%) scale(1);
+      transform: translateY(2%) scale(0.8);
     }
 
     100% {
-      transform: translateX(-1%) scale(0.01);
+      transform: translateY(-1%) scale(0.8);
     }
   }
 
-  /* Key frame to about me */
 
-  @keyframes floatImage2 {
-    0% {
-      transform: translateX(0%) scale(0.9);
-    }
-
-    50% {
-      transform: scale(1) translateX(-20%);
-    }
-
-    100% {
-      transform: translateX(0%) scale(0.9);
-    }
-  }
 }

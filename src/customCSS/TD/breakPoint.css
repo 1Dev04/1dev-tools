@@ -181,16 +181,22 @@
 
   /* frame one image */
 
-  .home .home-img img {
+ .home .home-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: sticky;
-    margin-top: 4rem;
+    margin-top: 5rem;
     width: 280px;
     left: 180px;
-    animation: floatImage1 8s ease-in-out infinite;
     filter: drop-shadow(0px 1px 5px var(--main-color));
     transition: transform 2s ease-in-out;
   }
 
+   .home .home-img img {
+    width: 70%;
+      animation: floatImage1 8s ease-in-out infinite;
+   }
   /* frame one 2 tap */
 
   .home .home-content h3:nth-of-type(2) {
@@ -1423,25 +1429,27 @@
   }
 
   /* Key frame to one */
-  @keyframes floatImage1 {
+ 
+    @keyframes floatImage1 {
     0% {
-      transform: translateX(1%) scale(0.01);
+      transform: translateY(-1%) scale(0.8);
     }
 
     25% {
-      transform: translateY(-1%) scale(1);
+      transform: translateY(2%) scale(0.8);
     }
 
     50% {
-      transform: translateY(5%) scale(1);
+      transform: translateY(-2%) scale(0.8);
     }
 
     75% {
-      transform: translateY(-1%) scale(1);
+      transform: translateY(2%) scale(0.8);
     }
 
     100% {
-      transform: translateX(-1%) scale(0.01);
+      transform: translateY(-1%) scale(0.8);
     }
   }
+
 }

@@ -10,7 +10,7 @@ import Contact from "../component/contact.js";
 import Typed from "typed.js";
 import Theme from "../component/Theme.js";
 import PageView from "../component/PageView.js";
-import Image1 from "../asset/imageR/photo3.png";
+import Image1 from "../asset/imageR/GPTPOST2.png";
 import Image2 from "../asset/imageR/photo4.png";
 import Port1 from "../asset/portfolio/cheeseCake.png";
 import Port2 from "../asset/portfolio/cakeCafe.png";
