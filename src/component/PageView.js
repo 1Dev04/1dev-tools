@@ -1,12 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {
-  database,
-  ref,
-  get,
-  set,
-  onValue,
-  onDisconnect,
-} from "../page/Firebase";
+import { database, ref, get, set, onValue, onDisconnect } from "../page/Firebase";
 import { v4 as uuidv4 } from "uuid";
 
 import "../customCSS/View.css";
@@ -21,33 +14,40 @@ const ViewCount = () => {
     // ฟังก์ชันดึงและอัพเดตจำนวนการเข้าชม
 
     const fetchAndUpdateViewCount = () => {
-      let sessionId = sessionStorage.getItem("session_id");
+       let sessionId = sessionStorage.getItem("session_id");
 
-      if (!sessionId) {
-        sessionId = uuidv4();
-        sessionStorage.setItem("session_id", sessionId);
-      }
+  if (!sessionId) {
+    sessionId = uuidv4();
+    sessionStorage.setItem("session_id", sessionId);
+  }
 
-      const sessionRef = ref(database, `views/sessions/${sessionId}`);
-      const countRef = ref(database, "views/count");
+  const sessionRef = ref(database, `views/sessions/${sessionId}`);
+  const countRef = ref(database, "views/count");
+  const sessionsRef = ref(database, "views/sessions");
 
- 
-      set(sessionRef, true);
+  // ตั้ง onDisconnect ก่อน แล้วค่อยตั้งค่า session
+  onDisconnect(sessionRef)
+    .remove()
+    .then(() => {
+      // ตั้ง session ว่า active
+      return set(sessionRef, true);
+    })
+    .catch((error) => {
+      console.error("Failed to setup onDisconnect or set session:", error);
+    });
 
-    
-      window.addEventListener("beforeunload", () => {
-        remove(sessionRef);
-      });
+  // ฟังข้อมูล session ทั้งหมด เพื่ออัปเดตจำนวน
+  onValue(sessionsRef, (snapshot) => {
+    const sessions = snapshot.val() || {};
+    const count = Object.keys(sessions).length;
 
+    // อัปเดต count ใน DB และ state ในแอป
+    set(countRef, count).catch((err) => {
+      console.error("Failed to update view count:", err);
+    });
 
-      const sessionsRef = ref(database, "views/sessions");
-      onValue(sessionsRef, (snapshot) => {
-        const sessions = snapshot.val() || {};
-        const count = Object.keys(sessions).length;
-
-        set(countRef, count);
-        setViewCountState(count);
-      });
+    setViewCountState(count);
+  });
     };
 
     const fetchAndUpdateLikeCount = async () => {
