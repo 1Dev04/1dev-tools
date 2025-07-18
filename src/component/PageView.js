@@ -1,5 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { database, ref, get, set, onValue, onDisconnect } from "../page/Firebase";
+import {
+  database,
+  ref,
+  get,
+  set,
+  onValue,
+  onDisconnect,
+} from "../page/Firebase";
 import { v4 as uuidv4 } from "uuid";
 
 import "../customCSS/View.css";
@@ -16,7 +23,6 @@ const ViewCount = () => {
     const fetchAndUpdateViewCount = () => {
       let sessionId = sessionStorage.getItem("session_id");
 
-      // ถ้ายังไม่มี session id ให้สร้างใหม่
       if (!sessionId) {
         sessionId = uuidv4();
         sessionStorage.setItem("session_id", sessionId);
@@ -25,21 +31,20 @@ const ViewCount = () => {
       const sessionRef = ref(database, `views/sessions/${sessionId}`);
       const countRef = ref(database, "views/count");
 
-      // ⚠️ ต้องตั้ง onDisconnect ก่อนทำ set
-      onDisconnect(sessionRef)
-        .remove()
-        .then(() => {
-          // เมื่อ onDisconnect ถูกตั้งสำเร็จ ➜ ค่อย set session
-          set(sessionRef, true);
-        });
+ 
+      set(sessionRef, true);
 
-      // ฟังทุก session ➜ คำนวณ count
+    
+      window.addEventListener("beforeunload", () => {
+        remove(sessionRef);
+      });
+
+
       const sessionsRef = ref(database, "views/sessions");
       onValue(sessionsRef, (snapshot) => {
         const sessions = snapshot.val() || {};
         const count = Object.keys(sessions).length;
 
-        // อัปเดต count
         set(countRef, count);
         setViewCountState(count);
       });
