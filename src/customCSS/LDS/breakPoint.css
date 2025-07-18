@@ -1441,41 +1441,25 @@
 
   /* Key frame to one */
 
-  @keyframes floatImage1 {
+    @keyframes floatImage1 {
     0% {
-      transform: translateX(0.9%) scale(0.01);
+      transform: translateY(-1%) scale(0.8);
     }
 
     25% {
-      transform: translateY(-0.9%) scale(0.9);
+      transform: translateY(2%) scale(0.8);
     }
 
     50% {
-      transform: translateY(5%) scale(0.9);
+      transform: translateY(-2%) scale(0.8);
     }
 
     75% {
-      transform: translateY(-0.9%) scale(0.9);
+      transform: translateY(2%) scale(0.8);
     }
 
     100% {
-      transform: translateX(-0.9%) scale(0.01);
-    }
-  }
-
-  /* Key frame to about me */
-
-  @keyframes floatImage2 {
-    0% {
-      transform: rotate(10deg) scale(0.9);
-    }
-
-    50% {
-      transform: scale(0.9) rotate(-10deg);
-    }
-
-    100% {
-      transform: scale(0.9) rotate(10deg);
+      transform: translateY(-1%) scale(0.8);
     }
   }
 }
