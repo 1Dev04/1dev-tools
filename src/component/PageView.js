@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { database, ref, get, set } from "../page/Firebase";
+import { database, ref, get, set, onValue, onDisconnect } from "../page/Firebase";
+import { v4 as uuidv4 } from "uuid";
 
 import "../customCSS/View.css";
 import "../customCSS/style-switcher.css";
@@ -11,19 +12,37 @@ const ViewCount = () => {
 
   useEffect(() => {
     // ฟังก์ชันดึงและอัพเดตจำนวนการเข้าชม
-    const fetchAndUpdateViewCount = async () => {
-      const viewRef = ref(database, "views");
-      const snapshot = await get(viewRef);
 
-      if (snapshot.exists()) {
-        const currentCount = snapshot.val();
-        const updatedCount = currentCount + 1;
-        set(viewRef, updatedCount);
-        setViewCountState(updatedCount);
-      } else {
-        set(viewRef, 1);
-        setViewCountState(1);
+    const fetchAndUpdateViewCount = () => {
+      let sessionId = sessionStorage.getItem("session_id");
+
+      // ถ้ายังไม่มี session id ให้สร้างใหม่
+      if (!sessionId) {
+        sessionId = uuidv4();
+        sessionStorage.setItem("session_id", sessionId);
       }
+
+      const sessionRef = ref(database, `views/sessions/${sessionId}`);
+      const countRef = ref(database, "views/count");
+
+      // ⚠️ ต้องตั้ง onDisconnect ก่อนทำ set
+      onDisconnect(sessionRef)
+        .remove()
+        .then(() => {
+          // เมื่อ onDisconnect ถูกตั้งสำเร็จ ➜ ค่อย set session
+          set(sessionRef, true);
+        });
+
+      // ฟังทุก session ➜ คำนวณ count
+      const sessionsRef = ref(database, "views/sessions");
+      onValue(sessionsRef, (snapshot) => {
+        const sessions = snapshot.val() || {};
+        const count = Object.keys(sessions).length;
+
+        // อัปเดต count
+        set(countRef, count);
+        setViewCountState(count);
+      });
     };
 
     const fetchAndUpdateLikeCount = async () => {
@@ -52,8 +71,8 @@ const ViewCount = () => {
       const updatedCount = currentCount + 1;
       var count = null;
       if (updatedCount) {
-        setHasLiked(true); 
-            count = currentCount + 1;
+        setHasLiked(true);
+        count = currentCount + 1;
       }
 
       await set(likeRef, updatedCount);
@@ -62,12 +81,9 @@ const ViewCount = () => {
 
       const textAlert = document.querySelector(".body-view .text-Al");
       const iconAlert = document.querySelector(".alert .close-btn");
-      
 
       textAlert?.classList.add("hidden");
       iconAlert?.classList.add("hidden");
-
-
     }
   };
 

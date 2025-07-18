@@ -1,6 +1,6 @@
 // firebase.js
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, get, set } from "firebase/database"; // แก้จาก analytics เป็น database
+import { getDatabase, ref, get, set , onValue, onDisconnect} from "firebase/database"; // แก้จาก analytics เป็น database
 
 // ค่า config ที่ได้จาก Firebase Console
 const firebaseConfig = {
@@ -18,4 +18,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app); // ใช้ getDatabase
 
-export { database, ref, get, set };
+export { database, ref, get, set , onValue, onDisconnect };
