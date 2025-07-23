@@ -9,7 +9,7 @@
     left: 0px;
     width: 100%;
     padding: 2rem 1%;
-    background: var(--box-color);
+    background: linear-gradient(136deg, var(--theme-mode), var(--box-color)); 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1402,7 +1402,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--box-color);
+    background: linear-gradient(136deg, var(--theme-mode), var(--box-color)); 
   }
 
   /* text in footer  */

@@ -102,6 +102,8 @@ function InternshipProgram() {
     },
   ];
 
+  
+
   return (
     <div className="internship">
       <div className=" footer foot-color  p-2 fixed-top box ">
@@ -178,6 +180,7 @@ function InternshipProgram() {
           </section>
 
         </div>
+   
       </section>
       <footer className="footer foot-color  p-2 fixed-bottom box">
         <Link

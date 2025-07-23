@@ -17,7 +17,7 @@
     --second-bg-color: #1c1d1f;
     --text-color: #fff;
     --box-theme-color: #3a3a3a;
-    --main-color: #ffffff;
+    --main-color: #dbdbdb;
     --sky-color: #0ef;
     --pink-color: #ff1cc6;
     --green-color: #62ff32;
@@ -28,6 +28,7 @@
     --icon-color: white;
     --bg1-color: #181818;
      --popup-color-bg: #111;
+     --theme-mode: #1d1825;
     transition: 1s ease;
 
 }
@@ -44,7 +45,7 @@ body.white {
   --icon-color: #5a4a44;                 /* สีไอคอน: น้ำตาลกลางดูอบอุ่น */
   --bg1-color: #f9f5f0;                  /* พื้นหลังอื่น ๆ: ขาวอมเทาอมชมพู */
   --popup-color-bg: rgba(0, 0, 0, 0.1);  /* พื้นหลัง popup เบา ๆ ไม่รบกวนสายตา */
-
+  --theme-mode: #fddc9b;
   transition: 0.5s ease;
 }
 

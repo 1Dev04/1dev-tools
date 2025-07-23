@@ -454,7 +454,7 @@
 
 
 
-@media screen and (min-width:1421px) and (max-width:2000px)  {
+@media screen and (min-width:1421px) and (max-width:5000px)  {
         
     .style-switcher.open {
         transform: translateX(-10%);
