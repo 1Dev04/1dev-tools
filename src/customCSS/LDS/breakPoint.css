@@ -63,7 +63,7 @@
   /* body all */
 
   body {
-    background: var(--bg-color);
+    background: linear-gradient(-816deg, var(--popup-color-bg), var(--theme-mode));
     color: var(--text-color);
     transition: 0.5s ease;
   }
@@ -100,7 +100,7 @@
     align-items: center;
     gap: 20rem;
     transition: 0.5s ease;
-    background-color: var(--about-color);
+    background: linear-gradient(-816deg, var(--popup-color-bg), var(--theme-mode));
     height: 70vh; /* เพิ่มความสูงเพื่อให้จัดกลางแนวตั้งได้ */
   }
 

@@ -9,7 +9,7 @@
     left: 0px;
     width: 100%;
     padding: 2rem 1%;
-    background: var(--box-color);
+      background: linear-gradient(136deg, var(--theme-mode), var(--box-color)); 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,7 +64,7 @@
   /* body all */
 
   body {
-    background: var(--bg-color);
+    background: linear-gradient(-816deg, var(--popup-color-bg), var(--theme-mode));
     color: var(--text-color);
     transition: 0.5s ease;
   }
@@ -100,7 +100,7 @@
     align-items: center;
     gap: 15rem;
     transition: 0.5s ease;
-    background-color: var(--about-color);
+   background: linear-gradient(-816deg, var(--popup-color-bg), var(--theme-mode));
     height: 70vh; /* เพิ่มความสูงเพื่อให้จัดกลางแนวตั้งได้ */
   }
 
