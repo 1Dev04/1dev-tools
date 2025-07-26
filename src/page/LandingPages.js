@@ -359,7 +359,7 @@ function LandingPage() {
             </div>
 
             <div className="side">
-              <i style={{ color: "#000000" }} className="bx bx-rocket"></i>
+              <i style={{ color: "#e8e8e8ff" }} className="bx bx-rocket"></i>
               <div className="hid-name-nextjs">
                 <span>NextJS</span>
               </div>
