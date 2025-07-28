@@ -175,7 +175,7 @@ function LandingPage() {
           <div className="about-img">
             <img src={Image2} alt="photo4" />
           </div>
-          <div className="about-content">
+          <div className="about-content ">
             <p>
               Name: Krittiphon Yoonaitham <br />
               Nickname: Moss <br />
