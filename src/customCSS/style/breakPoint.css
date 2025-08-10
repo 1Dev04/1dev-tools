@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* ------------------------------
+   Large Desktop
+------------------------------ */
+@media screen and (min-width: 361px) {
+
+  /* ------------------------------
+     Header
+  ------------------------------ */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 1%;
+    background: linear-gradient(136deg, var(--theme-mode), var(--box-color)); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: background 0.5s ease, padding 0.5s ease;
+  }
+
+  /* Menu Icon */
+  #menu-icon {
+    font-size: 4rem;
+    color: var(--text-color);
+    display: none;
+  }
+
+  /* ------------------------------
+     Base HTML & Body
+  ------------------------------ */
+  html {
+    font-size: 50.5%;
+    overflow-x: hidden;
+  }
+
+  body {
+    background: linear-gradient(144deg, var(--popup-color-bg), var(--theme-mode));
+    color: var(--text-color);
+    overflow-y: scroll; /* scroll ได้แต่ไม่แสดง scrollbar */
+    transition: background 0.5s ease, color 0.5s ease;
+  }
+
+  /* Hide Scrollbar - Chrome, Edge, Safari */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  span {
+    color: var(--text-color);
+    transition: color 0.5s ease;
+  }
+
+  section {
+    min-height: 130vh; /* ปรับให้รองรับทุก browser */
+  }
+
+  /* ------------------------------
+     Home Section
+  ------------------------------ */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1%;  /* ลด padding ลงจากเดิม 44rem เพราะมันใหญ่มากเกิน */
+  min-height: 100vh; /* ให้เต็มจอแนวตั้ง */
+  background-color: #121212; /* สีพื้นหลังมืดหน่อย */
+}
+
+.home h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+.home h1 span {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--main-color);
+}
+
+span.animate__animated {
+  display: inline-block;
+}
+
+.home h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+.board-body {
+  background: linear-gradient(136deg, var(--theme-mode), var(--box-color)); 
+  
+  width: 90vw;         /* กว้างตามหน้าจอแบบมี margin */
+  max-width: 800px;    /* กำหนด max กว้างไม่ให้ใหญ่เกิน */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ .form {
+  position: relative;
+  display: inline-block;
+ }
+
+
+  /* ------------------------------
+     Footer
+  ------------------------------ */
+
+    .footer {
+    position: relative;
+    background: linear-gradient(136deg, var(--theme-mode), var(--box-color)); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1%;
+    width: 100%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    z-index: 200;
+    transition: 0.5s ease
+  }
+
+  .footer p {
+    font-family: "Source Code Pro", monospace;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  /* Footer Icon Links */
+  .footer-iconTop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    background: var(--main-color);
+    border-radius: 0.8rem;
+    transition: box-shadow 0.5s ease;
+  }
+
+  .footer-iconTop a:hover {
+    box-shadow: 0 0 2rem var(--main-color);
+  }
+
+  .footer-iconTop a i {
+    font-size: 2.1rem;
+    color: var(--second-bg-color);
+  }
+
+
+  
+  .footer .logo {
+    filter: drop-shadow(0px 1px 5px rgba(255, 255, 255, 0.185));
+    animation: logo 4s linear infinite;
+  }
+  
+  .logo img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+  }
+  
+  @keyframes logo {
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+}

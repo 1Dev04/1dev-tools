@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import {
   database,
   ref,
-  get,
+
   set,
   onValue,
   onDisconnect,
@@ -14,8 +14,6 @@ import "../customCSS/style-switcher.css";
 
 const ViewCount = () => {
   const [viewCount, setViewCountState] = useState("");
-  const [likeCount, setLikeCountState] = useState("");
-  const [hasLiked, setHasLiked] = useState(false);
 
   useEffect(() => {
     // ฟังก์ชันดึงและอัพเดตจำนวนการเข้าชม
@@ -57,45 +55,10 @@ const ViewCount = () => {
       });
     };
 
-    const fetchAndUpdateLikeCount = async () => {
-      const likeRef = ref(database, "likes");
-
-    
-      const unsubscribe = onValue(likeRef, (snapshot) => {
-        if (snapshot.exists()) {
-          setLikeCountState(snapshot.val());
-        } else {
-          setLikeCountState(0);
-        }
-      });
-
-      return () => unsubscribe();
-    };
-
     fetchAndUpdateViewCount();
-    fetchAndUpdateLikeCount();
   }, []);
 
-  const handleLikeClick = async () => {
-    if (hasLiked) return;
-
-    const likeRef = ref(database, "likes");
-    const snapshot = await get(likeRef);
-
-    if (snapshot.exists()) {
-      const currentCount = snapshot.val();
-      const updatedCount = currentCount + 1;
-
-      await set(likeRef, updatedCount);
-      setHasLiked(true); // ป้องกันกดซ้ำ
-
-      const textAlert = document.querySelector(".body-view .text-Al");
-      const iconAlert = document.querySelector(".alert .close-btn");
-
-      textAlert?.classList.add("hidden");
-      iconAlert?.classList.add("hidden");
-    }
-  };
+ 
 
   return (
     <div className="body-view">
@@ -103,21 +66,7 @@ const ViewCount = () => {
         <i className="bxr  bx-eye-big color-icon"></i>{" "}
         <strong>{viewCount}</strong>
       </h4>
-      <h4 className="name1 like-page" onClick={handleLikeClick}>
-        <button>
-          <i className="bx bxs-heart color-icon"></i>{" "}
-        </button>
-      </h4>
-      <strong className="text-heart"> {likeCount}</strong>
-      <div className="alert">
-        <span className="close-btn">
-          <i className="bx bxs-up-arrow-alt"></i>
-        </span>
-      </div>
-      <br></br>
-      <div className="text-Al">
-        Click on the <strong>Heart</strong>.
-      </div>
+     
     </div>
   );
 };

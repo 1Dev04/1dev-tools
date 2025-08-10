@@ -4,14 +4,14 @@ import { getDatabase, ref, get, set , onValue, onDisconnect} from "firebase/data
 
 // ค่า config ที่ได้จาก Firebase Console
 const firebaseConfig = {
-    apiKey: "AIzaSyAMwAE4xUiKaNjYOFQQo9pUOP4VqdWO-z8",
-    authDomain: "views-bf85c.firebaseapp.com",
-    databaseURL: "https://views-bf85c-default-rtdb.firebaseio.com/",  
-    projectId: "views-bf85c",
-    storageBucket: "views-bf85c.appspot.com",
-    messagingSenderId: "370927434102",
-    appId: "1:370927434102:web:2587d3ad19bf7c86b92257",
-    measurementId: "G-JYFKPVXKX8"
+  apiKey: "AIzaSyBC0KbxMzhYg5UyeRIb2kzDa-B3Ox8XQOQ",
+  authDomain: "devtools-a5ecf.firebaseapp.com",
+  databaseURL: "https://devtools-a5ecf-default-rtdb.firebaseio.com",
+  projectId: "devtools-a5ecf",
+  storageBucket: "devtools-a5ecf.firebasestorage.app",
+  messagingSenderId: "506163583606",
+  appId: "1:506163583606:web:38659a065cb7ccfa78dd57",
+  measurementId: "G-WSHS3V81E4"
 };
 
 // เริ่มการทำงานของ Firebase และ Realtime Database

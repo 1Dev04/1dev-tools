@@ -1,12 +1,15 @@
 import "../customCSS/input.css";
 import "../customCSS/App.css";
+import logo from '../asset/logoDev1.png';
 
 
 const footer = () => {
     return (
         <footer className="footer ">
+            
+            <img className="logo" src={logo} width={80} height={80} alt="DevTools Logo" />    
             <div className="footer-text">
-                <p>© Copyright| Version 7 </p>
+                <p>© Copyright| Version 1 </p>
             </div>
 
             <button className="footer-iconTop broder">
