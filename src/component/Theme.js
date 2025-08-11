@@ -49,7 +49,7 @@ function Theme() {
   const ThemeSky = () => {
     const ThemeS = document.querySelector(" .Sky");
     ThemeS.addEventListener("click", () => {
-      document.body.style.setProperty('--main-color', '#0ef');
+      document.body.style.setProperty('--main-color', '#00e0ff');
 
     });
   };
@@ -58,7 +58,7 @@ function Theme() {
   const ThemePink = () => {
     const ThemeP = document.querySelector(" .Pink");
     ThemeP.addEventListener("click", () => {
-      document.body.style.setProperty('--main-color', '#ff1cc6');
+      document.body.style.setProperty('--main-color', '#ff4b91');
 
     });
   };
@@ -66,7 +66,7 @@ function Theme() {
   const ThemeGreen = () => {
     const ThemeG = document.querySelector(" .Green");
     ThemeG.addEventListener("click", () => {
-      document.body.style.setProperty('--main-color', '#62ff32');
+      document.body.style.setProperty('--main-color', '#7cff4f');
 
     });
   };
@@ -74,7 +74,7 @@ function Theme() {
   const ThemeViolet = () => {
     const ThemeV = document.querySelector(" .Violet");
     ThemeV.addEventListener("click", () => {
-      document.body.style.setProperty('--main-color', '#8f0df3');
+      document.body.style.setProperty('--main-color', '#a855f7');
 
     });
   };
@@ -82,7 +82,7 @@ function Theme() {
   const ThemeRed = () => {
     const ThemeR = document.querySelector(" .Red");
     ThemeR.addEventListener("click", () => {
-      document.body.style.setProperty('--main-color', '#f9183a');
+      document.body.style.setProperty('--main-color', '#ff3b5c');
 
     });
   };

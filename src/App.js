@@ -10,7 +10,7 @@ import './customCSS/NR/noneReis.css'
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Landing from './page/HomePage.js';
+import Landing from './page/HomePage';
 
 function App() {
   return (
