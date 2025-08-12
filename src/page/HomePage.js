@@ -50,12 +50,16 @@ const HomePage = () => {
   return (
     <div className="dark">
       {/* Hamster loader */}
+     
       <div
         aria-label="Orange and tan hamster running in a metal wheel"
         role="img"
         className="wheel-and-hamster"
       >
-        <div className="wheel"></div>
+        
+        <div className="wheel">
+           <p className="text-mess">ปิดปรับปรุงชั่วคราว ใช้งานบน PC เท่านั้น</p>
+        </div>
         <div className="hamster">
           <div className="hamster__body">
             <div className="hamster__head">
@@ -86,7 +90,7 @@ const HomePage = () => {
             <span className="multiple-text"></span>
           </h2>
 
-          {/* <form>
+          <form>
             <div className="form">
               <input
                 className="board-body"
@@ -100,7 +104,7 @@ const HomePage = () => {
               </span>
               <button type="submit">Submit</button>
             </div>
-          </form> */}
+          </form>
 
           {/* row 1 */}
 
