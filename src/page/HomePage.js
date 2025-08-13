@@ -18,6 +18,9 @@ import icon8 from "../asset/card-img/logo-icons8.png";
 import fontGoogle from "../asset/card-img/logo-google.png";
 import tailwindcss from "../asset/card-img/logo-tailwindcss.png";
 import Bootstap from "../asset/card-img/logo-bootstap.png";
+import dafont from "../asset/card-img/logo-dafont.png";
+import ReactHookForm from "../asset/card-img/log-react-form.png";
+import W3Schools from "../asset/card-img/logo-w3h.png"
 
 const HomePage = () => {
   useEffect(() => {
@@ -50,15 +53,14 @@ const HomePage = () => {
   return (
     <div className="dark">
       {/* Hamster loader */}
-     
+
       <div
         aria-label="Orange and tan hamster running in a metal wheel"
         role="img"
         className="wheel-and-hamster"
       >
-        
         <div className="wheel">
-           <p className="text-mess">ปิดปรับปรุงชั่วคราว ใช้งานบน PC เท่านั้น</p>
+          <p className="text-mess">ปิดปรับปรุงชั่วคราว ใช้งานบน PC เท่านั้น</p>
         </div>
         <div className="hamster">
           <div className="hamster__body">
@@ -90,7 +92,7 @@ const HomePage = () => {
             <span className="multiple-text"></span>
           </h2>
 
-          <form>
+          {/* <form>
             <div className="form">
               <input
                 className="board-body"
@@ -104,252 +106,328 @@ const HomePage = () => {
               </span>
               <button type="submit">Submit</button>
             </div>
-          </form>
+          </form> */}
 
           {/* row 1 */}
 
           <div className="board-app">
-            <div className="app">
-              <div className="y-board">
-                
-                <div className="card">
-                  <img
-                    className="logo max-w-[85px]"
-                    src={UIVerse}
-                    alt="UIVerse"
-                  />
-                  <div className="card__content">
-                    <p className="card__title">UI Verse</p>
-                    <p className="card__description">
-                      แหล่งรวม UI ฟรี ใช้งานง่าย สำหรับเว็บและแอป
-                    </p>
-                    <p className="card__description">
-                      Install: Not Available<i className="bx bx-x"></i>
-                    </p>
+            <div className="index-board">
+              <div className="card">
+                <img
+                  className="logo max-w-[85px]"
+                  src={UIVerse}
+                  alt="UIVerse"
+                />
+                <div className="card__content">
+                  <p className="card__title">UI Verse</p>
+                  <p className="card__description">
+                    แหล่งรวม UI ฟรี ใช้งานง่าย สำหรับเว็บและแอป
+                  </p>
+                  <p className="card__description">
+                    Install: Not Available<i className="bx bx-x"></i>
+                  </p>
 
-                    <p className="card__description">
-                      Link:{" "}
-                      <a href="https://uiverse.io/" className="link_des">
-                        uiverse.io
-                      </a>
-                    </p>
-                  </div>
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://uiverse.io/" className="link_des">
+                      uiverse.io
+                    </a>
+                  </p>
                 </div>
+              </div>
 
-                <div className="card">
-                  <img
-                    className="logo max-w-[85px]"
-                    src={animationCSS}
-                    alt="animationCSS"
-                  />
-                  <div className="card__content">
-                    <p className="card__title">Animate.css</p>
-                    <p className="card__description">
-                      ไลบรารี CSS แอนิเมชันสำเร็จรูป ไม่ต้องเขียนโค้ดเอง
-                    </p>
-                    <p className="card__description">
-                      Install:{" "}
-                      <a
-                        href="https://animate.style/#documentation"
-                        className="link_des"
-                      >
-                        Get Started<i className="bx bx-check"></i>
-                      </a>
-                    </p>
-                    <p className="card__description">
-                      Link:{" "}
-                      <a href="https://animate.style/" className="link_des">
-                        Animate.css
-                      </a>
-                    </p>
-                  </div>
+              <div className="card">
+                <img
+                  className="logo max-w-[85px]"
+                  src={animationCSS}
+                  alt="animationCSS"
+                />
+                <div className="card__content">
+                  <p className="card__title">Animate.css</p>
+                  <p className="card__description">
+                    ไลบรารี CSS แอนิเมชันสำเร็จรูป ไม่ต้องเขียนโค้ดเอง
+                  </p>
+                  <p className="card__description">
+                    Install:{" "}
+                    <a
+                      href="https://animate.style/#documentation"
+                      className="link_des"
+                    >
+                      Get Started<i className="bx bx-check"></i>
+                    </a>
+                  </p>
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://animate.style/" className="link_des">
+                      Animate.css
+                    </a>
+                  </p>
                 </div>
+              </div>
 
-                <div className="card">
-                  <img
-                    className="logo max-w-[85px]"
-                    src={boxicons}
-                    alt="boxicon"
-                  />
-                  <div className="card__content">
-                    <p className="card__title">Boxicons</p>
-                    <p className="card__description">
-                      ไลบรารีไอคอนคุณภาพสูงที่ออกแบบมาเพื่อเว็บไซต์และแอปพลิเคชัน
-                    </p>
-                    <p className="card__description">
-                      Install:{" "}
-                      <a
-                        href="https://v2.boxicons.com/usage"
-                        className="link_des"
-                      >
-                        Get Started<i className="bx bx-check"></i>
-                      </a>
-                    </p>
-                    <p className="card__description">
-                      Link:{" "}
-                      <a href="https://v2.boxicons.com/" className="link_des">
-                        v2.boxicons.com
-                      </a>
-                    </p>
-                  </div>
+              <div className="card">
+                <img
+                  className="logo max-w-[85px]"
+                  src={boxicons}
+                  alt="boxicon"
+                />
+                <div className="card__content">
+                  <p className="card__title">Boxicons</p>
+                  <p className="card__description">
+                    ไลบรารีไอคอนคุณภาพสูงที่ออกแบบมาเพื่อเว็บไซต์และแอปพลิเคชัน
+                  </p>
+                  <p className="card__description">
+                    Install:{" "}
+                    <a
+                      href="https://v2.boxicons.com/usage"
+                      className="link_des"
+                    >
+                      Get Started<i className="bx bx-check"></i>
+                    </a>
+                  </p>
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://v2.boxicons.com/" className="link_des">
+                      v2.boxicons.com
+                    </a>
+                  </p>
                 </div>
+              </div>
 
-                <div className="card">
-                  <img
-                    className="logo max-w-[85px]"
-                    src={lottieFiles}
-                    alt="lottiefiles"
-                  />
-                  <div className="card__content">
-                    <p className="card__title">Lottiefiles</p>
-                    <p className="card__description">
-                      แหล่งรวมไฟล์แอนิเมชันฟรีแบบเบาๆ โหลดเร็ว ใช้ง่าย
-                      และปรับแต่งได้ตามใจ ไม่ทำให้เว็บหน่วง
-                    </p>
-                    <p className="card__description">
-                      Install: Not Available<i className="bx bx-x"></i>
-                    </p>
-                    <p className="card__description">
-                      Link:{" "}
-                      <a href="https://lottiefiles.com/" className="link_des">
-                        lottiefiles.com
-                      </a>
-                    </p>
-                  </div>
+              <div className="card">
+                <img
+                  className="logo max-w-[85px]"
+                  src={lottieFiles}
+                  alt="lottiefiles"
+                />
+                <div className="card__content">
+                  <p className="card__title">Lottiefiles</p>
+                  <p className="card__description">
+                    แหล่งรวมไฟล์แอนิเมชันฟรีแบบเบาๆ โหลดเร็ว ใช้ง่าย
+                    และปรับแต่งได้ตามใจ ไม่ทำให้เว็บหน่วง
+                  </p>
+                  <p className="card__description">
+                    Install: Not Available<i className="bx bx-x"></i>
+                  </p>
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://lottiefiles.com/" className="link_des">
+                      lottiefiles.com
+                    </a>
+                  </p>
                 </div>
+              </div>
 
-                <div className="card">
-                  <img className="logo max-w-[85px]" src={colorCode} alt="colorCode" />
-                  <div className="card__content">
-                    <p className="card__title">HTML Color Codes</p>
-                    <p className="card__description">
-                      กล่องเครื่องมือสีครบชุด ฟรี 100%
-                    </p>
-                    <p className="card__description">
-                      Install: Not Available<i className="bx bx-x"></i>
-                    </p>
-                    <p className="card__description">
-                      Link:{" "}
-                      <a
-                        href="https://htmlcolorcodes.com/"
-                        className="link_des"
-                      >
-                        htmlcolorcodes.com
-                      </a>
-                    </p>
-                  </div>
+              <div className="card">
+                <img
+                  className="logo max-w-[85px]"
+                  src={colorCode}
+                  alt="colorCode"
+                />
+                <div className="card__content">
+                  <p className="card__title">HTML Color Codes</p>
+                  <p className="card__description">
+                    กล่องเครื่องมือสีครบชุด ฟรี 100%
+                  </p>
+                  <p className="card__description">
+                    Install: Not Available<i className="bx bx-x"></i>
+                  </p>
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://htmlcolorcodes.com/" className="link_des">
+                      htmlcolorcodes.com
+                    </a>
+                  </p>
                 </div>
+              </div>
 
-                <div className="card">
-                  <img className="logo max-w-[85px]" src={icon8} alt="icon8" />
-                  <div className="card__content">
-                    <p className="card__title">Icons8</p>
-                    <p className="card__description">
-                       แหล่งรวมไอคอนและกราฟิกคุณภาพสูง ดาวน์โหลดง่าย มีทั้งแบบฟรีและพรีเมียม
-                    </p>
-                    <p className="card__description">
-                      Install: Not Available<i className="bx bx-x"></i>
-                    </p>
-                    <p className="card__description">
-                      Link:{" "}
-                      <a
-                        href="https://icons8.com/icons"
-                        className="link_des"
-                      >
-                        icons8.com
-                      </a>
-                    </p>
-                  </div>
+              <div className="card">
+                <img className="logo max-w-[85px]" src={icon8} alt="icon8" />
+                <div className="card__content">
+                  <p className="card__title">Icons8</p>
+                  <p className="card__description">
+                    แหล่งรวมไอคอนและกราฟิกคุณภาพสูง ดาวน์โหลดง่าย
+                    มีทั้งแบบฟรีและพรีเมียม
+                  </p>
+                  <p className="card__description">
+                    Install: Not Available<i className="bx bx-x"></i>
+                  </p>
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://icons8.com/icons" className="link_des">
+                      icons8.com
+                    </a>
+                  </p>
                 </div>
+              </div>
 
-                <div className="card">
-                  <img className="logo max-w-[85px]" src={fontGoogle} alt="fontGoogle" />
-                  <div className="card__content">
-                    <p className="card__title">Google Fonts</p>
-                    <p className="card__description">
-                       บริการฟอนต์แบบเปิดฟรีจากกูเกิล ให้เลือกใช้ฟอนต์คุณภาพสูงหลากหลายแบบ
-                    </p>
-                    
-                      <p className="card__description">
-                      Install:{" "}
-                      <a
-                        href="https://fonts.google.com/knowledge/using_type/installing_and_managing_fonts"
-                        className="link_des"
-                      >
-                        Get Started<i className="bx bx-check"></i>
-                      </a>
-                    </p>
-                    
-                    <p className="card__description">
-                      Link:{" "}
-                      <a
-                        href="https://fonts.google.com/"
-                        className="link_des"
-                      >
-                        fonts.google.com
-                      </a>
-                    </p>
-                  </div>
+              <div className="card">
+                <img
+                  className="logo max-w-[85px]"
+                  src={fontGoogle}
+                  alt="fontGoogle"
+                />
+                <div className="card__content">
+                  <p className="card__title">Google Fonts</p>
+                  <p className="card__description">
+                    บริการฟอนต์แบบเปิดฟรีจากกูเกิล
+                    ให้เลือกใช้ฟอนต์คุณภาพสูงหลากหลายแบบ
+                  </p>
+
+                  <p className="card__description">
+                    Install:{" "}
+                    <a
+                      href="https://fonts.google.com/knowledge/using_type/installing_and_managing_fonts"
+                      className="link_des"
+                    >
+                      Get Started<i className="bx bx-check"></i>
+                    </a>
+                  </p>
+
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://fonts.google.com/" className="link_des">
+                      fonts.google.com
+                    </a>
+                  </p>
                 </div>
+              </div>
 
-                <div className="card">
-                  <img className="logo max-w-[85px]" src={tailwindcss} alt="tailwindCSS" />
-                  <div className="card__content">
-                    <p className="card__title">TailwindCSS</p>
-                    <p className="card__description">
-                       เฟรมเวิร์ก CSS แบบ utility-first ที่ช่วยให้การสร้างเว็บสมัยใหม่เป็นเรื่องง่ายและรวดเร็ว
-                    </p>
-                    
-                      <p className="card__description">
-                      Install:{" "}
-                      <a
-                        href="https://tailwindcss.com/docs/installation/using-vite"
-                        className="link_des"
-                      >
-                        Get Started<i className="bx bx-check"></i>
-                      </a>
-                    </p>
-                    
-                    <p className="card__description">
-                      Link:{" "}
-                      <a
-                        href="https://tailwindcss.com/"
-                        className="link_des"
-                      >
-                        tailwindcss.com
-                      </a>
-                    </p>
-                  </div>
+              <div className="card">
+                <img
+                  className="logo max-w-[85px]"
+                  src={tailwindcss}
+                  alt="tailwindCSS"
+                />
+                <div className="card__content">
+                  <p className="card__title">TailwindCSS</p>
+                  <p className="card__description">
+                    เฟรมเวิร์ก CSS แบบ utility-first
+                    ที่ช่วยให้การสร้างเว็บสมัยใหม่เป็นเรื่องง่ายและรวดเร็ว
+                  </p>
+
+                  <p className="card__description">
+                    Install:{" "}
+                    <a
+                      href="https://tailwindcss.com/docs/installation/using-vite"
+                      className="link_des"
+                    >
+                      Get Started<i className="bx bx-check"></i>
+                    </a>
+                  </p>
+
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://tailwindcss.com/" className="link_des">
+                      tailwindcss.com
+                    </a>
+                  </p>
                 </div>
+              </div>
 
-                 <div className="card">
-                  <img className="logo max-w-[85px]" src={Bootstap} alt="Bootstap" />
-                  <div className="card__content">
-                    <p className="card__title">Bootstap</p>
-                    <p className="card__description">
-                       เฟรมเวิร์ก CSS/JS ฟรีและโอเพนซอร์สที่ช่วยให้การพัฒนาเว็บไซต์แบบ responsive และ mobile-first
-                    </p>
-                    
-                      <p className="card__description">
-                      Install:{" "}
-                      <a
-                        href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
-                        className="link_des"
-                      >
-                        Get Started<i className="bx bx-check"></i>
-                      </a>
-                    </p>
-                    
-                    <p className="card__description">
-                      Link:{" "}
-                      <a
-                        href="https://getbootstrap.com/"
-                        className="link_des"
-                      >
-                        getbootstrap.com
-                      </a>
-                    </p>
-                  </div>
+              <div className="card">
+                <img
+                  className="logo max-w-[85px]"
+                  src={Bootstap}
+                  alt="Bootstap"
+                />
+                <div className="card__content">
+                  <p className="card__title">Bootstap</p>
+                  <p className="card__description">
+                    เฟรมเวิร์ก CSS/JS
+                    ฟรีและโอเพนซอร์สที่ช่วยให้การพัฒนาเว็บไซต์แบบ responsive และ
+                    mobile-first
+                  </p>
+
+                  <p className="card__description">
+                    Install:{" "}
+                    <a
+                      href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
+                      className="link_des"
+                    >
+                      Get Started<i className="bx bx-check"></i>
+                    </a>
+                  </p>
+
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://getbootstrap.com/" className="link_des">
+                      getbootstrap.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div className="card">
+                <img className="logo max-w-[85px]" src={dafont} alt="dafont" />
+                <div className="card__content">
+                  <p className="card__title">Dafont</p>
+                  <p className="card__description">
+                    Dafont.com
+                    คือแหล่งดาวน์โหลดฟอนต์ฟรีที่ใหญ่ที่สุดบนอินเทอร์เน็ต
+                    มีฟอนต์กว่า 95,000 แบบให้เลือกใช้
+                  </p>
+                  <p className="card__description">
+                    Install: Not Available<i className="bx bx-x"></i>
+                  </p>
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://www.dafont.com/" className="link_des">
+                      www.dafont.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div className="card">
+                <img
+                  className="logo max-w-[85px]"
+                  src={ReactHookForm}
+                  alt="dafont"
+                />
+                <div className="card__content">
+                  <p className="card__title">React-Hook-Form</p>
+                  <p className="card__description">
+                    ไลบรารีสำหรับจัดการฟอร์มในแอปพลิเคชัน React
+                  </p>
+                  <p className="card__description">
+                    Install:{" "}
+                    <a
+                      href="https://react-hook-form.com/get-started"
+                      className="link_des"
+                    >
+                      Get Started<i className="bx bx-check"></i>
+                    </a>
+                  </p>
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://react-hook-form.com/" className="link_des">
+                      react-hook-form.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div className="card">
+                <img
+                  className="logo max-w-[85px]"
+                  src={W3Schools}
+                  alt="W3Schools"
+                />
+                <div className="card__content">
+                  <p className="card__title">W3Schools</p>
+                  <p className="card__description">
+                    แพลตฟอร์มออนไลน์ยอดนิยมที่ให้บริการบทเรียนและแหล่งอ้างอิงสำหรับเทคโนโลยีเว็บต่าง ๆ
+                  </p>
+                   <p className="card__description">
+                    Install: Not Available<i className="bx bx-x"></i>
+                  </p>
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://www.w3schools.com/" className="link_des">
+                      www.w3schools.com
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
