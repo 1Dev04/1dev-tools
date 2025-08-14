@@ -20,7 +20,8 @@ import tailwindcss from "../asset/card-img/logo-tailwindcss.png";
 import Bootstap from "../asset/card-img/logo-bootstap.png";
 import dafont from "../asset/card-img/logo-dafont.png";
 import ReactHookForm from "../asset/card-img/log-react-form.png";
-import W3Schools from "../asset/card-img/logo-w3h.png"
+import W3Schools from "../asset/card-img/logo-w3h.png";
+import Cloudinary from "../asset/card-img/logo-Cloudinary.png";
 
 const HomePage = () => {
   useEffect(() => {
@@ -426,6 +427,29 @@ const HomePage = () => {
                     Link:{" "}
                     <a href="https://www.w3schools.com/" className="link_des">
                       www.w3schools.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+               <div className="card">
+                <img
+                  className="logo max-w-[85px]"
+                  src={Cloudinary}
+                  alt="Cloudinary"
+                />
+                <div className="card__content">
+                  <p className="card__title">Cloudinary</p>
+                  <p className="card__description">
+                    เครื่องมือที่ทำให้การจัดการและส่งมอบสื่อดิจิทัลเป็นเรื่องง่ายและรวดเร็ว โดยรองรับการปรับขนาดและแปลงรูปแบบสื่ออัตโนมัติ
+                  </p>
+                   <p className="card__description">
+                    Install: Not Available<i className="bx bx-x"></i>
+                  </p>
+                  <p className="card__description">
+                    Link:{" "}
+                    <a href="https://cloudinary.com/" className="link_des">
+                      cloudinary.com
                     </a>
                   </p>
                 </div>
