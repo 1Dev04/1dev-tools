@@ -481,7 +481,7 @@
       var(--popup-color-bg),
       var(--theme-mode)
     );
-    color: var(--text-color);
+   
     overflow-y: scroll; 
     transition: background 0.5s ease, color 0.5s ease;
   }
@@ -499,6 +499,7 @@
   section {
     min-height: 120vh; /* ปรับให้รองรับทุก browser */
   }
+
    /* ------------------------------
      Home Section
   ------------------------------ */
