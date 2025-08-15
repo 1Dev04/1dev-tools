@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 100.6px) and (max-width: 1217.6px) {
+@media screen and (min-width: 300px) {
 
   /* Navbar */
 
@@ -139,28 +139,28 @@
 .wheel-and-hamster {
   --dur: 1s;
   position: relative;
-  width: 12em;
-  height: 12em;
+  width: 20em;
+  height: 20em;
   font-size: 14px;
 
   display: flex;               
   justify-content: center;     
   align-items: center;        
 
-  margin: 50rem 40rem;              
+  margin: 80rem 29rem;              
 }
 
 .text-mess {
   color: white;
-  width: 250px;
+  width: 550px;
   display: flex;
   justify-content: center; /* จัดกลางแนวนอน */
   align-items: center;    /* จัดกลางแนวตั้ง */
   flex-direction: row;
-  font-size: 2rem;        /* ข้อความใหญ่ */
+  font-size: 5rem;        /* ข้อความใหญ่ */
   font-weight: bold;      /* หนา */
   text-align: center;     /* จัดตัวอักษรตรงกลาง */
-  margin-top: -83px;
+ margin: -20rem -6rem; 
 }
 
 
@@ -197,6 +197,7 @@
     transform: rotate(4deg) translate(-0.8em, 1.85em);
     transform-origin: 50% 0;
     z-index: 1;
+    margin: 4.8rem 3rem; 
   }
 
   .hamster__head {
