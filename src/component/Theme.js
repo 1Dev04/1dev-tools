@@ -79,13 +79,7 @@ function Theme() {
     });
   };
 
-  const ThemeRed = () => {
-    const ThemeR = document.querySelector(" .Red");
-    ThemeR.addEventListener("click", () => {
-      document.body.style.setProperty('--main-color', '#ff3b5c');
 
-    });
-  };
 
   return (
     <div className={`style-switcher ${isStyleSwitcherOpen ? 'open' : ''}`}>
@@ -103,7 +97,7 @@ function Theme() {
         <span className="color-2 Pink" onClick={ThemePink}></span>
         <span className="color-3 Green" onClick={ThemeGreen}></span>
         <span className="color-4 Violet" onClick={ThemeViolet}></span>
-        <span className="color-5 Red" onClick={ThemeRed}></span>
+       
       </div>
     </div>
   );
