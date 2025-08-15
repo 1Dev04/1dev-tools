@@ -14,7 +14,7 @@ import Landing from './page/HomePage';
 
 function App() {
   return (
-    <div className="h-1000">
+    <div>
     <Router>
       <Routes>
           <Route path="/" element={<Landing />} ></Route>

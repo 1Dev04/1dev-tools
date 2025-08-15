@@ -82,6 +82,41 @@
 
 }
 
+
+@media screen and (device-width: 844px) and (device-height: 390px) and (orientation: landscape) {
+     .body-view{
+        position: fixed;
+        left: -200px;
+        top: 10px;
+        padding: 15px;
+        width: 200px;
+        z-index: 10;
+        border-radius: 5px;
+        transition: all .3s ease;
+        transform: translateX(105%);
+        transition: .5s ease;
+    }
+
+    .name{
+        color: var(--text-color);
+        font-size: 35px;
+        position: absolute;  
+       
+    }
+
+        .name .color-icon{
+        color:var(--main-color);
+        font-size: 30px;
+        position: relative;  
+    }
+
+      .text-Al {
+        top: -2px;
+        position: relative ;
+    }
+
+}
+
 @media screen and (min-width: 1200px) and (max-width: 5000px) {
    
     .body-view{
