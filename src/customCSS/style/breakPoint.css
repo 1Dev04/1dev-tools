@@ -476,8 +476,6 @@
 
 
   body {
-    
-    border: none;
     background: linear-gradient(
       144deg,
       var(--popup-color-bg),
@@ -661,7 +659,8 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.142);
+    border: none;
+    outline: 1px solid rgba(255, 255, 255, 0.142);
     opacity: 0;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 
@@ -701,7 +700,6 @@
     position: relative;
     background: linear-gradient(136deg, var(--theme-mode), var(--box-color));
     display: flex;
-    border: none;
     justify-content: space-between;
     align-items: center;
     padding: 5px 3%;
