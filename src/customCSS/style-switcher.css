@@ -281,7 +281,7 @@
   }
 }
 
-@media screen and (device-width: 844px) and (device-height: 390px) and (orientation: landscape) {
+@media screen and (device-width: 844px) and (device-height: 300px) and (orientation: landscape) {
   .style-switcher.open {
     transform:  translateY(10%);
     transition: 0.8s ease;

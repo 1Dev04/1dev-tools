@@ -83,7 +83,7 @@
 }
 
 
-@media screen and (device-width: 844px) and (device-height: 390px) and (orientation: landscape) {
+@media screen and (device-width: 844px) and (device-height: 300px) and (orientation: landscape) {
      .body-view{
         position: fixed;
         left: -200px;
