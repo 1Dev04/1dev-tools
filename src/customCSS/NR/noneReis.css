@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 300px) {
+@media screen and (max-width:390px) {
 
   /* Navbar */
 
@@ -160,7 +160,7 @@
   font-size: 5rem;        /* ข้อความใหญ่ */
   font-weight: bold;      /* หนา */
   text-align: center;     /* จัดตัวอักษรตรงกลาง */
- margin: -20rem -6rem; 
+  margin: -20rem -6rem; 
 }
 
 
