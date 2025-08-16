@@ -6,6 +6,11 @@
 @media screen and (device-width: 390px) and (device-height: 844px) and (orientation: portrait) {
    .dark {
     border: none;
+    background: linear-gradient(
+      144deg,
+      var(--popup-color-bg),
+      var(--theme-mode)
+    );
    }
   
   /* ------------------------------
@@ -33,13 +38,10 @@
 
 
   body {
-    background: linear-gradient(
-      144deg,
-      var(--popup-color-bg),
-      var(--theme-mode)
-    );
+    
     color: var(--text-color);
-    overflow-y: auto; 
+    overflow-y: hidden; 
+    
     transition: background 0.5s ease, color 0.5s ease;
   }
 
@@ -68,7 +70,7 @@
     border: none;
     padding: 4rem 6%; /* ลด padding ลงจากเดิม 44rem เพราะมันใหญ่มากเกิน */
     min-height: 100vh; /* ให้เต็มจอแนวตั้ง */
-    background-color: #121212; /* สีพื้นหลังมืดหน่อย */
+    
   }
 
   .home .search {
@@ -189,7 +191,7 @@
   }   
 
    .card .link_des {
-    color: rgb(43, 71, 141);
+    color: rgb(20, 34, 144);
     cursor: pointer;
     transition: color 0.3s ease;
   }
@@ -233,7 +235,7 @@
    .card__title {
     margin: 0;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
     color: #333;
     font-weight: 700;
   } 
@@ -241,13 +243,13 @@
 
   .card__description {
     margin: 10px 0 0;
-    font-size: 20px;
+    font-size: 22px;
     color: #343434;
-    line-height: 1.4;
+    line-height: 1.2;
   }
 
   .card__description i {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   /* ------------------------------
@@ -416,10 +418,7 @@
 
 /*  Iphon 13 pro  เเนวนอน */
 
-@media screen 
-  and (device-width: 844px) 
-  and (device-height: 296px) 
-  and (orientation: landscape) {
+@media screen and (device-width: 844px) and (device-height: 390px) and (orientation: landscape) {
    .dark {
     border: none;
    }
