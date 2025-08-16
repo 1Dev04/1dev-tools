@@ -46,6 +46,7 @@ const HomePage = () => {
 
   return (
     <div className="dark">
+      
       {/* Hamster loader */}
 
       <div

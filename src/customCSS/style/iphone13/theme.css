@@ -30,6 +30,10 @@
    /* ------------------------------
      Base HTML & Body
   ------------------------------ */
+
+  *:focus {
+  outline: none !important;
+}
  html, body {
   margin: 0;
   padding: 0;
@@ -177,7 +181,8 @@
       var(--theme-mode),
       var(--box-color) 100%
     );
-
+    border: none !important;
+    box-shadow: none !important;
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -422,7 +427,7 @@
 
 @media screen and (device-width: 844px) and (device-height: 390px) and (orientation: landscape) {
    .dark {
-    border: none;
+        min-height: 100vh; 
    }
   
   /* ------------------------------
