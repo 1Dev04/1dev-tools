@@ -5,7 +5,7 @@
 
 @media screen and (device-width: 390px) and (device-height: 844px) and (orientation: portrait) {
    .dark {
-    border: none;
+     min-height: 100vh; 
     background: linear-gradient(
       144deg,
       var(--popup-color-bg),
@@ -183,7 +183,7 @@
     );
     border: none !important;
     box-shadow: none !important;
-    border-radius: 25px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
