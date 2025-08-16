@@ -4,6 +4,7 @@ import './customCSS/input.css';
 import './customCSS/style-switcher.css';
 
 import './customCSS/style/breakPoint.css'
+import './customCSS/style/iphone13/theme.css'
 import './customCSS/NR/noneReis.css'
 
 
