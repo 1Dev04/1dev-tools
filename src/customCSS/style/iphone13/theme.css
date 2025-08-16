@@ -30,20 +30,19 @@
    /* ------------------------------
      Base HTML & Body
   ------------------------------ */
-  html {
-    font-size: 120%;
-    overflow-x: hidden;
-    border: none;
-  }
+ html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 120%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: var(--text-color);
+  background: linear-gradient(144deg, var(--popup-color-bg), var(--theme-mode));
+  transition: background 0.5s ease, color 0.5s ease;
+}
 
-
-  body {
-    
-    color: var(--text-color);
-    overflow-y: hidden; 
-    
-    transition: background 0.5s ease, color 0.5s ease;
-  }
 
   /* Hide Scrollbar - Chrome, Edge, Safari */
   body::-webkit-scrollbar {
