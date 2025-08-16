@@ -16,7 +16,8 @@
       var(--popup-color-bg),
       var(--theme-mode)
     );
-    border-color: #121212;
+    outline: none !important;
+  
    }
   
   /* ------------------------------
@@ -42,7 +43,6 @@
   margin: 0;
   padding: 0;
   min-height: 100dvh; 
-  
   background-clip: border-box;
   border: none;
   
@@ -79,9 +79,9 @@
     justify-content: center;
     align-items: center;
     border: none;
-    padding: 5rem 6%; /* ลด padding ลงจากเดิม 44rem เพราะมันใหญ่มากเกิน */
+    padding: 4rem 6%; /* ลด padding ลงจากเดิม 44rem เพราะมันใหญ่มากเกิน */
     min-height: 100vh; /* ให้เต็มจอแนวตั้ง */
-    min-width:auto;
+    
   }
 
   .home .search {

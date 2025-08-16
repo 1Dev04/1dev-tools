@@ -45,7 +45,7 @@ const HomePage = () => {
   }, [location]);
 
   return (
-    <div className="dark h-full">
+    <div className="dark">
       
       {/* Hamster loader */}
 
