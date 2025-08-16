@@ -14,13 +14,13 @@ import Landing from './page/HomePage';
 
 function App() {
   return (
-    <div>
+    <>
     <Router>
       <Routes>
           <Route path="/" element={<Landing />} ></Route>
       </Routes>
     </Router>
-    </div>
+    </>
   );
 }
 
