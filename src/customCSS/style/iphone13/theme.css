@@ -12,6 +12,7 @@
     .dark {
      min-height: 100vh; 
      min-width: 100%;
+     border: none;
     background: linear-gradient(
       144deg,
       var(--popup-color-bg),

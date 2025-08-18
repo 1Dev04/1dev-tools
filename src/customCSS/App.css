@@ -45,5 +45,63 @@ body.white {
   --popup-color-bg: rgba(0, 0, 0, 0.1); /* พื้นหลัง popup เบา ๆ ไม่รบกวนสายตา */
   --theme-mode: #f7ecd3;
   transition: 0.5s ease;
+   border: none;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  /* พื้นหลังซ้ำทั้ง html + body กันตอนยืด/เด้งสกอล iOS โชว์พื้นสีขาว */
+  background: linear-gradient(144deg, var(--popup-color-bg), var(--theme-mode));
+  /* กันแว้บขาวตอน rubber-band (iOS) */
+  background-color: var(--theme-mode);
+  -webkit-tap-highlight-color: transparent; /* ตัดไฮไลต์ฟ้า iOS */
+}
+
+/* 3) เติม viewport สูงให้สุด ทั้งรุ่นเก่า/ใหม่ + iOS */
+html { height: -webkit-fill-available; }
+body, .dark {
+  min-height: 100vh;     /* fallback เดิม */
+  min-height: 100svh;    /* small viewport – ตอนแถบ URL โผล่ */
+  min-height: 100dvh;    /* dynamic viewport – ทันยุค */
+  min-height: -webkit-fill-available; /* iOS เก่า */
+}
+
+/* 4) ถ้ามีตัวไหนดันเกิดเงา/ขอบบาง ๆ ให้ปิดเงาทั้งหน้าเพื่อเทสต์ก่อน */
+body, .dark {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* 5) กันสกรอลบาร์ขาว ๆ (WebKit) */
+body::-webkit-scrollbar { width: 0; height: 0; }
+
+/* 6) กัน 100vw ทำล้น (ถ้ามี element ไหนเผลอใส่ 100vw) */
+[style*="100vw"] { max-width: 100%; }
+
+/* 7) ถ้ามี “ขอบขาวเพราะ blur/glass” ให้ bg คลุมเต็มก่อน (ค่อยเปิดทีหลังได้) */
+.card__content,
+.footer,
+.form .board-body {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important; /* เปิดทดสอบก่อน ถ้าโอเคค่อยคืนค่า */
+}
+
+/* 8) ให้พื้นหลังติด viewport จริง ๆ ระหว่างเด้งสกรอล (ทางเลือกเสริม) */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(144deg, var(--popup-color-bg), var(--theme-mode));
 }
 
