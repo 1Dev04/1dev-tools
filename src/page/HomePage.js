@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import "animate.css";
 
 import Typed from "typed.js";
@@ -108,24 +109,18 @@ const HomePage = () => {
           <div className="board-app">
             <div className="index-board">
               {filtered_Cards.length === 0 ? (
-                <>
-                  <div className="loader">
-                    <div className="bar1"></div>
-                    <div className="bar2"></div>
-                    <div className="bar3"></div>
-                    <div className="bar4"></div>
-                    <div className="bar5"></div>
-                    <div className="bar6"></div>
-                    <div className="bar7"></div>
-                    <div className="bar8"></div>
-                    <div className="bar9"></div>
-                    <div className="bar10"></div>
-                    <div className="bar11"></div>
-                    <div className="bar12"></div>
-                    
-                  </div>
+                <div className="load_er">
+               
+                   <DotLottieReact
+      src="https://lottie.host/92cb821b-18fd-46f6-9444-4c217451e2de/S7lukho2AE.lottie"
+      width={500}
+      height={300}
+      loop
+      autoplay
+    />
                   
-                </>
+                  
+                </div>
               ) : (
                 <>
                   {filtered_Cards.map((card) => (

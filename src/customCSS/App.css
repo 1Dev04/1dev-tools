@@ -29,6 +29,7 @@
   --bg1-color: #181818;
   --popup-color-bg: #111;
   --theme-mode: #1e1520;
+  --text-from: rgb(160, 160, 160);
   transition: 1s ease;
 }
 
@@ -43,7 +44,8 @@ body.white {
   --icon-color: #5a4a44; /* สีไอคอน: น้ำตาลกลางดูอบอุ่น */
   --bg1-color: #f9f5f0; /* พื้นหลังอื่น ๆ: ขาวอมเทาอมชมพู */
   --popup-color-bg: rgba(0, 0, 0, 0.1); /* พื้นหลัง popup เบา ๆ ไม่รบกวนสายตา */
-  --theme-mode: #f7ecd3;
+  --theme-mode: #f2f0ed;
+  --text-from: black;
   transition: 0.5s ease;
    border: none;
 }
