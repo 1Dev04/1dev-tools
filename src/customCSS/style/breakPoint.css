@@ -61,7 +61,7 @@
     align-items: center;
     padding: 4rem 6%; /* ลด padding ลงจากเดิม 44rem เพราะมันใหญ่มากเกิน */
     min-height: 100vh; /* ให้เต็มจอแนวตั้ง */
-    background-color: #121212; /* สีพื้นหลังมืดหน่อย */
+  
   }
 
   .home .search {
