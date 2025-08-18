@@ -59,7 +59,7 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
   /* พื้นหลังซ้ำทั้ง html + body กันตอนยืด/เด้งสกอล iOS โชว์พื้นสีขาว */
-  background: linear-gradient(144deg, var(--popup-color-bg), var(--theme-mode));
+  background: linear-gradient(164deg, var(--theme-mode), var(--theme-mode));
   /* กันแว้บขาวตอน rubber-band (iOS) */
   background-color: var(--theme-mode);
   -webkit-tap-highlight-color: transparent; /* ตัดไฮไลต์ฟ้า iOS */
@@ -102,6 +102,6 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(144deg, var(--popup-color-bg), var(--theme-mode));
+  background: linear-gradient(144deg, var(--theme-mode), var(--theme-mode));
 }
 
