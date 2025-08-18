@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import "animate.css";
 
 import Typed from "typed.js";
@@ -47,7 +47,6 @@ const HomePage = () => {
 
   return (
     <div className="dark">
-      
       {/* Hamster loader */}
 
       <div
@@ -110,16 +109,13 @@ const HomePage = () => {
             <div className="index-board">
               {filtered_Cards.length === 0 ? (
                 <div className="load_er">
-               
-                   <DotLottieReact
-      src="https://lottie.host/92cb821b-18fd-46f6-9444-4c217451e2de/S7lukho2AE.lottie"
-      width={500}
-      height={300}
-      loop
-      autoplay
-    />
-                  
-                  
+                  <DotLottieReact
+                    src="https://lottie.host/92cb821b-18fd-46f6-9444-4c217451e2de/S7lukho2AE.lottie"
+                    width={500}
+                    height={300}
+                    loop
+                    autoplay
+                  />
                 </div>
               ) : (
                 <>

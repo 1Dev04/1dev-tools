@@ -11,6 +11,8 @@ import ReactHookForm from "../asset/card-img/log-react-form.png";
 import tailwindcss from "../asset/card-img/logo-tailwindcss.png";
 import UIVerse from "../asset/card-img/logo-UI.png";
 import w3Schools from "../asset/card-img/logo-w3h.png";
+import npm from "../asset/card-img/logo-npm.png"
+import uuid from "../asset/card-img/logo-uuid.png";
 
 export const cards = [
   {
@@ -290,8 +292,51 @@ export const cards = [
       </>
     ),
   },
-  {
+   {
     id: 13,
+    label: "UUID NPM Package",
+    alt: "npm",
+    logo: npm,
+    des1: `ไลบรารี JavaScript สำหรับสร้าง UUID (Universally Unique Identifier) ที่รองรับหลายเวอร์ชัน`,
+     linkInstall: (
+      <>
+        Install:{" "}
+        <a href="https://www.npmjs.com/package/uuid#quickstart" className="link_des">
+          Get Started<i className="bx bx-check"></i>
+        </a>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a href="https://www.npmjs.com/package/uuid" className="link_des">
+          www.npmjs.com
+        </a>
+      </>
+    ),
+  },
+   {
+    id: 14,
+    label: "UUID Online",
+    alt: "uuid",
+    logo: uuid,
+    des1: `เว็บไซต์สำหรับสร้าง UUID (รหัสเฉพาะตัว) แบบออนไลน์ ใช้ง่าย สะดวก และ ฟรี 100%`,
+    linkInstall: (
+      <>
+        Install: Not Available<i className="bx bx-x"></i>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a href="https://www.uuidgenerator.net/" className="link_des">
+          www.uuidgenerator.net
+        </a>
+      </>
+    ),
+  },
+  {
+    id: 15,
     label: "W3Schools",
     alt: "w3Schools",
     logo: w3Schools,
