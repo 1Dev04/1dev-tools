@@ -46,38 +46,12 @@ function Theme() {
     });
   };
 
-  const ThemeSky = () => {
-    const ThemeS = document.querySelector(" .Sky");
-    ThemeS.addEventListener("click", () => {
-      document.body.style.setProperty('--main-color', '#00e0ff');
 
-    });
+
+  const changeThemeColor = (color) => {
+    document.body.style.setProperty("--main-color", color);
   };
 
-
-  const ThemePink = () => {
-    const ThemeP = document.querySelector(" .Pink");
-    ThemeP.addEventListener("click", () => {
-      document.body.style.setProperty('--main-color', '#ff4b91');
-
-    });
-  };
-
-  const ThemeGreen = () => {
-    const ThemeG = document.querySelector(" .Green");
-    ThemeG.addEventListener("click", () => {
-      document.body.style.setProperty('--main-color', '#7cff4f');
-
-    });
-  };
-
-  const ThemeViolet = () => {
-    const ThemeV = document.querySelector(" .Violet");
-    ThemeV.addEventListener("click", () => {
-      document.body.style.setProperty('--main-color', '#a855f7');
-
-    });
-  };
 
 
 
@@ -93,10 +67,10 @@ function Theme() {
       <h4>Theme Colors <span className="bi bi-palette"></span></h4>
 
       <div className="theme-options ">
-        <span className="color-1 Sky" onClick={ThemeSky}></span>
-        <span className="color-2 Pink" onClick={ThemePink}></span>
-        <span className="color-3 Green" onClick={ThemeGreen}></span>
-        <span className="color-4 Violet" onClick={ThemeViolet}></span>
+        <span className="color-1 Sky" onClick={() => changeThemeColor("#00e0ff")}></span>
+        <span className="color-2 Pink" onClick={() => changeThemeColor("#ff4b91")}></span>
+        <span className="color-3 Green" onClick={() => changeThemeColor("#7cff4f")}></span>
+        <span className="color-4 Violet" onClick={() => changeThemeColor("#a855f7")}></span>
        
       </div>
     </div>

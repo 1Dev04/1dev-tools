@@ -1,4 +1,4 @@
-/* Mobile base  */
+/* Main res laptop-PC */
 @media screen and (min-width: 1200px) and (max-width: 5000px) {
   .style-switcher.open {
     transform: translateX(-10%);
@@ -139,6 +139,8 @@
   }
 }
 
+
+/* Iphone 13 and 12 pro  */
 @media screen and (device-width: 390px) and (device-height: 844px) and (orientation: portrait) {
   .style-switcher.open {
     transform:  translateY(10%);
@@ -279,7 +281,9 @@
 
 }
 
-@media screen and (device-width: 844px) and (device-height: 296px) and (orientation: landscape) {
+
+/* Iphone SE */
+@media screen and (device-width: 375px) and (device-height: 667px) and (orientation: portrait) {
   .style-switcher.open {
     transform:  translateY(10%);
     transition: 0.8s ease;
@@ -287,10 +291,10 @@
 
   .style-switcher .s-icon {
     position: absolute;
-    height: 55px;
-    width: 55px;
+    height: 80px;
+    width: 80px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 
       background: var(--bg-color);
     backdrop-filter: blur(10px);
@@ -307,11 +311,11 @@
 
 
   .style-switcher .style-switcher-toggler {
-    top: 150px;
+    top: 149px;
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 170px;
+    left: 100px;
   }
 
   .style-switcher .day-night {
@@ -378,8 +382,6 @@
     transform: translateY(-0.5rem);
   }
 
-
-
   .style-switcher .color-1 {
     background: var(--sky-color);
     box-shadow: 0 0 2rem var(--sky-color);
@@ -400,8 +402,6 @@
     box-shadow: 0 0 2rem var(--orange-color);
   }
 
- 
-
   .style-switcher {
     position: fixed;
     right: 10px;
@@ -419,8 +419,11 @@
     transition: all 0.3s ease;
     transform: translateY(-120%);
   }
+
+
 }
 
+/* Mini*/
 @media screen and (device-width: 200px) and (device-height: 200px) and (orientation: portrait) {
   .style-switcher {
     display: none;

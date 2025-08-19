@@ -297,7 +297,7 @@ export const cards = [
     label: "UUID NPM Package",
     alt: "npm",
     logo: npm,
-    des1: `ไลบรารี JavaScript สำหรับสร้าง UUID (Universally Unique Identifier) ที่รองรับหลายเวอร์ชัน`,
+    des1: `ไลบรารี JavaScript สำหรับสร้าง UUID ที่รองรับหลายเวอร์ชัน`,
      linkInstall: (
       <>
         Install:{" "}

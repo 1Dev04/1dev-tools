@@ -111,6 +111,7 @@ const HomePage = () => {
                 <div className="load_er">
                   <DotLottieReact
                     src="https://lottie.host/92cb821b-18fd-46f6-9444-4c217451e2de/S7lukho2AE.lottie"
+                    className="img-loading"
                     width={500}
                     height={300}
                     loop

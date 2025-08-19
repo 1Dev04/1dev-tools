@@ -1,3 +1,5 @@
+
+/* Mini*/
 @media screen and (device-width: 100px) and (device-height: 100px) and (orientation: portrait) {
 
 
@@ -47,7 +49,7 @@
     }
 }
 
-
+/* Iphone 13 and 12 pro  */
 @media screen and (device-width: 390px) and (device-height: 844px) and (orientation: portrait) {
      .body-view{
         position: fixed;
@@ -83,7 +85,8 @@
 }
 
 
-@media screen and (device-width: 844px) and (device-height: 296px) and (orientation: landscape) {
+/* Iphone SE */
+@media screen and (device-width: 375px) and (device-height: 667px) and (orientation: portrait)  {
      .body-view{
         position: fixed;
         left: -200px;
@@ -115,8 +118,10 @@
         position: relative ;
     }
 
-}
+}    
 
+
+/* Main res laptop-PC */
 @media screen and (min-width: 1200px) and (max-width: 5000px) {
    
     .body-view{
