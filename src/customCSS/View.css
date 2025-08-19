@@ -407,6 +407,72 @@
   }
 }
 
+/* Galaxy Z Fold 5 */
+@media screen and (device-width: 344px) and (device-height: 882px) and (orientation: portrait) {
+    .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* Asus Zenbook Fold */ 
+@media screen and (device-width: 853px) and (device-height: 1280px) and (orientation: portrait)  {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
 /* Main res laptop-PC */
 @media screen and (min-width: 1200px) and (max-width: 5000px) {
   .body-view {

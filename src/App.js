@@ -16,6 +16,9 @@ import './customCSS/style/ipad_air/theme.css';
 import './customCSS/style/ipad_pro/theme.css';
 import './customCSS/style/surface_pro_7/theme.css';
 import './customCSS/style/surface_duo/theme.css';
+import './customCSS/style/galaxy_z_f_5/theme.css';
+import './customCSS/style/azuz_zenbook_fold/theme.css';
+
 
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
