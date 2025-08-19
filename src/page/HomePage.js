@@ -90,6 +90,7 @@ const HomePage = () => {
           <form>
             <div className="form">
               <input
+                maxLength={15}
                 className="board-body"
                 type="text"
                 placeholder="Search..."

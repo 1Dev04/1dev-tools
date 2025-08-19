@@ -1,306 +1,454 @@
-
 /* Mini*/
 @media screen and (device-width: 100px) and (device-height: 100px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
 
+  .name {
+    color: var(--text-color);
+    font-size: 20px;
+    position: absolute;
+  }
 
-    .body-view{
-        position: fixed;
-        left: -200px;
-        top: 10px;
-        padding: 15px;
-        width: 200px;
-        z-index: 10;
-        border-radius: 5px;
-        transition: all .3s ease;
-        transform: translateX(105%);
-        transition: .5s ease;
-    }
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 20px;
+    position: relative;
+  }
 
-    .name{
-        color: var(--text-color);
-        font-size: 20px;
-        position: absolute;  
-       
-    }
+  .name1 {
+    color: var(--text-color);
+    font-size: 20px;
+    top: 50px;
+    position: absolute;
+  }
 
-    .name .color-icon{
-        color:var(--main-color);
-        font-size: 20px;
-        position: relative;  
-    }
+  .name1 .color-icon {
+    color: var(--main-color);
+    font-size: 20px;
+    transition: all 0.3s ease;
+  }
 
-    .name1{
-        color: var(--text-color);
-        font-size: 20px;
-        top: 50px;
-        position: absolute;  
-       
-    }
-
-    .name1 .color-icon {
-        color: var(--main-color);
-        font-size: 20px;
-        transition: all 0.3s ease;
-    }
- 
-    .text-Al {
-        top: -2px;
-        position: relative ;
-    }
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
 }
 
 /* Iphone 13 and 12 pro  */
 @media screen and (device-width: 390px) and (device-height: 844px) and (orientation: portrait) {
-     .body-view{
-        position: fixed;
-        left: -200px;
-        top: 10px;
-        padding: 15px;
-        width: 200px;
-        z-index: 10;
-        border-radius: 5px;
-        transition: all .3s ease;
-        transform: translateX(105%);
-        transition: .5s ease;
-    }
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
 
-    .name{
-        color: var(--text-color);
-        font-size: 35px;
-        position: absolute;  
-       
-    }
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
 
-        .name .color-icon{
-        color:var(--main-color);
-        font-size: 30px;
-        position: relative;  
-    }
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
 
-      .text-Al {
-        top: -2px;
-        position: relative ;
-    }
-
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
 }
 
-/* Pixel 14 pro max */ 
-@media screen and (device-width: 430px) and (device-height: 932px) and (orientation: portrait)  { 
-      .body-view{
-        position: fixed;
-        left: -200px;
-        top: 10px;
-        padding: 15px;
-        width: 200px;
-        z-index: 10;
-        border-radius: 5px;
-        transition: all .3s ease;
-        transform: translateX(105%);
-        transition: .5s ease;
-    }
+/* Pixel 14 pro max */
+@media screen and (device-width: 430px) and (device-height: 932px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
 
-    .name{
-        color: var(--text-color);
-        font-size: 35px;
-        position: absolute;  
-       
-    }
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
 
-        .name .color-icon{
-        color:var(--main-color);
-        font-size: 30px;
-        position: relative;  
-    }
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
 
-      .text-Al {
-        top: -2px;
-        position: relative ;
-    } 
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
 }
-
 
 /* Iphone SE */
-@media screen and (device-width: 375px) and (device-height: 667px) and (orientation: portrait)  {
-     .body-view{
-        position: fixed;
-        left: -200px;
-        top: 10px;
-        padding: 15px;
-        width: 200px;
-        z-index: 10;
-        border-radius: 5px;
-        transition: all .3s ease;
-        transform: translateX(105%);
-        transition: .5s ease;
-    }
+@media screen and (device-width: 375px) and (device-height: 667px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
 
-    .name{
-        color: var(--text-color);
-        font-size: 35px;
-        position: absolute;  
-       
-    }
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
 
-        .name .color-icon{
-        color:var(--main-color);
-        font-size: 30px;
-        position: relative;  
-    }
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
 
-      .text-Al {
-        top: -2px;
-        position: relative ;
-    }
-
-} 
-
-/* Iphone XR */
-@media screen and (device-width: 414px) and (device-height: 896px) and (orientation: portrait)  {
-      .body-view{
-        position: fixed;
-        left: -200px;
-        top: 10px;
-        padding: 15px;
-        width: 200px;
-        z-index: 10;
-        border-radius: 5px;
-        transition: all .3s ease;
-        transform: translateX(105%);
-        transition: .5s ease;
-    }
-
-    .name{
-        color: var(--text-color);
-        font-size: 35px;
-        position: absolute;  
-       
-    }
-
-        .name .color-icon{
-        color:var(--main-color);
-        font-size: 30px;
-        position: relative;  
-    }
-
-      .text-Al {
-        top: -2px;
-        position: relative ;
-    } 
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
 }
 
-/* Pixel 7 */ 
-@media screen and (device-width: 412px) and (device-height: 915px) and (orientation: portrait)  { 
-      .body-view{
-        position: fixed;
-        left: -200px;
-        top: 10px;
-        padding: 15px;
-        width: 200px;
-        z-index: 10;
-        border-radius: 5px;
-        transition: all .3s ease;
-        transform: translateX(105%);
-        transition: .5s ease;
-    }
+/* Iphone XR */
+@media screen and (device-width: 414px) and (device-height: 896px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
 
-    .name{
-        color: var(--text-color);
-        font-size: 35px;
-        position: absolute;  
-       
-    }
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
 
-        .name .color-icon{
-        color:var(--main-color);
-        font-size: 30px;
-        position: relative;  
-    }
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
 
-      .text-Al {
-        top: -2px;
-        position: relative ;
-    } 
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* Pixel 7 */
+@media screen and (device-width: 412px) and (device-height: 915px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
 }
 
 /* Sum_Gal_S8 */
-@media screen and (device-width: 360px) and (device-height: 740px) and (orientation: portrait)  {
-     .body-view{
-        position: fixed;
-        left: -200px;
-        top: 10px;
-        padding: 15px;
-        width: 200px;
-        z-index: 10;
-        border-radius: 5px;
-        transition: all .3s ease;
-        transform: translateX(105%);
-        transition: .5s ease;
-    }
+@media screen and (device-width: 360px) and (device-height: 740px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
 
-    .name{
-        color: var(--text-color);
-        font-size: 35px;
-        position: absolute;  
-       
-    }
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
 
-        .name .color-icon{
-        color:var(--main-color);
-        font-size: 30px;
-        position: relative;  
-    }
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
 
-      .text-Al {
-        top: -2px;
-        position: relative ;
-    } 
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* iPad mini */
+@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* iPad Air */
+@media screen and (device-width: 820px) and (device-height: 1180px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* iPad pro */
+@media screen and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* Surface Pro 7 */
+@media screen and (device-width: 912px) and (device-height: 1368px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* Surface Duo */
+@media screen and (device-width: 540px) and (device-height: 720px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
 }
 
 /* Main res laptop-PC */
 @media screen and (min-width: 1200px) and (max-width: 5000px) {
-   
-    .body-view{
-        position: fixed;
-        left: -200px;
-        top: 10px;
-        padding: 15px;
-        width: 200px;
-        z-index: 10;
-        border-radius: 5px;
-        transition: all .3s ease;
-        transform: translateX(105%);
-        transition: .5s ease;
-    }
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
 
-    .name{
-        color: var(--text-color);
-        font-size: 20px;
-        position: absolute;  
-       
-    }
+  .name {
+    color: var(--text-color);
+    font-size: 20px;
+    position: absolute;
+  }
 
-    .name .color-icon{
-        color:var(--main-color);
-        font-size: 20px;
-        position: relative;  
-    }
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 20px;
+    position: relative;
+  }
 
-    .name1{
-        color: var(--text-color);
-        font-size: 20px;
-        top: 50px;
-        position: absolute;  
-       
-    }
+  .name1 {
+    color: var(--text-color);
+    font-size: 20px;
+    top: 50px;
+    position: absolute;
+  }
 
-    .name1 .color-icon {
-        color: var(--main-color);
-        font-size: 20px;
-        transition: all 0.3s ease;
-    }
- 
-    .text-Al {
-        top: -2px;
-        position: relative ;
-    } 
+  .name1 .color-icon {
+    color: var(--main-color);
+    font-size: 20px;
+    transition: all 0.3s ease;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
 }
