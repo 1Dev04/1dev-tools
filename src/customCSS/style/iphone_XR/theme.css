@@ -2,7 +2,7 @@
 
 /* แนวตั้ง */
 
-@media screen and (device-width: 390px) and (device-height: 844px) and (orientation: portrait) {
+@media screen and (device-width: 414px) and (device-height: 896px) and (orientation: portrait) {
   * {
     outline: none !important;
   }
@@ -78,7 +78,7 @@
     justify-content: center;
     align-items: center;
     border: none;
-    padding: 4rem 6%; /* ลด padding ลงจากเดิม 44rem เพราะมันใหญ่มากเกิน */
+    padding: 4rem 3%; /* ลด padding ลงจากเดิม 44rem เพราะมันใหญ่มากเกิน */
     min-height: 100vh; /* ให้เต็มจอแนวตั้ง */
   }
 
@@ -97,7 +97,7 @@
     color: var(--text-color);
   }
 
-  .home .search h1 span {
+   .home .search h1 span {
     font-family: "Orbitron", sans-serif;
     font-size: 3rem;
     margin-bottom: 0.3rem;
@@ -115,12 +115,12 @@
     color: var(--text-color);
   }
 
-  .form {
+    .form {
     position: relative;
     display: inline-block;
   }
 
-  .form .board-body {
+    .form .board-body {
     background: linear-gradient(136deg, var(--theme-mode), var(--box-color));
     padding-left: 40px;
     font-size: 25px;
@@ -147,7 +147,7 @@
     font-size: 40px;
   }
 
-  .form span i {
+   .form span i {
     scale: 1.2;
   }
 
@@ -195,6 +195,7 @@
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
 
+
   .card img {
     transform: scale(2);
     transition: transform 0.3s ease; /* ให้มันซูมลื่น ๆ */
@@ -235,7 +236,6 @@
     opacity: 0;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
-
   .card:hover .card__content {
     transform: translate(-50%, -50%) rotate(0deg);
     opacity: 1;
@@ -260,7 +260,8 @@
     font-size: 19px;
   }
 
-  /* ------------------------------
+
+    /* ------------------------------
      Footer
   ------------------------------ */
 
@@ -285,7 +286,7 @@
     margin-top: 0.4rem;
   }
 
-  /* Footer Icon Links */
+   /* Footer Icon Links */
   .footer-iconTop a {
     display: inline-flex;
     justify-content: center;
@@ -299,7 +300,7 @@
     transition: box-shadow 0.5s ease;
   }
 
-  .footer-iconTop a:hover {
+   .footer-iconTop a:hover {
     box-shadow: 0 0 2rem var(--main-color);
   }
 
@@ -308,7 +309,7 @@
     color: var(--text-color);
   }
 
-  .footer .logo {
+    .footer .logo {
     filter: drop-shadow(0px 1px 5px rgba(255, 255, 255, 0.185));
     animation: logo 4s linear infinite;
   }
@@ -333,4 +334,5 @@
       transform: rotateY(360deg);
     }
   }
+
 }

@@ -2,12 +2,12 @@
 
 /* แนวตั้ง */
 
-@media screen and (device-width: 390px) and (device-height: 844px) and (orientation: portrait) {
-  * {
+@media screen and (device-width: 375px) and (device-height: 667px) and (orientation: portrait) {
+     * {
     outline: none !important;
   }
 
-  .dark {
+.dark {
     min-height: 100vh;
     min-width: 100%;
     border: none;
@@ -19,7 +19,8 @@
     outline: none !important;
   }
 
-  /* ------------------------------
+
+   /* ------------------------------
      Header
   ------------------------------ */
   .text-mess {
@@ -33,11 +34,7 @@
     display: none;
   }
 
-  /* ------------------------------
-     Base HTML & Body
-  ------------------------------ */
-
-  html,
+   html,
   body {
     margin: 0;
     padding: 0;
@@ -69,7 +66,7 @@
     min-height: 120vh; /* ปรับให้รองรับทุก browser */
   }
 
-  /* ------------------------------
+    /* ------------------------------
      Home Section
   ------------------------------ */
   .home {
@@ -78,7 +75,7 @@
     justify-content: center;
     align-items: center;
     border: none;
-    padding: 4rem 6%; /* ลด padding ลงจากเดิม 44rem เพราะมันใหญ่มากเกิน */
+    padding: 3rem 5%; /* ลด padding ลงจากเดิม 44rem เพราะมันใหญ่มากเกิน */
     min-height: 100vh; /* ให้เต็มจอแนวตั้ง */
   }
 
@@ -108,7 +105,7 @@
     display: inline-block;
   }
 
-  .home .search h2 {
+   .home .search h2 {
     font-family: "Orbitron", sans-serif;
     font-size: 1.8rem;
     margin-bottom: 2rem;
@@ -137,14 +134,14 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  .form span {
+    .form span {
     position: absolute;
     left: -55px;
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
     color: var(--text-color);
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .form span i {
@@ -160,11 +157,11 @@
     align-items: center;
     font-family: "Orbitron", sans-serif;
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: var(--text-color);
   }
 
-  .index-board {
+   .index-board {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 5 columns */
     gap: 10px;
@@ -174,7 +171,7 @@
     width: 100%;
   }
 
-  .card {
+    .card {
     margin-top: 1%;
     position: relative;
     width: 300px;
@@ -195,6 +192,7 @@
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
 
+
   .card img {
     transform: scale(2);
     transition: transform 0.3s ease; /* ให้มันซูมลื่น ๆ */
@@ -211,7 +209,7 @@
     text-decoration: underline;
   }
 
-  .card:hover {
+    .card:hover {
     transform: scale(1);
     box-shadow: 0 5px 50px rgba(255, 255, 255, 0.2);
   }
@@ -320,7 +318,8 @@
     margin: 0;
   }
 
-  /* ------------------------------
+
+/* ------------------------------
      Animation loade
   ------------------------------ */
   .load_er {
@@ -333,4 +332,8 @@
       transform: rotateY(360deg);
     }
   }
+
+
+
+
 }
