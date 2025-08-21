@@ -9,7 +9,7 @@ const footer = () => {
             
             <img className="logo" src={logo} width={80} height={80} alt="DevTools Logo" />    
             <div className="footer-text">
-                <p>© Copyright| Version 1.2 </p>
+                <p>© Copyright| Version 1.3</p>
             </div>
 
             <button className="footer-iconTop broder">
