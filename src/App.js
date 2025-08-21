@@ -20,7 +20,7 @@ import './customCSS/style/galaxy_z_f_5/theme.css';
 import './customCSS/style/azuz_zenbook_fold/theme.css';
 import './customCSS/style/sum_galaxy_a51_71/theme.css';
 import './customCSS/style/nest_hub/theme.css';
-import './customCSS/style/nest_hub_max/theme.css';
+
 
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

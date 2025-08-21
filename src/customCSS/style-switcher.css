@@ -1534,7 +1534,6 @@
   }  
 }
 
-
 /* Surface Duo */
 @media screen and (device-width: 540px) and (device-height: 720px) and (orientation: portrait) {
        .style-switcher.open {
@@ -2091,7 +2090,7 @@
   }       
 }
 
-/* nest hub */
+/* nest hub - nest hub max*/
 @media screen and (min-width: 1024px) and (max-width: 1366px)  {
          .style-switcher.open {
     transform:  translateY(10%);
@@ -2230,7 +2229,7 @@
   }       
 }
 
-/* Mini*/
+/* mini */
 @media screen and (device-width: 200px) and (device-height: 200px) and (orientation: portrait) {
   .style-switcher {
     display: none;
