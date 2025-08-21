@@ -17,6 +17,7 @@ import themewagon from "../asset/card-img/logo-themewagon.png";
 import sketchfab from '../asset/card-img/logo-sketchfab.png';
 import virtualthreads from '../asset/card-img/logo-virtualThreads.jpg';
 import stackoverflow from '../asset/card-img/logo-stackoverlow.png';
+import iconify from '../asset/card-img/logo-iconify.png';
 export const cards = [
   {
     id: 1,
@@ -434,6 +435,29 @@ export const cards = [
         Link:{" "}
         <a href="https://www.w3schools.com/" className="link_des">
           www.w3schools.com
+        </a>
+      </>
+    ),
+  },
+  {
+    id: 20,
+    label: "Iconify Design",
+    alt: "iconify",
+    logo: iconify,
+    des1: `รวบรวมไอคอนจากชุดต่างๆ กว่า 200,000 ไอคอนในที่เดียว`,
+    linkInstall: (
+      <>
+        Install:{" "}
+        <a href="https://iconify.design/docs/usage/css/tailwind/" className="link_des">
+          Get Started<i className="bx bx-check"></i>
+        </a>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a href="https://icon-sets.iconify.design/" className="link_des">
+          icon-sets.iconify.design
         </a>
       </>
     ),
