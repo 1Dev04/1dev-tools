@@ -13,7 +13,10 @@ import UIVerse from "../asset/card-img/logo-UI.png";
 import w3Schools from "../asset/card-img/logo-w3h.png";
 import npm from "../asset/card-img/logo-npm.png"
 import uuid from "../asset/card-img/logo-uuid.png";
-
+import themewagon from "../asset/card-img/logo-themewagon.png";
+import sketchfab from '../asset/card-img/logo-sketchfab.png';
+import virtualthreads from '../asset/card-img/logo-virtualThreads.jpg';
+import stackoverflow from '../asset/card-img/logo-stackoverlow.png';
 export const cards = [
   {
     id: 1,
@@ -246,6 +249,46 @@ export const cards = [
   },
   {
     id: 11,
+    label: "Sketchfab",
+    alt: "sketchfab",
+    logo: sketchfab,
+    des1: `แพลตฟอร์มเจ๋งสำหรับดู แชร์ และสำรวจคอนเทนต์ 3D, VR, AR บนเว็บแบบล้ำ`,
+    linkInstall: (
+      <>
+        Install: Not Available<i className="bx bx-x"></i>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a href="https://sketchfab.com/" className="link_des">
+          sketchfab.com
+        </a>
+      </>
+    ),
+  },
+   {
+    id: 12,
+    label: "Stack Overflow",
+    alt: "stackoverflow",
+    logo: stackoverflow,
+    des1: `เป็นแพลตฟอร์มถาม–ตอบ (Q&A) สำหรับดีเวลอปเปอร์`,
+    linkInstall: (
+      <>
+        Install: Not Available<i className="bx bx-x"></i>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a href="https://stackoverflow.com/questions" className="link_des">
+          stackoverflow.com
+        </a>
+      </>
+    ),
+  },
+  {
+    id: 13,
     label: "TailwindCSS",
     alt: "tailwindcss",
     logo: tailwindcss,
@@ -273,7 +316,47 @@ export const cards = [
     ),
   },
   {
-    id: 12,
+    id: 14,
+    label: "ThemeWagon",
+    alt: "themewagon",
+    logo: themewagon,
+    des1: `เว็บไซต์รวม Bootstrap templates คุณภาพ มีทั้งธีม ฟรี และ พรีเมียม ให้เลือกใช้ตามสไตล์โปรเจกต์ของคุณ `,
+    linkInstall: (
+      <>
+        Install: Not Available<i className="bx bx-x"></i>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a href="https://themewagon.com" className="link_des">
+          themewagon.com
+        </a>
+      </>
+    ),
+  },
+  {
+    id: 15,
+    label: "Virtual Threads",
+    alt: "virtualthreads",
+    logo: virtualthreads,
+    des1: `เว็บช่วยแปลงดีไซน์ 2D ของเราให้กลายเป็น 3D animated mockups`,
+    linkInstall: (
+      <>
+        Install: Not Available<i className="bx bx-x"></i>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a href="https://www.virtualthreads.io/" className="link_des">
+          www.virtualthreads.io
+        </a>
+      </>
+    ),
+  },
+  {
+    id: 16,
     label: "UI Verse",
     alt: "UIVerse",
     logo: UIVerse,
@@ -293,7 +376,7 @@ export const cards = [
     ),
   },
    {
-    id: 13,
+    id: 17,
     label: "UUID NPM Package",
     alt: "npm",
     logo: npm,
@@ -316,7 +399,7 @@ export const cards = [
     ),
   },
    {
-    id: 14,
+    id: 18,
     label: "UUID Online",
     alt: "uuid",
     logo: uuid,
@@ -336,7 +419,7 @@ export const cards = [
     ),
   },
   {
-    id: 15,
+    id: 19,
     label: "W3Schools",
     alt: "w3Schools",
     logo: w3Schools,
@@ -355,4 +438,5 @@ export const cards = [
       </>
     ),
   },
+  
 ];
