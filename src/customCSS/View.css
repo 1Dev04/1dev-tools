@@ -572,3 +572,38 @@
     position: relative;
   }
 }
+
+
+   /* Large Desktop 1Dev */
+
+@media screen and (min-width: 1300px) and (max-width: 1599px)  {
+   .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
