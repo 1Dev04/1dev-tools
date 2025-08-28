@@ -409,7 +409,7 @@
 
 /* Galaxy Z Fold 5 */
 @media screen and (device-width: 344px) and (device-height: 882px) and (orientation: portrait) {
-    .body-view {
+  .body-view {
     position: fixed;
     left: -200px;
     top: 10px;
@@ -440,8 +440,8 @@
   }
 }
 
-/* Asus Zenbook Fold */ 
-@media screen and (device-width: 853px) and (device-height: 1280px) and (orientation: portrait)  {
+/* Asus Zenbook Fold */
+@media screen and (device-width: 853px) and (device-height: 1280px) and (orientation: portrait) {
   .body-view {
     position: fixed;
     left: -200px;
@@ -507,9 +507,8 @@
 }
 
 /* nest hub */
-
-@media screen and (min-width: 1024px) and (max-width: 1366px)  {
-   .body-view {
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .body-view {
     position: fixed;
     left: -200px;
     top: 10px;
@@ -524,13 +523,13 @@
 
   .name {
     color: var(--text-color);
-    font-size: 35px;
+    font-size: 25px;
     position: absolute;
   }
 
   .name .color-icon {
     color: var(--main-color);
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
   }
 
@@ -542,7 +541,7 @@
 
 /* Main res laptop-PC */
 @media screen and (min-width: 1800px) and (max-width: 5000px) {
-   .body-view {
+  .body-view {
     position: fixed;
     left: -200px;
     top: 10px;
@@ -573,11 +572,735 @@
   }
 }
 
+/* Large Desktop 1Dev */
+@media screen and (min-width: 1300px) and (max-width: 1599px) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
 
-   /* Large Desktop 1Dev */
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
 
-@media screen and (min-width: 1300px) and (max-width: 1599px)  {
-   .body-view {
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* blackberry Z30 */
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* blackberry Playbook */
+@media screen and (device-width: 600px) and (device-height: 1024px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* galaxy S9 */
+@media screen and (device-width: 320px) and (device-height: 658px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* galaxy tap S4 */
+@media screen and (device-width: 712px) and (device-height: 1138px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* Kindle Fire  HDX */
+@media screen and (device-width: 800px) and (device-height: 1280px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* LG Optimust L70*/
+@media screen and (device-width: 384px) and (device-height: 640px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* microsoft lumia 500 แนวนอน */
+@media screen and (device-width: 640px) and (device-height: 360px) and (orientation: landscape) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* moto G power */
+@media screen and (device-width: 412px) and (device-height: 823px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* Nexus 5X */
+@media screen and (device-width: 412px) and (device-height: 732px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* Nexus 7 */
+@media screen and (device-width: 600px) and (device-height: 960px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* Nokia Lumia 520 */
+@media screen and (device-width: 320px) and (device-height: 533px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* Nokia n9 */
+@media screen and (device-width: 480px) and (device-height: 854px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* Pixel 3 */
+@media screen and (device-width: 393px) and (device-height: 786px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* Pixel 4 */
+@media screen and (device-width: 353px) and (device-height: 745px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* jioPhone */
+@media screen and (device-width: 240px) and (device-height: 320px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* pixel 2 */
+@media screen and (device-width: 411px) and (device-height: 731px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* pixel 2 xl */
+@media screen and (device-width: 411px) and (device-height: 823px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* iphone 4 */ 
+@media screen and (device-width: 320px) and (device-height: 480px) and (orientation: portrait)  {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 3px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* iphone 5/se */
+@media screen and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
+    .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  } 
+}
+
+/* iphone 6/7/8 plus */
+@media screen and (device-width: 414px) and (device-height: 736px) and (orientation: portrait)  {
+    .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* iphone X */
+@media screen and (device-width: 375px) and (device-height: 812px) and (orientation: portrait) {
+  .body-view {
+    position: fixed;
+    left: -200px;
+    top: 10px;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(105%);
+    transition: 0.5s ease;
+  }
+
+  .name {
+    color: var(--text-color);
+    font-size: 35px;
+    position: absolute;
+  }
+
+  .name .color-icon {
+    color: var(--main-color);
+    font-size: 30px;
+    position: relative;
+  }
+
+  .text-Al {
+    top: -2px;
+    position: relative;
+  }
+}
+
+/* facebook on Android */
+@media screen and (device-width: 412px) and (device-height: 892px) and (orientation: portrait) {
+  .body-view {
     position: fixed;
     left: -200px;
     top: 10px;

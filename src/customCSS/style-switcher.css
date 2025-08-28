@@ -2099,10 +2099,10 @@
 
   .style-switcher .s-icon {
     position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
 
       background: var(--bg-color);
     backdrop-filter: blur(10px);
@@ -2230,14 +2230,13 @@
 }
 
 /* mini */
-@media screen and (device-width: 200px) and (device-height: 200px) and (orientation: portrait) {
+@media screen and (device-width: 100px) and (device-height: 100px) and (orientation: portrait) {
   .style-switcher {
     display: none;
   }
 }
 
-   /* Large Desktop 1Dev */
-
+/* Large Desktop 1Dev */
 @media screen and (min-width: 1300px) and (max-width: 1599px)  {
    .style-switcher.open {
     transform:  translateY(10%);
@@ -2271,6 +2270,3080 @@
     justify-content: center;
     align-items: center;
     left: 150px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+/* blackberry Z30 */
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: portrait) {
+    .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+/* blackberry Playbook */
+@media screen and (device-width: 600px) and (device-height: 1024px) and (orientation: portrait) {
+   .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+/* galaxy S9 */
+@media screen and (device-width: 320px) and (device-height: 658px) and (orientation: portrait)  {
+   .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+
+/* galaxy tap S4 */
+@media screen and (device-width: 712px) and (device-height: 1138px) and (orientation: portrait)  {
+   .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+/* Kindle Fire  HDX */
+@media screen and (device-width: 800px) and (device-height: 1280px) and (orientation: portrait)  {
+           .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 130px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }  
+}
+
+/* LG Optimust L70*/
+@media screen and (device-width: 384px) and (device-height: 640px) and (orientation: portrait) {
+    .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+/* microsoft lumia 500 แนวนอน */
+@media screen and (device-width: 640px) and (device-height: 360px) and (orientation: landscape) {
+    .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 140px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+/* moto G power */
+@media screen and (device-width: 412px) and (device-height: 823px) and (orientation: portrait) {
+  .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+
+
+}
+
+/* Nexus 5X */
+@media screen and (device-width: 412px) and (device-height: 732px) and (orientation: portrait) {
+    .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+/* Nexus 7 */
+@media screen and (device-width: 600px) and (device-height: 960px) and (orientation: portrait) {
+  .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+/* Nokia Lumia 520 */
+@media screen and (device-width: 320px) and (device-height: 533px) and (orientation: portrait) {
+   .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 150px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+/* Nokia n9 */
+@media screen and (device-width: 480px) and (device-height: 854px) and (orientation: portrait) {
+    .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+
+}
+
+/* Pixel 3 */
+@media screen and (device-width: 393px) and (device-height: 786px) and (orientation: portrait) {
+  .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+
+
+}
+
+/* Pixel 4 */
+@media screen and (device-width: 353px) and (device-height: 745px) and (orientation: portrait) {
+  .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+
+
+}
+
+/* jioPhone */
+@media screen and (device-width: 240px) and (device-height: 320px) and (orientation: portrait) {
+  .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+
+
+}
+
+/* pixel 2 */
+@media screen and (device-width: 411px) and (device-height: 731px) and (orientation: portrait) {
+    .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+/* Pixel 2 XL */
+@media screen and (device-width: 411px) and (device-height: 823px) and (orientation: portrait) {
+  .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+
+
+} 
+
+/* iphone 4 */ 
+@media screen and (device-width: 320px) and (device-height: 480px) and (orientation: portrait)  {
+  .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+}
+
+/* iphone 5/se */
+@media screen and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
+    .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+} 
+
+/* iphone 6/7/8 plus */
+@media screen and (device-width: 414px) and (device-height: 736px) and (orientation: portrait) {
+  .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+
+
+}
+
+/* Iphone X */
+@media screen and (device-width: 375px) and (device-height: 812px) and (orientation: portrait) {
+  .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+  }
+
+  .style-switcher .day-night {
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20px;
+  }
+
+  .style-switcher h4 {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 60px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+  }
+
+  .style-switcher .theme-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .style-switcher .theme-options span {
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+  }
+
+  .style-switcher .theme-options .Sky:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Pink:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Green:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .theme-options .Violet:hover {
+    scale: 1.1;
+    margin: 1%;
+    border-radius: 50%;
+    border: 1px solid var(--box-theme-color);
+    transform: translateY(-0.5rem);
+  }
+
+  .style-switcher .color-1 {
+    background: var(--sky-color);
+    box-shadow: 0 0 2rem var(--sky-color);
+  }
+
+  .style-switcher .color-2 {
+    background: var(--pink-color);
+    box-shadow: 0 0 2rem var(--pink-color);
+  }
+
+  .style-switcher .color-3 {
+    background: var(--green-color);
+    box-shadow: 0 0 2rem var(--green-color);
+  }
+
+  .style-switcher .color-4 {
+    background: var(--orange-color);
+    box-shadow: 0 0 2rem var(--orange-color);
+  }
+
+  .style-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+    height: 120px;
+    width: 300px;
+    border: 1px solid var(--main-color);
+      background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 101;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: all 0.3s ease;
+    transform: translateY(-120%);
+  }
+
+
+}
+
+/* facebook on Android */
+@media screen and (device-width: 412px) and (device-height: 892px) and (orientation: portrait) {
+   .style-switcher.open {
+    transform:  translateY(10%);
+    transition: 0.8s ease;
+  }
+
+  .style-switcher .s-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+
+      background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    right: 100%;
+    border: 1px solid var(--bg-color);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--main-color);
+  }  
+
+
+  .style-switcher .style-switcher-toggler {
+    top: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
   }
 
   .style-switcher .day-night {

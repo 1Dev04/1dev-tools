@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import "animate.css";
 
 import Typed from "typed.js";
 
 import Footer from "../component/Footer.js";
+
 
 import Theme from "../component/Theme.js";
 import PageView from "../component/PageView.js";
@@ -17,6 +18,12 @@ const HomePage = () => {
   const filtered_Cards = cards.filter((card) =>
     card.label?.toLowerCase().includes(query.toLowerCase())
   );
+
+  const navigate = useNavigate();
+
+  const handleFilterClick = () => {
+    navigate("/filter")
+  }
 
   useEffect(() => {
     const typed = new Typed(".multiple-text", {
@@ -100,7 +107,7 @@ const HomePage = () => {
               <span>
                 <i className="bx bx-search-alt-2"></i>
               </span>
-              {/* <button type="submit">Submit</button> */}
+              <button onClick={handleFilterClick}><i className='bx bx-filter-alt'></i></button>
             </div>
           </form>
 

@@ -6,7 +6,7 @@ import {
   set,
   onValue,
   onDisconnect,
-} from "../page/Firebase";
+} from "../auth/Firebase";
 import { v4 as uuidv4 } from "uuid";
 
 import "../customCSS/View.css";

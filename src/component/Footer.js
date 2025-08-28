@@ -2,6 +2,8 @@ import "../customCSS/input.css";
 import "../customCSS/App.css";
 import logo from '../asset/logoDev1.png';
 
+import { version } from "./versionFooter";
+
 
 const footer = () => {
     return (
@@ -9,7 +11,15 @@ const footer = () => {
             
             <img className="logo" src={logo} width={80} height={80} alt="DevTools Logo" />    
             <div className="footer-text">
-                <p>© Copyright| Version 1.3</p>
+
+                {
+                    version.map((ver) => (
+                        <p key={ver.name}>© Copyright| Version {ver.name}</p>
+                    ))
+                }
+                    
+                
+             
             </div>
 
             <button className="footer-iconTop broder">
