@@ -391,4 +391,199 @@
       transform: rotateY(360deg);
     }
   }
+
+     /* ------------------------------
+    Board Filter
+  ------------------------------ */
+  .board-center {
+    display: flex;
+    justify-content: center;  
+    margin-bottom: -250px;
+    margin-top: 3%;
+    position: relative; 
+    width: 700px;
+    height: 400px;
+    box-sizing: border-box;
+    background: rgba(110, 110, 110, 0.13);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: none !important;
+    box-shadow: none !important;
+    border-radius:  55px;
+    gap: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+     z-index: 1000;
+  }
+
+  .board-position{
+    display: flex;
+    justify-content: center;
+  }
+
+  .board-filter {
+    margin-top: 15px;
+  }
+
+
+  .board-filter h1 {
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+    color: var(--text-color);
+  }
+
+  .board-filter h1 span.animate__animated {
+    display: inline-block;
+  }
+
+  .board-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .show-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 5 columns */
+    gap: 20px;
+  }
+
+  /* From Uiverse.io by Darlley */ 
+.checkbox-wrapper-16 *,
+  .checkbox-wrapper-16 *:after,
+  .checkbox-wrapper-16 *:before {
+  box-sizing: border-box;
+}
+
+.checkbox-wrapper-16 .checkbox-input {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.checkbox-wrapper-16 .checkbox-input:checked + .checkbox-tile {
+  border-color: var(--main-color);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   border: 2px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.checkbox-wrapper-16 .checkbox-input:checked + .checkbox-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+  color: var(--text-from);
+  
+  content: "✓";
+}
+
+.checkbox-wrapper-16 .checkbox-input:checked + .checkbox-tile .checkbox-icon,
+  .checkbox-wrapper-16 .checkbox-input:checked + .checkbox-tile .checkbox-label {
+  color: var(--text-color);
+  
+}
+
+
+.checkbox-wrapper-16 .checkbox-input:focus + .checkbox-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.checkbox-wrapper-16 .checkbox-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  min-height: 7rem;
+  border-radius: 0.5rem;
+  
+  background: linear-gradient(136deg, var(--theme-mode), var(--box-color));
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.15s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox-wrapper-16 .checkbox-tile:before {
+  content: "";
+  font-size: 12px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.55rem;
+  height: 1.55rem;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+  top: 0.25rem;
+  left: 0.25rem;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.25s ease;
+}
+
+.checkbox-wrapper-16 .checkbox-tile:hover {
+  border-color: var(--main-color);
+}
+
+.checkbox-wrapper-16 .checkbox-tile:hover:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.checkbox-wrapper-16 .checkbox-icon {
+  transition: 0.375s ease;
+  color: var(--text-color);
+}
+
+.checkbox-wrapper-16 .checkbox-icon i {
+   scale: 1.2;
+  color: var(--text-color);
+}
+
+.checkbox-wrapper-16 .checkbox-label {
+  color: var(--text-color);
+  transition: 0.375s ease;
+  text-align: center;
+  font-size: smaller;
+  margin-top: 5px;
+}
+
+/* ------------------------
+  Button Reset
+------------------------ */
+.button-reset {
+  display: flex;
+  justify-content: end;
+  
+}
+
+.button-reset button {
+  background-color: var(--theme-mode);
+  font-size: x-large;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: var(--text-color);
+  transition: 0.2s ease;
+}
+
+.button-reset button:hover {
+  color: rgb(255, 136, 136);
+}
+
+.home {
+  margin-top: 200px;
+  display: block;
+}
 }
