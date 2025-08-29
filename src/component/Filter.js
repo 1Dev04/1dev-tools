@@ -36,6 +36,276 @@ export const filter = [
       </>
     ),
   },
+   {
+    id: 102,
+    label: "Generate Image by Form",
+    alt: "n8n",
+    logo: n8n,
+    category: "AW",
+    des1: `Free WorkFlow 100%`,
+    linkInstall: (
+       <>
+        Install:{" "}
+        <span style={{ color: "green" }}>
+          Download to JSON file<i className="bx bx-check"></i>
+        </span>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a
+          href="https://drive.google.com/file/d/1ZPaYOng4DSzRYRz2POEv1SKaZGU1YzmC/view"
+          className="link_des"
+        >
+          drive.google.com
+        </a>
+      </>
+    ),
+  },
+   {
+    id: 103,
+    label: "Call External API",
+    alt: "n8n",
+    logo: n8n,
+    category: "AW",
+    des1: `Free WorkFlow 100%`,
+    linkInstall: (
+       <>
+        Install:{" "}
+        <span style={{ color: "green" }}>
+          Download to JSON file<i className="bx bx-check"></i>
+        </span>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a
+          href="https://drive.google.com/file/d/1zshHO7rqxJVOXfAgiuA7jEcrCgqGP1av/view"
+          className="link_des"
+        >
+          drive.google.com
+        </a>
+      </>
+    ),
+  },
+   {
+    id: 104,
+    label: "Basic ChatBot",
+    alt: "n8n",
+    logo: n8n,
+    category: "AW",
+    des1: `Free WorkFlow 100%`,
+    linkInstall: (
+       <>
+        Install:{" "}
+        <span style={{ color: "green" }}>
+          Download to JSON file<i className="bx bx-check"></i>
+        </span>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a
+          href="https://drive.google.com/file/d/1_5r4G6c_M-wqC3jFkGJJgYkvigWh-7_T/view"
+          className="link_des"
+        >
+          drive.google.com
+        </a>
+      </>
+    ),
+  },
+   {
+    id: 105,
+    label: "AI Agent with Gmail",
+    alt: "n8n",
+    logo: n8n,
+    category: "AW",
+    des1: `Free WorkFlow 100%`,
+    linkInstall: (
+       <>
+        Install:{" "}
+        <span style={{ color: "green" }}>
+          Download to JSON file<i className="bx bx-check"></i>
+        </span>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a
+          href="https://drive.google.com/file/d/10OeYEUcS4SCsa6-622DitX_6_wPlM4MB/view"
+          className="link_des"
+        >
+          drive.google.com
+        </a>
+      </>
+    ),
+  },
+    {
+    id: 106,
+    label: "Creating an API endpoint",
+    alt: "n8n",
+    logo: n8n,
+    category: "AW",
+    des1: `Free WorkFlow 100%`,
+    linkInstall: (
+       <>
+        Install:{" "}
+        <span style={{ color: "green" }}>
+          Download to JSON file<i className="bx bx-check"></i>
+        </span>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a
+          href="https://drive.google.com/file/d/1ZhCe1b8VIrfR0UcIDMcT6UnF6U2MmV1n/view"
+          className="link_des"
+        >
+          drive.google.com
+        </a>
+      </>
+    ),
+  },
+    {
+    id: 107,
+    label: "Telegram AI bot with LangChain nodes",
+    alt: "n8n",
+    logo: n8n,
+    category: "AW",
+    des1: `Free WorkFlow 100%`,
+    linkInstall: (
+       <>
+        Install:{" "}
+        <span style={{ color: "green" }}>
+          Download to JSON file<i className="bx bx-check"></i>
+        </span>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a
+          href="https://drive.google.com/file/d/1zpp3QyOBmC9kdrw9FpC2kDehxWxOwHdM/view"
+          className="link_des"
+        >
+          drive.google.com
+        </a>
+      </>
+    ),
+  },
+    {
+    id: 108,
+    label: "Telegram create calendar even",
+    alt: "n8n",
+    logo: n8n,
+    category: "AW",
+    des1: `Free WorkFlow 100%`,
+    linkInstall: (
+       <>
+        Install:{" "}
+        <span style={{ color: "green" }}>
+          Download to JSON file<i className="bx bx-check"></i>
+        </span>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a
+          href="https://drive.google.com/file/d/1y0Xqpsfz1FZUBjDScxF5J_oeI7-fnD3V/view"
+          className="link_des"
+        >
+          drive.google.com
+        </a>
+      </>
+    ),
+  },
+     {
+    id: 109,
+    label: "Generate Image Daily",
+    alt: "n8n",
+    logo: n8n,
+    category: "AW",
+    des1: `Free WorkFlow 100%`,
+    linkInstall: (
+       <>
+        Install:{" "}
+        <span style={{ color: "green" }}>
+          Download to JSON file<i className="bx bx-check"></i>
+        </span>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a
+          href="https://drive.google.com/file/d/1EhVX5JGWh5cfYb9hraLu-FLK98ndD91s/view"
+          className="link_des"
+        >
+          drive.google.com
+        </a>
+      </>
+    ),
+  },
+      {
+    id: 110,
+    label: "Generate E-Book Content",
+    alt: "n8n",
+    logo: n8n,
+    category: "AW",
+    des1: `Free WorkFlow 100%`,
+    linkInstall: (
+       <>
+        Install:{" "}
+        <span style={{ color: "green" }}>
+          Download to JSON file<i className="bx bx-check"></i>
+        </span>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a
+          href="https://drive.google.com/file/d/1V3xbdc_ouu8vQ-LND-Fcd8XNUE09bsuI/view"
+          className="link_des"
+        >
+          drive.google.com
+        </a>
+      </>
+    ),
+  },
+      {
+    id: 111,
+    label: "W2...",
+    alt: "n8n",
+    logo: n8n,
+    category: "AW",
+    des1: `Free WorkFlow 100%`,
+    linkInstall: (
+       <>
+        Install:{" "}
+        <span style={{ color: "green" }}>
+          Download to JSON file<i className="bx bx-check"></i>
+        </span>
+      </>
+    ),
+    mainURL: (
+      <>
+        Link:{" "}
+        <a
+          href="https://drive.google.com/file/d/1srRNDF0VPOgrFSFFGxOU-4b4LXifJvLY/view"
+          className="link_des"
+        >
+          drive.google.com
+        </a>
+      </>
+    ),
+  },
 
   // Color
   {

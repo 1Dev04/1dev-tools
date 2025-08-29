@@ -54,7 +54,7 @@ const FilterPage = () => {
 
   return (
     <div className="dark">
-      <div className="board-position">
+       <div className="board-position">
         <div className="board-center">
           <div className="board-filter">
             <h1>
@@ -129,7 +129,8 @@ const FilterPage = () => {
         </div>
       </div>
 
-      <section id="up" className="home section">
+      <div className="gap-filter">
+        <section id="up" className="home section">
         <div className="board-app">
           <div className="index-board">
             {filtered_Cards.length === 0 ? (
@@ -163,9 +164,12 @@ const FilterPage = () => {
           </div>
         </div>
       </section>
+      </div>
+      
       <PageView />
 
       <FooterForFilter />
+      
     </div>
   );
 };
