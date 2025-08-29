@@ -221,7 +221,7 @@
   }
   .index-board {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    grid-template-columns: repeat(3, 1fr); /* 5 columns */
     gap: 10px;
   }
 
@@ -580,6 +580,8 @@
   color: rgb(255, 136, 136);
 }
 
-
+.gap-filter {
+  margin-top: 150px;
+}
 
 }
