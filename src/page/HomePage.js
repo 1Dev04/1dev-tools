@@ -22,7 +22,7 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   const handleFilterClick = () => {
-    navigate("/filter")
+    navigate("/filter");
   }
 
   useEffect(() => {
